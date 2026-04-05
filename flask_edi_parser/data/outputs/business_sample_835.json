@@ -1,0 +1,90 @@
+{
+    "x12simple": [
+        {
+            "Interchange Control Header (ISA_LOOP)": [
+                {
+                    "Interchange Control Header (ISA)": {
+                        "Authorization Information Qualifier (ISA01)": "00",
+                        "Authorization Information (ISA02)": "          ",
+                        "Security Information Qualifier (ISA03)": "00",
+                        "Security Information (ISA04)": "          ",
+                        "Interchange ID Qualifier (ISA05)": "ZZ",
+                        "Interchange Sender ID (ISA06)": "SUBMITTER ID   ",
+                        "Interchange ID Qualifier (ISA07)": "ZZ",
+                        "Interchange Receiver ID (ISA08)": "RECEIVER ID    ",
+                        "Interchange Date (ISA09)": "151031",
+                        "Interchange Time (ISA10)": "1230",
+                        "Interchange Control Standards Identifier (ISA11)": "^",
+                        "Interchange Control Version Number (ISA12)": "00501",
+                        "Interchange Control Number (ISA13)": "000000001",
+                        "Acknowledgment Requested (ISA14)": "0",
+                        "Usage Indicator (ISA15)": "T",
+                        "Component Element Separator (ISA16)": ":"
+                    }
+                },
+                {
+                    "Functional Group Header (GS_LOOP)": [
+                        {
+                            "Functional Group Header (GS)": {
+                                "Functional Identifier Code (GS01)": "HP",
+                                "Application Sender's Code (GS02)": "SENDER CODE",
+                                "Application Receiver's Code (GS03)": "RECEIVER CODE",
+                                "Date (GS04)": "20151031",
+                                "Time (GS05)": "1230",
+                                "Group Control Number (GS06)": "1",
+                                "Responsible Agency Code (GS07)": "X",
+                                "Version / Release / Industry Identifier Code (GS08)": "005010X221A1"
+                            }
+                        },
+                        {
+                            "Transaction Set Header (ST_LOOP)": [
+                                {
+                                    "Transaction Set Header (ST)": {
+                                        "Transaction Set Identifier Code (ST01)": "835",
+                                        "Transaction Set Control Number (ST02)": "0001"
+                                    }
+                                },
+                                {
+                                    "Header (HEADER)": [
+                                        {
+                                            "Financial Information (BPR)": {
+                                                "Transaction Handling Code (BPR01)": "I",
+                                                "Total Actual Provider Payment Amount (BPR02)": "150.00",
+                                                "Credit or Debit Flag Code (BPR03)": "C",
+                                                "Payment Method Code (BPR04)": "ACH",
+                                                "Payment Format Code (BPR05)": "CTX",
+                                                "Depository Financial Institution (DFI) Identification Number Qualifier (BPR06)": "01",
+                                                "Sender DFI Identifier (BPR07)": "999999999",
+                                                "Account Number Qualifier (BPR08)": "DA",
+                                                "Sender Bank Account Number (BPR09)": "123456",
+                                                "Payer Identifier (BPR10)": "151031"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Transaction Set Trailer (SE)": {
+                                        "Transaction Segment Count (SE01)": "4",
+                                        "Transaction Set Control Number (SE02)": "0001"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Functional Group Trailer (GE)": {
+                                "Number of Transaction Sets Included (GE01)": "1",
+                                "Group Control Number (GE02)": "1"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "Interchange Control Trailer (IEA)": {
+                        "Number of Included Functional Groups (IEA01)": "1",
+                        "Interchange Control Number (IEA02)": "000000001"
+                    }
+                }
+            ]
+        }
+    ]
+}

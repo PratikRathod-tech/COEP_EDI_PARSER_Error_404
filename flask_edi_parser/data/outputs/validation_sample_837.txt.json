@@ -1,0 +1,19 @@
+{
+    "is_valid": false,
+    "total_errors": 13,
+    "errors": [
+        "Line:19 ELE:7 - (XX) is not a valid code for Identification Code Qualifier (NM108) (XX)",
+        "Line:23 SEG:3 - Mandatory segment \"Pay-To Plan Tax Identification Number\" (REF) missing",
+        "Line:84 ELE:7 - (ST) is not a valid code for Laboratory or Facility State or Province Code (N402) (ST)",
+        "Line:95 SEG:3 - Mandatory segment \"Other Insurance Coverage Information\" (OI) missing",
+        "Line:112 SEG:1 - Segment NM1*P3 not found.  Started at /ISA_LOOP/GS_LOOP/ST_LOOP/DETAIL/2000A/2000B/2000C/2300/2320/2330D/REF",
+        "Line:114 ELE:7 - (1) is not a valid code for Entity Type Qualifier (NM102) (1)",
+        "Line:118 ELE:10 - Data element \"Name Last or Organization Name\" (NM103) is marked as Not Used",
+        "Line:118 ELE:10 - Data element \"Name First\" (NM104) is marked as Not Used",
+        "Line:118 ELE:10 - Data element \"Name Middle\" (NM105) is marked as Not Used",
+        "Line:118 ELE:10 - Data element \"Identification Code Qualifier\" (NM108) is marked as Not Used",
+        "Line:118 ELE:10 - Data element \"Identification Code\" (NM109) is marked as Not Used",
+        "Line:123 ELE:7 - (AB) is not a valid code for Attachment Transmission Code (PWK02) (AB)",
+        "Line:175 SEG:1 - Segment LIN* not found.  Started at /ISA_LOOP/GS_LOOP/ST_LOOP/DETAIL/2000A/2000B/2000C/2300/2400/2430/AMT"
+    ]
+}

@@ -1,0 +1,1302 @@
+{
+    "metadata": {
+        "transaction_type": "837D",
+        "element_separator": "*",
+        "component_separator": ":",
+        "segment_terminator": "~"
+    },
+    "segments": [
+        {
+            "segment_id": "ISA",
+            "elements": [
+                "00",
+                "          ",
+                "00",
+                "          ",
+                "ZZ",
+                "123456789012345",
+                "ZZ",
+                "123456789012346",
+                "080503",
+                "1705",
+                ">",
+                "00501",
+                "000010216",
+                "0",
+                "T",
+                [
+                    "",
+                    ""
+                ]
+            ]
+        },
+        {
+            "segment_id": "GS",
+            "elements": [
+                "HC",
+                "1234567890",
+                "9876543210",
+                "20080503",
+                "1705",
+                "20213",
+                "X",
+                "005010X224A2"
+            ]
+        },
+        {
+            "segment_id": "ST",
+            "elements": [
+                "837",
+                "3456",
+                "005010X224"
+            ]
+        },
+        {
+            "segment_id": "BHT",
+            "elements": [
+                "0019",
+                "00",
+                "0123",
+                "20061123",
+                "1023",
+                "CH"
+            ]
+        },
+        {
+            "segment_id": "NM1",
+            "elements": [
+                "41",
+                "2",
+                "PREMIER BILLING SERVICE",
+                "",
+                "",
+                "",
+                "",
+                "46",
+                "TGJ23"
+            ]
+        },
+        {
+            "segment_id": "PER",
+            "elements": [
+                "IC",
+                "JERRY",
+                "TE",
+                "7176149999"
+            ]
+        },
+        {
+            "segment_id": "NM1",
+            "elements": [
+                "40",
+                "2",
+                "INSURANCE COMPANY XYZ",
+                "",
+                "",
+                "",
+                "",
+                "46",
+                "66783JJT"
+            ]
+        },
+        {
+            "segment_id": "HL",
+            "elements": [
+                "1",
+                "",
+                "20",
+                "1"
+            ]
+        },
+        {
+            "segment_id": "PRV",
+            "elements": [
+                "BI",
+                "PXC",
+                "1223G0001X"
+            ]
+        },
+        {
+            "segment_id": "NM1",
+            "elements": [
+                "85",
+                "2",
+                "DENTAL ASSOCIATES",
+                "",
+                "",
+                "",
+                "",
+                "XX",
+                "1234567890"
+            ]
+        },
+        {
+            "segment_id": "N3",
+            "elements": [
+                "234 SEAWAY ST"
+            ]
+        },
+        {
+            "segment_id": "N4",
+            "elements": [
+                "MIAMI",
+                "FL",
+                "33111"
+            ]
+        },
+        {
+            "segment_id": "REF",
+            "elements": [
+                "EI",
+                "587654321"
+            ]
+        },
+        {
+            "segment_id": "HL",
+            "elements": [
+                "2",
+                "1",
+                "22",
+                "1"
+            ]
+        },
+        {
+            "segment_id": "SBR",
+            "elements": [
+                "P",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "CI"
+            ]
+        },
+        {
+            "segment_id": "NM1",
+            "elements": [
+                "IL",
+                "1",
+                "SMITH",
+                "JANE",
+                "",
+                "",
+                "",
+                "MI",
+                "111223333"
+            ]
+        },
+        {
+            "segment_id": "N3",
+            "elements": [
+                "236 N MAIN ST"
+            ]
+        },
+        {
+            "segment_id": "N4",
+            "elements": [
+                "MIAMI",
+                "FL",
+                "33413"
+            ]
+        },
+        {
+            "segment_id": "DMG",
+            "elements": [
+                "D8",
+                "19430501",
+                "F"
+            ]
+        },
+        {
+            "segment_id": "REF",
+            "elements": [
+                "SY",
+                "123450000"
+            ]
+        },
+        {
+            "segment_id": "NM1",
+            "elements": [
+                "PR",
+                "2",
+                "INSURANCE COMPANY XYZ",
+                "",
+                "",
+                "",
+                "",
+                "PI",
+                "66783JJT"
+            ]
+        },
+        {
+            "segment_id": "N3",
+            "elements": [
+                "P.O. BOX 569008"
+            ]
+        },
+        {
+            "segment_id": "N4",
+            "elements": [
+                "MIAMI",
+                "FL",
+                "332560000"
+            ]
+        },
+        {
+            "segment_id": "REF",
+            "elements": [
+                "EI",
+                "435261708"
+            ]
+        },
+        {
+            "segment_id": "REF",
+            "elements": [
+                "2U",
+                "435261708"
+            ]
+        },
+        {
+            "segment_id": "REF",
+            "elements": [
+                "LU",
+                "12345"
+            ]
+        },
+        {
+            "segment_id": "HL",
+            "elements": [
+                "3",
+                "2",
+                "23",
+                "0"
+            ]
+        },
+        {
+            "segment_id": "PAT",
+            "elements": [
+                "19"
+            ]
+        },
+        {
+            "segment_id": "NM1",
+            "elements": [
+                "QC",
+                "1",
+                "SMITH",
+                "TED"
+            ]
+        },
+        {
+            "segment_id": "N3",
+            "elements": [
+                "236 N MAIN ST"
+            ]
+        },
+        {
+            "segment_id": "N4",
+            "elements": [
+                "MIAMI",
+                "FL",
+                "33413"
+            ]
+        },
+        {
+            "segment_id": "DMG",
+            "elements": [
+                "D8",
+                "19920501",
+                "M"
+            ]
+        },
+        {
+            "segment_id": "CLM",
+            "elements": [
+                "26403774",
+                "150",
+                "",
+                "",
+                [
+                    "11",
+                    "B",
+                    "1"
+                ],
+                "Y",
+                "A",
+                "Y",
+                "I"
+            ]
+        },
+        {
+            "segment_id": "DTP",
+            "elements": [
+                "439",
+                "D8",
+                "20230301"
+            ]
+        },
+        {
+            "segment_id": "DTP",
+            "elements": [
+                "452",
+                "D8",
+                "20230302"
+            ]
+        },
+        {
+            "segment_id": "DTP",
+            "elements": [
+                "472",
+                "RD8",
+                "20230301-20230401"
+            ]
+        },
+        {
+            "segment_id": "DTP",
+            "elements": [
+                "050",
+                "D8",
+                "20230304"
+            ]
+        },
+        {
+            "segment_id": "DN1",
+            "elements": [
+                "36",
+                "27",
+                "",
+                "Y"
+            ]
+        },
+        {
+            "segment_id": "DN2",
+            "elements": [
+                "8",
+                "E"
+            ]
+        },
+        {
+            "segment_id": "DN2",
+            "elements": [
+                "9",
+                "M"
+            ]
+        },
+        {
+            "segment_id": "DN2",
+            "elements": [
+                "12",
+                "M"
+            ]
+        },
+        {
+            "segment_id": "PWK",
+            "elements": [
+                "OZ",
+                "BM",
+                "",
+                "",
+                "AC",
+                "DENT22"
+            ]
+        },
+        {
+            "segment_id": "AMT",
+            "elements": [
+                "F5",
+                "152.45"
+            ]
+        },
+        {
+            "segment_id": "REF",
+            "elements": [
+                "G3",
+                "PredeterminationOfBenefitsId"
+            ]
+        },
+        {
+            "segment_id": "REF",
+            "elements": [
+                "4N",
+                "serviceAuthorizationException"
+            ]
+        },
+        {
+            "segment_id": "REF",
+            "elements": [
+                "F8",
+                "payerClaimControlNumber"
+            ]
+        },
+        {
+            "segment_id": "REF",
+            "elements": [
+                "9F",
+                "Referral"
+            ]
+        },
+        {
+            "segment_id": "REF",
+            "elements": [
+                "G1",
+                "priorAuth"
+            ]
+        },
+        {
+            "segment_id": "REF",
+            "elements": [
+                "9A",
+                "RepricedClaimNumber"
+            ]
+        },
+        {
+            "segment_id": "REF",
+            "elements": [
+                "9C",
+                "AdjustedRepricedClaimNumber"
+            ]
+        },
+        {
+            "segment_id": "REF",
+            "elements": [
+                "D9",
+                "ClearinghouseTraceNumber"
+            ]
+        },
+        {
+            "segment_id": "K3",
+            "elements": [
+                "Record1"
+            ]
+        },
+        {
+            "segment_id": "K3",
+            "elements": [
+                "Record2"
+            ]
+        },
+        {
+            "segment_id": "NTE",
+            "elements": [
+                "ADD",
+                "Note1"
+            ]
+        },
+        {
+            "segment_id": "NTE",
+            "elements": [
+                "ADD",
+                "Note2"
+            ]
+        },
+        {
+            "segment_id": "HI",
+            "elements": [
+                [
+                    "ABK",
+                    "J0300"
+                ],
+                [
+                    "ABF",
+                    "Z1159"
+                ]
+            ]
+        },
+        {
+            "segment_id": "NM1",
+            "elements": [
+                "DN",
+                "1",
+                "DOE",
+                "JONE",
+                "C",
+                "",
+                "",
+                "XX",
+                "5234567805"
+            ]
+        },
+        {
+            "segment_id": "REF",
+            "elements": [
+                "G2",
+                "12345"
+            ]
+        },
+        {
+            "segment_id": "NM1",
+            "elements": [
+                "82",
+                "1",
+                "DOE",
+                "JANE",
+                "C",
+                "",
+                "",
+                "XX",
+                "1234567804"
+            ]
+        },
+        {
+            "segment_id": "PRV",
+            "elements": [
+                "PE",
+                "PXC",
+                "000000000X"
+            ]
+        },
+        {
+            "segment_id": "REF",
+            "elements": [
+                "LU",
+                "12345"
+            ]
+        },
+        {
+            "segment_id": "NM1",
+            "elements": [
+                "77",
+                "2",
+                "Service Facility",
+                "SF",
+                "M",
+                "",
+                "",
+                "XX",
+                "000000004"
+            ]
+        },
+        {
+            "segment_id": "N3",
+            "elements": [
+                "123 FAKE STREET"
+            ]
+        },
+        {
+            "segment_id": "N4",
+            "elements": [
+                "CITY",
+                "ST",
+                "123459999"
+            ]
+        },
+        {
+            "segment_id": "REF",
+            "elements": [
+                "G2",
+                "12345"
+            ]
+        },
+        {
+            "segment_id": "NM1",
+            "elements": [
+                "DD",
+                "1",
+                "DOE",
+                "SURGEON",
+                "C",
+                "",
+                "",
+                "XX",
+                "1234567809"
+            ]
+        },
+        {
+            "segment_id": "PRV",
+            "elements": [
+                "AS",
+                "PXC",
+                "000000000X"
+            ]
+        },
+        {
+            "segment_id": "REF",
+            "elements": [
+                "LU",
+                "12349"
+            ]
+        },
+        {
+            "segment_id": "NM1",
+            "elements": [
+                "DQ",
+                "1",
+                "Sup",
+                "JONE",
+                "C",
+                "",
+                "",
+                "XX",
+                "SupProv"
+            ]
+        },
+        {
+            "segment_id": "REF",
+            "elements": [
+                "G2",
+                "12345"
+            ]
+        },
+        {
+            "segment_id": "SBR",
+            "elements": [
+                "P",
+                "18",
+                "000000",
+                "PLAN NAME",
+                "",
+                "",
+                "",
+                "",
+                "MB"
+            ]
+        },
+        {
+            "segment_id": "CAS",
+            "elements": [
+                "PR",
+                "1",
+                "21.89",
+                "",
+                "2",
+                "15"
+            ]
+        },
+        {
+            "segment_id": "CAS",
+            "elements": [
+                "CR",
+                "26",
+                "55.00",
+                "1"
+            ]
+        },
+        {
+            "segment_id": "AMT",
+            "elements": [
+                "D",
+                "59.19"
+            ]
+        },
+        {
+            "segment_id": "AMT",
+            "elements": [
+                "EAF",
+                "14.83"
+            ]
+        },
+        {
+            "segment_id": "AMT",
+            "elements": [
+                "A8",
+                "273"
+            ]
+        },
+        {
+            "segment_id": "NM1",
+            "elements": [
+                "IL",
+                "1",
+                "SMITH",
+                "JOHN",
+                "",
+                "",
+                "",
+                "MI",
+                "JS00111223999"
+            ]
+        },
+        {
+            "segment_id": "N3",
+            "elements": [
+                "239 N MAIN ST"
+            ]
+        },
+        {
+            "segment_id": "N4",
+            "elements": [
+                "MIAMI",
+                "FL",
+                "33415"
+            ]
+        },
+        {
+            "segment_id": "NM1",
+            "elements": [
+                "PR",
+                "2",
+                "OTHER PAYER",
+                "",
+                "",
+                "",
+                "",
+                "PI",
+                "OTP"
+            ]
+        },
+        {
+            "segment_id": "N3",
+            "elements": [
+                "PO BOX 7901",
+                "DEP 2"
+            ]
+        },
+        {
+            "segment_id": "N4",
+            "elements": [
+                "MADISON",
+                "MA",
+                "53707"
+            ]
+        },
+        {
+            "segment_id": "DTP",
+            "elements": [
+                "573",
+                "D8",
+                "20190310"
+            ]
+        },
+        {
+            "segment_id": "REF",
+            "elements": [
+                "FY",
+                "OtherPayerSecondaryClaimOfficeNum"
+            ]
+        },
+        {
+            "segment_id": "REF",
+            "elements": [
+                "EI",
+                "OtherPayerTin"
+            ]
+        },
+        {
+            "segment_id": "REF",
+            "elements": [
+                "2U",
+                "OtherPayerSecondaryId"
+            ]
+        },
+        {
+            "segment_id": "REF",
+            "elements": [
+                "G1",
+                "OtherPayerPriorAuthNum"
+            ]
+        },
+        {
+            "segment_id": "REF",
+            "elements": [
+                "9F",
+                "OtherPayerReferralNum"
+            ]
+        },
+        {
+            "segment_id": "REF",
+            "elements": [
+                "T4",
+                "Y"
+            ]
+        },
+        {
+            "segment_id": "REF",
+            "elements": [
+                "G3",
+                "OtherPayerPredeterminationOfBenefitsID"
+            ]
+        },
+        {
+            "segment_id": "REF",
+            "elements": [
+                "F8",
+                "OtherPayerClaimControlNum"
+            ]
+        },
+        {
+            "segment_id": "NM1",
+            "elements": [
+                "DN",
+                "1"
+            ]
+        },
+        {
+            "segment_id": "REF",
+            "elements": [
+                "G2",
+                "12345"
+            ]
+        },
+        {
+            "segment_id": "NM1",
+            "elements": [
+                "82",
+                "1"
+            ]
+        },
+        {
+            "segment_id": "REF",
+            "elements": [
+                "G2",
+                "12345"
+            ]
+        },
+        {
+            "segment_id": "NM1",
+            "elements": [
+                "DQ",
+                "1"
+            ]
+        },
+        {
+            "segment_id": "REF",
+            "elements": [
+                "G2",
+                "12345"
+            ]
+        },
+        {
+            "segment_id": "NM1",
+            "elements": [
+                "85",
+                "1"
+            ]
+        },
+        {
+            "segment_id": "REF",
+            "elements": [
+                "G2",
+                "12345"
+            ]
+        },
+        {
+            "segment_id": "NM1",
+            "elements": [
+                "77",
+                "1"
+            ]
+        },
+        {
+            "segment_id": "REF",
+            "elements": [
+                "G2",
+                "12345"
+            ]
+        },
+        {
+            "segment_id": "NM1",
+            "elements": [
+                "DD",
+                "1"
+            ]
+        },
+        {
+            "segment_id": "REF",
+            "elements": [
+                "G2",
+                "12345"
+            ]
+        },
+        {
+            "segment_id": "LX",
+            "elements": [
+                "1"
+            ]
+        },
+        {
+            "segment_id": "SV3",
+            "elements": [
+                [
+                    "AD",
+                    "D2150"
+                ],
+                "100",
+                "02",
+                [
+                    "C1",
+                    "C2"
+                ],
+                "R",
+                "1",
+                "",
+                "",
+                "",
+                "",
+                [
+                    "1",
+                    "2"
+                ]
+            ]
+        },
+        {
+            "segment_id": "TOO",
+            "elements": [
+                "JP",
+                "12",
+                "M"
+            ]
+        },
+        {
+            "segment_id": "TOO",
+            "elements": [
+                "JP",
+                "11",
+                [
+                    "F",
+                    "L",
+                    "I"
+                ]
+            ]
+        },
+        {
+            "segment_id": "DTP",
+            "elements": [
+                "441",
+                "D8",
+                "20230401"
+            ]
+        },
+        {
+            "segment_id": "DTP",
+            "elements": [
+                "452",
+                "D8",
+                "20230402"
+            ]
+        },
+        {
+            "segment_id": "DTP",
+            "elements": [
+                "446",
+                "D8",
+                "20230403"
+            ]
+        },
+        {
+            "segment_id": "DTP",
+            "elements": [
+                "196",
+                "D8",
+                "20230404"
+            ]
+        },
+        {
+            "segment_id": "DTP",
+            "elements": [
+                "198",
+                "D8",
+                "20230405"
+            ]
+        },
+        {
+            "segment_id": "REF",
+            "elements": [
+                "G3",
+                "LinePredeterminationOfBenefitsId"
+            ]
+        },
+        {
+            "segment_id": "REF",
+            "elements": [
+                "G1",
+                "LinePriorAuth"
+            ]
+        },
+        {
+            "segment_id": "REF",
+            "elements": [
+                "6R",
+                "ControlNumber"
+            ]
+        },
+        {
+            "segment_id": "REF",
+            "elements": [
+                "9A",
+                "LineRepricedClaimNumber"
+            ]
+        },
+        {
+            "segment_id": "REF",
+            "elements": [
+                "9C",
+                "LineAdjustedRepricedClaimNumber"
+            ]
+        },
+        {
+            "segment_id": "REF",
+            "elements": [
+                "9F",
+                "LineReferral"
+            ]
+        },
+        {
+            "segment_id": "AMT",
+            "elements": [
+                "T",
+                "45"
+            ]
+        },
+        {
+            "segment_id": "K3",
+            "elements": [
+                "LineRecord1"
+            ]
+        },
+        {
+            "segment_id": "K3",
+            "elements": [
+                "LineRecord2"
+            ]
+        },
+        {
+            "segment_id": "NM1",
+            "elements": [
+                "82",
+                "1",
+                "DOE",
+                "JANE",
+                "C",
+                "",
+                "",
+                "XX",
+                "1234567804"
+            ]
+        },
+        {
+            "segment_id": "PRV",
+            "elements": [
+                "PE",
+                "PXC",
+                "000000000X"
+            ]
+        },
+        {
+            "segment_id": "REF",
+            "elements": [
+                "LU",
+                "12345"
+            ]
+        },
+        {
+            "segment_id": "NM1",
+            "elements": [
+                "DD",
+                "1",
+                "DOE",
+                "SURGEON",
+                "C",
+                "",
+                "",
+                "XX",
+                "1234567809"
+            ]
+        },
+        {
+            "segment_id": "PRV",
+            "elements": [
+                "AS",
+                "PXC",
+                "000000000X"
+            ]
+        },
+        {
+            "segment_id": "REF",
+            "elements": [
+                "LU",
+                "12349"
+            ]
+        },
+        {
+            "segment_id": "NM1",
+            "elements": [
+                "DQ",
+                "1",
+                "Sup",
+                "JONE",
+                "C",
+                "",
+                "",
+                "XX",
+                "SupProv"
+            ]
+        },
+        {
+            "segment_id": "REF",
+            "elements": [
+                "G2",
+                "12345"
+            ]
+        },
+        {
+            "segment_id": "NM1",
+            "elements": [
+                "77",
+                "2",
+                "Service Facility",
+                "SF",
+                "M",
+                "",
+                "",
+                "XX",
+                "000000004"
+            ]
+        },
+        {
+            "segment_id": "N3",
+            "elements": [
+                "123 FAKE STREET"
+            ]
+        },
+        {
+            "segment_id": "N4",
+            "elements": [
+                "CITY",
+                "ST",
+                "123459999"
+            ]
+        },
+        {
+            "segment_id": "REF",
+            "elements": [
+                "1G",
+                "12345"
+            ]
+        },
+        {
+            "segment_id": "SVD",
+            "elements": [
+                "43",
+                "55",
+                [
+                    "AD",
+                    "D0330"
+                ],
+                "",
+                "1",
+                "2"
+            ]
+        },
+        {
+            "segment_id": "CAS",
+            "elements": [
+                "PR",
+                "1",
+                "21.89",
+                "",
+                "2",
+                "15"
+            ]
+        },
+        {
+            "segment_id": "CAS",
+            "elements": [
+                "CR",
+                "26",
+                "55.00",
+                "1",
+                "90",
+                "65.55"
+            ]
+        },
+        {
+            "segment_id": "DTP",
+            "elements": [
+                "573",
+                "D8",
+                "20230603"
+            ]
+        },
+        {
+            "segment_id": "AMT",
+            "elements": [
+                "EAF",
+                "75"
+            ]
+        },
+        {
+            "segment_id": "SVD",
+            "elements": [
+                "22",
+                "50",
+                [
+                    "AD",
+                    "D0330"
+                ],
+                "",
+                "1",
+                "1"
+            ]
+        },
+        {
+            "segment_id": "CAS",
+            "elements": [
+                "PR",
+                "1",
+                "21.89",
+                "",
+                "2",
+                "15"
+            ]
+        },
+        {
+            "segment_id": "DTP",
+            "elements": [
+                "573",
+                "D8",
+                "20230604"
+            ]
+        },
+        {
+            "segment_id": "AMT",
+            "elements": [
+                "EAF",
+                "76"
+            ]
+        },
+        {
+            "segment_id": "LX",
+            "elements": [
+                "2"
+            ]
+        },
+        {
+            "segment_id": "SV3",
+            "elements": [
+                [
+                    "AD",
+                    "D1110"
+                ],
+                "50",
+                "",
+                "",
+                "",
+                "1"
+            ]
+        },
+        {
+            "segment_id": "SE",
+            "elements": [
+                "31",
+                "3456"
+            ]
+        },
+        {
+            "segment_id": "GE",
+            "elements": [
+                "1",
+                "20213"
+            ]
+        },
+        {
+            "segment_id": "IEA",
+            "elements": [
+                "1",
+                "000010216"
+            ]
+        }
+    ]
+}

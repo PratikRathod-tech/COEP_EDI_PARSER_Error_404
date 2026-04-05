@@ -1,0 +1,13 @@
+{
+    "is_valid": false,
+    "total_errors": 7,
+    "errors": [
+        "Line:4 ELE:4 - Data element \"Time Zone Code\" (BGN05) is too short: len(\"2\") = 1 < 2 (min_len) (2)",
+        "Line:4 ELE:7 - (2) is not a valid code for Time Zone Code (BGN05) (2)",
+        "Line:4 ELE:1 - Mandatory data element \"Action Code\" (BGN08) is missing",
+        "Line:5 SEG:3 - Mandatory loop \"Sponsor Name\" (1000A) missing",
+        "Line:5 SEG:3 - Mandatory loop \"Payer\" (1000B) missing",
+        "Line:5 SEG:3 - Mandatory loop \"Member Level Detail\" (2000) missing",
+        "Line:3 ST:4 - SE count of 4 for SE02=0001 is wrong. I count 3"
+    ]
+}

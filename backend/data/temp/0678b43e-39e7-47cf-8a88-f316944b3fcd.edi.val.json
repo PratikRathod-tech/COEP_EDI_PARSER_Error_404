@@ -1,0 +1,12 @@
+{
+    "is_valid": false,
+    "total_errors": 1,
+    "errors": [
+        {
+            "id": "e1",
+            "message": "Validator crashed during execution: Map not found.  icvn=00501, fic=HC, vriic=005010X222",
+            "segment": "GEN",
+            "severity": "error"
+        }
+    ]
+}

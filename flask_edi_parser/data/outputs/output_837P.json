@@ -1,0 +1,100 @@
+{
+    "metadata": {
+        "transaction_type": "837P",
+        "element_separator": "*",
+        "component_separator": ":",
+        "segment_terminator": "~"
+    },
+    "segments": [
+        {
+            "segment_id": "ISA",
+            "elements": [
+                "00",
+                "          ",
+                "00",
+                "          ",
+                "ZZ",
+                "SUBMITTER ID   ",
+                "ZZ",
+                "RECEIVER ID    ",
+                "151031",
+                "1230",
+                "^",
+                "00501",
+                "000000001",
+                "0",
+                "T",
+                [
+                    "",
+                    ""
+                ]
+            ]
+        },
+        {
+            "segment_id": "GS",
+            "elements": [
+                "HC",
+                "SENDER CODE",
+                "RECEIVER CODE",
+                "20151031",
+                "1230",
+                "1",
+                "X",
+                "005010X222A1"
+            ]
+        },
+        {
+            "segment_id": "ST",
+            "elements": [
+                "837",
+                "0001",
+                "005010X222A1"
+            ]
+        },
+        {
+            "segment_id": "BHT",
+            "elements": [
+                "0019",
+                "00",
+                "0123",
+                "20151031",
+                "1230",
+                "CH"
+            ]
+        },
+        {
+            "segment_id": "NM1",
+            "elements": [
+                "41",
+                "2",
+                "JOHN DOE",
+                "",
+                "",
+                "",
+                "46",
+                "12345"
+            ]
+        },
+        {
+            "segment_id": "SE",
+            "elements": [
+                "5",
+                "0001"
+            ]
+        },
+        {
+            "segment_id": "GE",
+            "elements": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "segment_id": "IEA",
+            "elements": [
+                "1",
+                "000000001"
+            ]
+        }
+    ]
+}

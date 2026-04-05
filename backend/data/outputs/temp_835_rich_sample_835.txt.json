@@ -1,0 +1,117 @@
+{
+    "x12simple": [
+        {
+            "Interchange Control Header (ISA_LOOP)": [
+                {
+                    "Interchange Control Header (ISA)": {
+                        "Authorization Information Qualifier (ISA01)": "00",
+                        "Authorization Information (ISA02)": "          ",
+                        "Security Information Qualifier (ISA03)": "00",
+                        "Security Information (ISA04)": "          ",
+                        "Interchange ID Qualifier (ISA05)": "ZZ",
+                        "Interchange Sender ID (ISA06)": "SUBMITTER ID   ",
+                        "Interchange ID Qualifier (ISA07)": "ZZ",
+                        "Interchange Receiver ID (ISA08)": "RECEIVER ID    ",
+                        "Interchange Date (ISA09)": "151031",
+                        "Interchange Time (ISA10)": "1230",
+                        "Interchange Control Standards Identifier (ISA11)": "^",
+                        "Interchange Control Version Number (ISA12)": "00501",
+                        "Interchange Control Number (ISA13)": "000000001",
+                        "Acknowledgment Requested (ISA14)": "0",
+                        "Usage Indicator (ISA15)": "T",
+                        "Component Element Separator (ISA16)": ":"
+                    }
+                },
+                {
+                    "Functional Group Header (GS_LOOP)": [
+                        {
+                            "Functional Group Header (GS)": {
+                                "Functional Identifier Code (GS01)": "HP",
+                                "Application Sender's Code (GS02)": "SENDER",
+                                "Application Receiver's Code (GS03)": "RECEIVER",
+                                "Date (GS04)": "20151031",
+                                "Time (GS05)": "1230",
+                                "Group Control Number (GS06)": "1",
+                                "Responsible Agency Code (GS07)": "X",
+                                "Version / Release / Industry Identifier Code (GS08)": "005010X221A1"
+                            }
+                        },
+                        {
+                            "Transaction Set Header (ST_LOOP)": [
+                                {
+                                    "Transaction Set Header (ST)": {
+                                        "Transaction Set Identifier Code (ST01)": "835",
+                                        "Transaction Set Control Number (ST02)": "0001"
+                                    }
+                                },
+                                {
+                                    "Header (HEADER)": [
+                                        {
+                                            "Financial Information (BPR)": {
+                                                "Transaction Handling Code (BPR01)": "I",
+                                                "Total Actual Provider Payment Amount (BPR02)": "150.00",
+                                                "Credit or Debit Flag Code (BPR03)": "C",
+                                                "Payment Method Code (BPR04)": "ACH",
+                                                "Payment Format Code (BPR05)": "CTX",
+                                                "Depository Financial Institution (DFI) Identification Number Qualifier (BPR06)": "01",
+                                                "Sender DFI Identifier (BPR07)": "999999999",
+                                                "Account Number Qualifier (BPR08)": "DA",
+                                                "Sender Bank Account Number (BPR09)": "123456",
+                                                "Payer Identifier (BPR10)": "151031"
+                                            }
+                                        },
+                                        {
+                                            "Reassociation Trace Number (TRN)": {
+                                                "Trace Type Code (TRN01)": "1",
+                                                "Check or EFT Trace Number (TRN02)": "CHK12345",
+                                                "Payer Identifier (TRN03)": "1999999999"
+                                            }
+                                        },
+                                        {
+                                            "Production Date (DTM)": {
+                                                "Date Time Qualifier (DTM01)": "405",
+                                                "Production Date (DTM02)": "20151030"
+                                            }
+                                        },
+                                        {
+                                            "Payer Identification (1000A)": [
+                                                {
+                                                    "Payer Identification (N1)": {
+                                                        "Entity Identifier Code (N101)": "PR",
+                                                        "Payer Name (N102)": "PAYER NAME"
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "Payee Identification (1000B)": [
+                                                {
+                                                    "Payee Identification (N1)": {
+                                                        "Entity Identifier Code (N101)": "PE",
+                                                        "Payee Name (N102)": "PROVIDER NAME"
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "Payee Identification (1000B)": [
+                                                {
+                                                    "Payee Identification (N1)": {
+                                                        "Entity Identifier Code (N101)": "CLAIM001",
+                                                        "Payee Name (N102)": "1",
+                                                        "Identification Code Qualifier (N103)": "100.00",
+                                                        "Payee Identification Code (N104)": "80.00"
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

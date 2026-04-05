@@ -1,0 +1,44 @@
+<html>
+<head>
+<title>X12N Error Analysis</title>
+<style type="text/css">
+<!--
+  span.seg { color: black; font-style: normal; }
+  span.error { background-color: #CCCCFF; color: red; font-style: normal; }
+  span.info { color: blue; font-style: normal; }
+  span.ele_err { background-color: yellow; color: red; font-style: normal; }
+  -->
+</style>
+  <link rel="stylesheet" href="errors.css" type="text/css" />
+</head>
+<body>
+<h1>X12N Error Analysis</h1>
+<h3>Analysis Date: 04/04/2026 08:20:05</h3><p>
+<div class="segs" style="">
+<span class="info">&nbsp;&nbsp;Loop ISA_LOOP: Interchange Control Header</span><br />
+<span class="seg">1:&nbsp;ISA*00*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*00*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*ZZ*SUBMITTER&nbsp;ID&nbsp;&nbsp;&nbsp;*ZZ*RECEIVER&nbsp;ID&nbsp;&nbsp;&nbsp;&nbsp;*151031*1230*^*00501*000000001*0*T*:~</span><br />
+<span class="info">&nbsp;&nbsp;Loop GS_LOOP: Functional Group Header</span><br />
+<span class="seg">2:&nbsp;GS*HC*SENDER&nbsp;CODE*RECEIVER&nbsp;CODE*20151031*1230*1*X*005010X222A1~</span><br />
+<span class="info">&nbsp;&nbsp;Loop ST_LOOP: Transaction Set Header</span><br />
+<span class="seg">3:&nbsp;ST*837*0001*005010X222A1~</span><br />
+<span class="seg">4:&nbsp;BHT*0019*00*0123*20151031*1230*CH~</span><br />
+<span class="info">&nbsp;&nbsp;Loop 1000A: Submitter Name</span><br />
+<span class="seg">5:&nbsp;NM1*41*2*JOHN&nbsp;DOE****<span class="ele_err">46</span>*<span class="ele_err">12345</span>~</span><br />
+<span class="error">&nbsp;Data element "Name Suffix" (NM107) is marked as Not Used (Element Error Code: 10)</span><br />
+<span class="error">&nbsp;Data element "Identification Code Qualifier" (NM108) is too long: len("12345") = 5 > 2 (max_len) (Element Error Code: 5)</span><br />
+<span class="error">&nbsp;(12345) is not a valid code for Identification Code Qualifier (NM108) (Element Error Code: 7)</span><br />
+<span class="error">&nbsp;Mandatory data element "Submitter Identifier" (NM109) is missing (Element Error Code: 1)</span><br />
+<span class="error">&nbsp;Syntax Error (P0809): If any of NM108 or NM109 is present, then all are required (Element Error Code: 2)</span><br />
+<span class="error">&nbsp;Mandatory segment "Submitter EDI Contact Information" (PER) missing (Segment Error Code: 3)</span><br />
+<span class="error">&nbsp;Mandatory loop "Receiver Name" (1000B) missing (Segment Error Code: 3)</span><br />
+<span class="error">&nbsp;Mandatory loop "Billing Provider Hierarchical Level" (2000A) missing (Segment Error Code: 3)</span><br />
+<span class="seg">6:&nbsp;SE*5*0001~</span><br />
+<span class="error">&nbsp;SE count of 5 for SE02=0001 is wrong. I count 4 (Segment Error Code: 4)</span><br />
+<span class="seg">7:&nbsp;GE*1*1~</span><br />
+<span class="seg">8:&nbsp;IEA*1*000000001~</span><br />
+</div>
+<p>
+<a href="http://sourceforge.net/projects/pyx12/">pyx12 Validator</a>
+</p>
+</body>
+</html>

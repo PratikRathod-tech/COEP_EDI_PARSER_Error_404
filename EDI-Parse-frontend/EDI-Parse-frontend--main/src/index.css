@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base {
+  :root {
+    /* CLEAN MINIMAL LIGHT THEME */
+    --background: 210 40% 98%; /* slate-50 */
+    --foreground: 222.2 84% 4.9%;
+
+    --card: 0 0% 100%; /* solid white */
+    --card-foreground: 222.2 84% 4.9%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 222.2 84% 4.9%;
+
+    --primary: 263 83% 58%; /* #7c3aed */
+    --primary-foreground: 210 40% 98%;
+
+    --secondary: 210 40% 96.1%; /* minimal soft gray */
+    --secondary-foreground: 222.2 47.4% 11.2%;
+
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 215.4 16.3% 46.9%; /* slate-500 */
+
+    --accent: 210 40% 96.1%;
+    --accent-foreground: 222.2 47.4% 11.2%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 214.3 31.8% 91.4%; /* slate-200 border */
+    --input: 214.3 31.8% 91.4%;
+    --ring: 263 83% 58%;
+
+    --radius: 0.5rem;
+
+    --sidebar-background: 0 0% 100%; /* white sidebar */
+    --sidebar-foreground: 240 5.3% 26.1%;
+    --sidebar-primary: 263 83% 58%;
+    --sidebar-primary-foreground: 0 0% 98%;
+    --sidebar-accent: 240 4.8% 95.9%;
+    --sidebar-accent-foreground: 240 5.9% 10%;
+    --sidebar-border: 220 13% 91%;
+    --sidebar-ring: 263 83% 58%;
+
+    --chart-1: 263 83% 58%;
+    --chart-2: 210 80% 60%;
+    --chart-3: 150 80% 45%;
+    --chart-4: 30 80% 55%;
+    --chart-5: 0 80% 60%;
+  }
+
+  .dark {
+    /* ORIGINAL PREMIUM DARK THEME (Precision HSL Mapped) */
+    --background: 240 23% 5%; /* #0a0a10 */
+    --foreground: 0 0% 98%; /* white */
+    
+    --card: 240 21% 11%; /* #161622 */
+    --card-foreground: 0 0% 98%;
+    
+    --popover: 240 21% 11%;
+    --popover-foreground: 0 0% 98%;
+    
+    --primary: 259 100% 75%; /* #7c5cff */
+    --primary-foreground: 240 10% 4%;
+    
+    --secondary: 240 17% 8%; /* #111118 Premium Card Base */
+    --secondary-foreground: 0 0% 98%;
+    
+    --muted: 240 20% 10%; /* General soft area */
+    --muted-foreground: 215 16% 65%; /* Slate 400 */
+    
+    --accent: 259 40% 20%;
+    --accent-foreground: 0 0% 98%;
+    
+    --destructive: 350 89% 60%;
+    --destructive-foreground: 0 0% 98%;
+    
+    --border: 240 10% 15%; /* Distinct but incredibly soft borders */
+    --input: 240 10% 15%;
+    --ring: 259 100% 75%;
+    
+    --sidebar-background: 240 21% 6.5%; /* #0d0d14 */
+    --sidebar-foreground: 0 0% 98%;
+    --sidebar-primary: 259 100% 75%;
+    --sidebar-primary-foreground: 240 10% 4%;
+    --sidebar-accent: 240 17% 8%;
+    --sidebar-accent-foreground: 0 0% 98%;
+    --sidebar-border: 240 10% 12%;
+    --sidebar-ring: 259 100% 75%;
+
+    --chart-1: 259 100% 75%;
+    --chart-2: 280 100% 70%;
+    --chart-3: 150 100% 60%;
+    --chart-4: 40 100% 60%;
+    --chart-5: 0 0% 60%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply tracking-tight;
+  }
+}
+
+@layer utilities {
+  .perspective-\[1000px\] {
+    perspective: 1000px;
+  }
+  .transform-style-preserve-3d {
+    transform-style: preserve-3d;
+  }
+  .backface-hidden {
+    backface-visibility: hidden;
+  }
+  .rotate-y-180 {
+    transform: rotateY(180deg);
+  }
+  .-rotate-y-180 {
+    transform: rotateY(-180deg);
+  }
+
+  /* Thin Minimal Custom Scrollbar */
+  .custom-scrollbar::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  .custom-scrollbar::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  .custom-scrollbar::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+  }
+  .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+    background: rgba(255, 255, 255, 0.2);
+  }
+}

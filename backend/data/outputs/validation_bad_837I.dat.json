@@ -1,0 +1,7 @@
+{
+    "is_valid": false,
+    "total_errors": 1,
+    "errors": [
+        "Service Line #1 has invalid numeric format in SV203: 'INVALID_AMT'."
+    ]
+}

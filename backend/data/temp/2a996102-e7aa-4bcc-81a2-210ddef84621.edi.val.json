@@ -1,0 +1,12 @@
+{
+    "is_valid": false,
+    "total_errors": 1,
+    "errors": [
+        {
+            "id": "e1",
+            "message": "\"data/temp\\2a996102-e7aa-4bcc-81a2-210ddef84621.edi\" does not look like an X12 data file",
+            "segment": "GEN",
+            "severity": "error"
+        }
+    ]
+}

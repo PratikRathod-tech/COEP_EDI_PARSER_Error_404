@@ -1,0 +1,936 @@
+{
+    "metadata": {
+        "transaction_type": "837I",
+        "element_separator": "*",
+        "component_separator": ":",
+        "segment_terminator": "~"
+    },
+    "x12simple": [
+        {
+            "Interchange Control Header (ISA_LOOP)": [
+                {
+                    "Interchange Control Header (ISA)": {
+                        "Authorization Information Qualifier (ISA01)": "00",
+                        "Authorization Information (ISA02)": "          ",
+                        "Security Information Qualifier (ISA03)": "00",
+                        "Security Information (ISA04)": "          ",
+                        "Interchange ID Qualifier (ISA05)": "ZZ",
+                        "Interchange Sender ID (ISA06)": "133052274      ",
+                        "Interchange ID Qualifier (ISA07)": "ZZ",
+                        "Interchange Receiver ID (ISA08)": "121150001      ",
+                        "Interchange Date (ISA09)": "190311",
+                        "Interchange Time (ISA10)": "1700",
+                        "Interchange Control Standards Identifier (ISA11)": "$",
+                        "Interchange Control Version Number (ISA12)": "00501",
+                        "Interchange Control Number (ISA13)": "000000002",
+                        "Acknowledgment Requested (ISA14)": "0",
+                        "Usage Indicator (ISA15)": "T",
+                        "Component Element Separator (ISA16)": ":"
+                    }
+                },
+                {
+                    "Functional Group Header (GS_LOOP)": [
+                        {
+                            "Functional Group Header (GS)": {
+                                "Functional Identifier Code (GS01)": "HC",
+                                "Application Sender's Code (GS02)": "133052274",
+                                "Application Receiver's Code (GS03)": "121150001",
+                                "Date (GS04)": "20190311",
+                                "Time (GS05)": "1700",
+                                "Group Control Number (GS06)": "02",
+                                "Responsible Agency Code (GS07)": "X",
+                                "Version / Release / Industry Identifier Code (GS08)": "005010X222A1"
+                            }
+                        },
+                        {
+                            "Transaction Set Header (ST_LOOP)": [
+                                {
+                                    "Transaction Set Header (ST)": {
+                                        "Transaction Set Identifier Code (ST01)": "837",
+                                        "Transaction Set Control Number (ST02)": "00000024",
+                                        "Version, Release, or Industry Identifier (ST03)": "005010X223A2"
+                                    }
+                                },
+                                {
+                                    "Header (HEADER)": [
+                                        {
+                                            "Beginning of Hierarchical Transaction (BHT)": {
+                                                "Hierarchical Structure Code (BHT01)": "0019",
+                                                "Transaction Set Purpose Code (BHT02)": "00",
+                                                "Originator Application Transaction Identifier (BHT03)": "00000024",
+                                                "Transaction Set Creation Date (BHT04)": "20190311",
+                                                "Transaction Set Creation Time (BHT05)": "09460310",
+                                                "Claim Identifier (BHT06)": "CH"
+                                            }
+                                        },
+                                        {
+                                            "Submitter Name (1000A)": [
+                                                {
+                                                    "Submitter Name (NM1)": {
+                                                        "Entity Identifier Code (NM101)": "41",
+                                                        "Entity Type Qualifier (NM102)": "2",
+                                                        "Submitter Last or Organization Name (NM103)": "CHANGEHC",
+                                                        "Identification Code Qualifier (NM108)": "46",
+                                                        "Submitter Identifier (NM109)": "SUBMITID02"
+                                                    }
+                                                },
+                                                {
+                                                    "Submitter EDI Contact Information (PER)": {
+                                                        "Contact Function Code (PER01)": "IC",
+                                                        "Submitter Contact Name (PER02)": "CHANGEHC",
+                                                        "Communication Number Qualifier (PER03)": "TE",
+                                                        "Communication Number (PER04)": "8008456592"
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "Receiver Name (1000B)": [
+                                                {
+                                                    "Receiver Name (NM1)": {
+                                                        "Entity Identifier Code (NM101)": "40",
+                                                        "Entity Type Qualifier (NM102)": "2",
+                                                        "Receiver Name (NM103)": "BEST PLAN SERVICE",
+                                                        "Identification Code Qualifier (NM108)": "46",
+                                                        "Receiver Primary Identifier (NM109)": "ETIN9999"
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Table 2 - Detail (DETAIL)": [
+                                        {
+                                            "Billing Provider Hierarchical Level (2000A)": [
+                                                {
+                                                    "Billing Provider Hierarchical Level (HL)": {
+                                                        "Hierarchical ID Number (HL01)": "1",
+                                                        "Hierarchical Level Code (HL03)": "20",
+                                                        "Hierarchical Child Code (HL04)": "1"
+                                                    }
+                                                },
+                                                {
+                                                    "Billing Provider Specialty Information (PRV)": {
+                                                        "Provider Code (PRV01)": "BI",
+                                                        "Reference Identification Qualifier (PRV02)": "PXC",
+                                                        "Provider Taxonomy Code (PRV03)": "207L00000X"
+                                                    }
+                                                },
+                                                {
+                                                    "Billing Provider Name (2010AA)": [
+                                                        {
+                                                            "Billing Provider Name (NM1)": {
+                                                                "Entity Identifier Code (NM101)": "85",
+                                                                "Entity Type Qualifier (NM102)": "2",
+                                                                "Billing Provider Organizational Name (NM103)": "BEST MEDICAL ASSOCIATES LLC",
+                                                                "Identification Code Qualifier (NM108)": "XX",
+                                                                "Billing Provider Identifier (NM109)": "0123456789"
+                                                            }
+                                                        },
+                                                        {
+                                                            "Billing Provider Address (N3)": {
+                                                                "Billing Provider Address Line (N301)": "222 HEALTHY STREET",
+                                                                "Billing Provider Address Line (N302)": "SUITE 200"
+                                                            }
+                                                        },
+                                                        {
+                                                            "Billing Provider City, State, ZIP Code (N4)": {
+                                                                "Billing Provider City Name (N401)": "HERNDON",
+                                                                "Billing Provider State or Province Code (N402)": "VA",
+                                                                "Billing Provider Postal Zone or ZIP Code (N403)": "201714444",
+                                                                "Country Code (N404)": "USA"
+                                                            }
+                                                        },
+                                                        {
+                                                            "Billing Provider Tax Identification (REF)": {
+                                                                "Reference Identification Qualifier (REF01)": "EI",
+                                                                "Billing Provider Tax Identification Number (REF02)": "123401234"
+                                                            }
+                                                        },
+                                                        {
+                                                            "Billing Provider Contact Information (PER)": {
+                                                                "Contact Function Code (PER01)": "IC",
+                                                                "Billing Provider Contact Name (PER02)": "ATTN ALEX",
+                                                                "Communication Number Qualifier (PER03)": "TE",
+                                                                "Communication Number (PER04)": "7031234567",
+                                                                "Communication Number Qualifier (PER05)": "EX",
+                                                                "Communication Number (PER06)": "123",
+                                                                "Communication Number Qualifier (PER07)": "EM",
+                                                                "Communication Number (PER08)": "ALEX@BESTMED.NET"
+                                                            }
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "Pay-to Address Name (2010AB)": [
+                                                        {
+                                                            "Pay-to Address Name (NM1)": {
+                                                                "Entity Identifier Code (NM101)": "87",
+                                                                "Entity Type Qualifier (NM102)": "2"
+                                                            }
+                                                        },
+                                                        {
+                                                            "Pay-to Address - ADDRESS (N3)": {
+                                                                "Pay-To Address Line (N301)": "P O BOX 22310"
+                                                            }
+                                                        },
+                                                        {
+                                                            "Pay-To Address City, State, ZIP Code (N4)": {
+                                                                "Pay-to Address City Name (N401)": "OKLAHOMA CITY",
+                                                                "Pay-to Address State Code (N402)": "OK",
+                                                                "Pay-to Address Postal Zone or ZIP Code (N403)": "799998961"
+                                                            }
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "Pay-To Plan Name (2010AC)": [
+                                                        {
+                                                            "Pay-To Plan Name (NM1)": {
+                                                                "Entity Identifier Code (NM101)": "PE",
+                                                                "Entity Type Qualifier (NM102)": "2",
+                                                                "Pay-To Plan Organizational Name (NM103)": "PLAN TO PAY TO",
+                                                                "Identification Code Qualifier (NM108)": "XX",
+                                                                "Pay-To Plan Primary Identifier (NM109)": "PTP123"
+                                                            }
+                                                        },
+                                                        {
+                                                            "Pay-to Plan Address (N3)": {
+                                                                "Pay-To Plan Address Line (N301)": "236 SEAWAY ST"
+                                                            }
+                                                        },
+                                                        {
+                                                            "Pay-To Plan City, State, ZIP Code (N4)": {
+                                                                "Pay-To Plan City Name (N401)": "MIAMI",
+                                                                "Pay-To Plan State or Province Code (N402)": "FL",
+                                                                "Pay-To Plan Postal Zone or ZIP Code (N403)": "33111"
+                                                            }
+                                                        },
+                                                        {
+                                                            "Pay-To Plan Tax Identification Number (REF)": {
+                                                                "Reference Identification Qualifier (REF01)": "FY",
+                                                                "Pay-To Plan Tax Identification Number (REF02)": "587654321"
+                                                            }
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "Subscriber Hierarchical Level (2000B)": [
+                                                        {
+                                                            "Subscriber Hierarchical Level (HL)": {
+                                                                "Hierarchical ID Number (HL01)": "2",
+                                                                "Hierarchical Parent ID Number (HL02)": "1",
+                                                                "Hierarchical Level Code (HL03)": "22",
+                                                                "Hierarchical Child Code (HL04)": "0"
+                                                            }
+                                                        },
+                                                        {
+                                                            "Subscriber Information (SBR)": {
+                                                                "Payer Responsibility Sequence Number Code (SBR01)": "S",
+                                                                "Individual Relationship Code (SBR02)": "18",
+                                                                "Subscriber Group or Policy Number (SBR03)": "S2345",
+                                                                "Subscriber Group Name (SBR04)": "Other Insured Group Name",
+                                                                "Claim Filing Indicator Code (SBR09)": "13"
+                                                            }
+                                                        },
+                                                        {
+                                                            "Subscriber Name (2010BA)": [
+                                                                {
+                                                                    "Subscriber Name (NM1)": {
+                                                                        "Entity Identifier Code (NM101)": "IL",
+                                                                        "Entity Type Qualifier (NM102)": "1",
+                                                                        "Subscriber Last Name (NM103)": "DOE",
+                                                                        "Subscriber First Name (NM104)": "JANE",
+                                                                        "Subscriber Middle Name or Initial (NM105)": "A",
+                                                                        "Identification Code Qualifier (NM108)": "MI",
+                                                                        "Subscriber Primary Identifier (NM109)": "1008716534V004619"
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "Subscriber Address (N3)": {
+                                                                        "Subscriber Address Line (N301)": "444 ORANGE STREET",
+                                                                        "Subscriber Address Line (N302)": "APT 4B"
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "Subscriber City, State, ZIP Code (N4)": {
+                                                                        "Subscriber City Name (N401)": "LAKEVILLE",
+                                                                        "Subscriber State Code (N402)": "TX",
+                                                                        "Subscriber Postal Zone or ZIP Code (N403)": "557143298",
+                                                                        "Country Code (N404)": "USA"
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "Subscriber Demographic Information (DMG)": {
+                                                                        "Date Time Period Format Qualifier (DMG01)": "D8",
+                                                                        "Subscriber Birth Date (DMG02)": "19911010",
+                                                                        "Subscriber Gender Code (DMG03)": "F"
+                                                                    }
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "Payer Name (2010BB)": [
+                                                                {
+                                                                    "Payer Name (NM1)": {
+                                                                        "Entity Identifier Code (NM101)": "PR",
+                                                                        "Entity Type Qualifier (NM102)": "2",
+                                                                        "Payer Name (NM103)": "BEST PLAN SERVICE",
+                                                                        "Identification Code Qualifier (NM108)": "PI",
+                                                                        "Payer Identifier (NM109)": "PAYERID1234"
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "Payer Address (N3)": {
+                                                                        "Payer Address Line (N301)": "3394 JACKSON DR",
+                                                                        "Payer Address Line (N302)": "SUITE 117"
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "Payer City, State, ZIP Code (N4)": {
+                                                                        "Payer City Name (N401)": "SPRINGFIELD",
+                                                                        "Payer State Code (N402)": "VA",
+                                                                        "Payer Postal Zone or ZIP Code (N403)": "22309"
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "Billing Provider Secondary Identification (REF)": {
+                                                                        "Reference Identification Qualifier (REF01)": "EI",
+                                                                        "Billing Provider Secondary Identifier (REF02)": "123456789"
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "Billing Provider Secondary Identification (REF)": {
+                                                                        "Reference Identification Qualifier (REF01)": "G2",
+                                                                        "Billing Provider Secondary Identifier (REF02)": "12345"
+                                                                    }
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "Patient Hierarchical Level (2000C)": [
+                                                                {
+                                                                    "Patient Hierarchical Level (HL)": {
+                                                                        "Hierarchical ID Number (HL01)": "3",
+                                                                        "Hierarchical Parent ID Number (HL02)": "2",
+                                                                        "Hierarchical Level Code (HL03)": "23",
+                                                                        "Hierarchical Child Code (HL04)": "0"
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "Patient Information (PAT)": {
+                                                                        "Individual Relationship Code (PAT01)": "19"
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "Patient Name (2010CA)": [
+                                                                        {
+                                                                            "Patient Name (NM1)": {
+                                                                                "Entity Identifier Code (NM101)": "QC",
+                                                                                "Entity Type Qualifier (NM102)": "1",
+                                                                                "Patient Last Name (NM103)": "DOE",
+                                                                                "Patient First Name (NM104)": "FRED",
+                                                                                "Patient Middle Name or Initial (NM105)": "J"
+                                                                            }
+                                                                        },
+                                                                        {
+                                                                            "Patient Address (N3)": {
+                                                                                "Patient Address Line (N301)": "123 MAIN STREET"
+                                                                            }
+                                                                        },
+                                                                        {
+                                                                            "Patient City, State, ZIP Code (N4)": {
+                                                                                "Patient City Name (N401)": "KANSAS CITY",
+                                                                                "Patient State Code (N402)": "MO",
+                                                                                "Patient Postal Zone or ZIP Code (N403)": "64108"
+                                                                            }
+                                                                        },
+                                                                        {
+                                                                            "Patient Demographic Information (DMG)": {
+                                                                                "Date Time Period Format Qualifier (DMG01)": "D8",
+                                                                                "Patient Birth Date (DMG02)": "20190910",
+                                                                                "Patient Gender Code (DMG03)": "M"
+                                                                            }
+                                                                        },
+                                                                        {
+                                                                            "Property and Casualty Patient Identifier (REF)": {
+                                                                                "Reference Identification Qualifier (REF01)": "Y4",
+                                                                                "Property and Casualty Patient Identifier (REF02)": "4445555"
+                                                                            }
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                {
+                                                                    "Claim Information (2300)": [
+                                                                        {
+                                                                            "Claim Information (CLM)": {
+                                                                                "Patient Control Number (CLM01)": "ABC0002",
+                                                                                "Total Claim Charge Amount (CLM02)": "89.93",
+                                                                                "Claim Information (CLM)": [
+                                                                                    {
+                                                                                        "CLM11-01": "OA"
+                                                                                    }
+                                                                                ],
+                                                                                "Assignment or Plan Participation Code (CLM07)": "A",
+                                                                                "Benefits Assignment Certification Indicator (CLM08)": "Y",
+                                                                                "Release of Information Code (CLM09)": "Y"
+                                                                            }
+                                                                        },
+                                                                        {
+                                                                            "Date - Repricer Received Date (DTP)": {
+                                                                                "Date Time Qualifier (DTP01)": "096",
+                                                                                "Date Time Period Format Qualifier (DTP02)": "TM",
+                                                                                "Repricer Received Date (DTP03)": "1300"
+                                                                            }
+                                                                        },
+                                                                        {
+                                                                            "Date - Repricer Received Date (DTP)": {
+                                                                                "Date Time Qualifier (DTP01)": "434",
+                                                                                "Date Time Period Format Qualifier (DTP02)": "RD8",
+                                                                                "Repricer Received Date (DTP03)": "20190310-20190311"
+                                                                            }
+                                                                        },
+                                                                        {
+                                                                            "Date - Repricer Received Date (DTP)": {
+                                                                                "Date Time Qualifier (DTP01)": "435",
+                                                                                "Date Time Period Format Qualifier (DTP02)": "DT",
+                                                                                "Repricer Received Date (DTP03)": "201903101402"
+                                                                            }
+                                                                        },
+                                                                        {
+                                                                            "Date - Repricer Received Date (DTP)": {
+                                                                                "Date Time Qualifier (DTP01)": "050",
+                                                                                "Date Time Period Format Qualifier (DTP02)": "D8",
+                                                                                "Repricer Received Date (DTP03)": "20190215"
+                                                                            }
+                                                                        },
+                                                                        {
+                                                                            "Date - Repricer Received Date (DTP)": {
+                                                                                "Date Time Qualifier (DTP01)": "3",
+                                                                                "Date Time Period Format Qualifier (DTP02)": "7",
+                                                                                "Repricer Received Date (DTP03)": "01"
+                                                                            }
+                                                                        },
+                                                                        {
+                                                                            "Claim Supplemental Information (PWK)": {
+                                                                                "Attachment Report Type Code (PWK01)": "OZ",
+                                                                                "Attachment Transmission Code (PWK02)": "BM",
+                                                                                "Identification Code Qualifier (PWK05)": "AC",
+                                                                                "Attachment Control Number (PWK06)": "DMN0012"
+                                                                            }
+                                                                        },
+                                                                        {
+                                                                            "Peer Review Organization (PRO) Approval Number (REF)": {
+                                                                                "Reference Identification Qualifier (REF01)": "4N",
+                                                                                "Peer Review Authorization Number (REF02)": "1"
+                                                                            }
+                                                                        },
+                                                                        {
+                                                                            "Peer Review Organization (PRO) Approval Number (REF)": {
+                                                                                "Reference Identification Qualifier (REF01)": "9F",
+                                                                                "Peer Review Authorization Number (REF02)": "2410628868"
+                                                                            }
+                                                                        },
+                                                                        {
+                                                                            "Peer Review Organization (PRO) Approval Number (REF)": {
+                                                                                "Reference Identification Qualifier (REF01)": "G1",
+                                                                                "Peer Review Authorization Number (REF02)": "PA00000024"
+                                                                            }
+                                                                        },
+                                                                        {
+                                                                            "Peer Review Organization (PRO) Approval Number (REF)": {
+                                                                                "Reference Identification Qualifier (REF01)": "F8",
+                                                                                "Peer Review Authorization Number (REF02)": "CLAIM04"
+                                                                            }
+                                                                        },
+                                                                        {
+                                                                            "Peer Review Organization (PRO) Approval Number (REF)": {
+                                                                                "Reference Identification Qualifier (REF01)": "D9",
+                                                                                "Peer Review Authorization Number (REF02)": "CLAIM0004"
+                                                                            }
+                                                                        },
+                                                                        {
+                                                                            "Peer Review Organization (PRO) Approval Number (REF)": {
+                                                                                "Reference Identification Qualifier (REF01)": "LU",
+                                                                                "Peer Review Authorization Number (REF02)": "DD"
+                                                                            }
+                                                                        },
+                                                                        {
+                                                                            "Peer Review Organization (PRO) Approval Number (REF)": {
+                                                                                "Reference Identification Qualifier (REF01)": "EA",
+                                                                                "Peer Review Authorization Number (REF02)": "44444TH56"
+                                                                            }
+                                                                        },
+                                                                        {
+                                                                            "Peer Review Organization (PRO) Approval Number (REF)": {
+                                                                                "Reference Identification Qualifier (REF01)": "ALG",
+                                                                                "Peer Review Authorization Number (REF02)": "PATIENT ALLERGIC TO PENICILLIN"
+                                                                            }
+                                                                        },
+                                                                        {
+                                                                            "Billing Note (NTE)": {
+                                                                                "Note Reference Code (NTE01)": "ADD",
+                                                                                "Billing Note Text (NTE02)": "Billing Note"
+                                                                            }
+                                                                        },
+                                                                        {
+                                                                            "Treatment Code Information (HI)": {
+                                                                                "Principal Diagnosis (HI)": [
+                                                                                    {
+                                                                                        "HI01-01": "ABK"
+                                                                                    },
+                                                                                    {
+                                                                                        "HI01-02": "M24562"
+                                                                                    },
+                                                                                    {
+                                                                                        "HI01-03": ""
+                                                                                    },
+                                                                                    {
+                                                                                        "HI01-04": ""
+                                                                                    },
+                                                                                    {
+                                                                                        "HI01-05": ""
+                                                                                    },
+                                                                                    {
+                                                                                        "HI01-06": ""
+                                                                                    },
+                                                                                    {
+                                                                                        "HI01-07": ""
+                                                                                    },
+                                                                                    {
+                                                                                        "HI01-08": ""
+                                                                                    },
+                                                                                    {
+                                                                                        "HI01-09": "N"
+                                                                                    }
+                                                                                ]
+                                                                            }
+                                                                        },
+                                                                        {
+                                                                            "Treatment Code Information (HI)": {
+                                                                                "Principal Diagnosis (HI)": [
+                                                                                    {
+                                                                                        "HI01-01": "ABJ"
+                                                                                    },
+                                                                                    {
+                                                                                        "HI01-02": "H5988"
+                                                                                    }
+                                                                                ]
+                                                                            }
+                                                                        },
+                                                                        {
+                                                                            "Treatment Code Information (HI)": {
+                                                                                "Principal Diagnosis (HI)": [
+                                                                                    {
+                                                                                        "HI01-01": "APR"
+                                                                                    },
+                                                                                    {
+                                                                                        "HI01-02": "H59369"
+                                                                                    }
+                                                                                ]
+                                                                            }
+                                                                        },
+                                                                        {
+                                                                            "Treatment Code Information (HI)": {
+                                                                                "Principal Diagnosis (HI)": [
+                                                                                    {
+                                                                                        "HI03-01": "ABN"
+                                                                                    },
+                                                                                    {
+                                                                                        "HI03-02": "Z9681"
+                                                                                    }
+                                                                                ]
+                                                                            }
+                                                                        },
+                                                                        {
+                                                                            "Treatment Code Information (HI)": {
+                                                                                "Principal Diagnosis (HI)": [
+                                                                                    {
+                                                                                        "HI01-01": "DR"
+                                                                                    },
+                                                                                    {
+                                                                                        "HI01-02": "025"
+                                                                                    }
+                                                                                ]
+                                                                            }
+                                                                        },
+                                                                        {
+                                                                            "Treatment Code Information (HI)": {
+                                                                                "Principal Diagnosis (HI)": [
+                                                                                    {
+                                                                                        "HI03-01": "ABF"
+                                                                                    },
+                                                                                    {
+                                                                                        "HI03-02": "A0103"
+                                                                                    },
+                                                                                    {
+                                                                                        "HI03-03": ""
+                                                                                    },
+                                                                                    {
+                                                                                        "HI03-04": ""
+                                                                                    },
+                                                                                    {
+                                                                                        "HI03-05": ""
+                                                                                    },
+                                                                                    {
+                                                                                        "HI03-06": ""
+                                                                                    },
+                                                                                    {
+                                                                                        "HI03-07": ""
+                                                                                    },
+                                                                                    {
+                                                                                        "HI03-08": ""
+                                                                                    },
+                                                                                    {
+                                                                                        "HI03-09": "Y"
+                                                                                    }
+                                                                                ]
+                                                                            }
+                                                                        },
+                                                                        {
+                                                                            "Treatment Code Information (HI)": {
+                                                                                "Principal Diagnosis (HI)": [
+                                                                                    {
+                                                                                        "HI01-01": "BBR"
+                                                                                    },
+                                                                                    {
+                                                                                        "HI01-02": "009G0ZZ"
+                                                                                    },
+                                                                                    {
+                                                                                        "HI01-03": "D8"
+                                                                                    },
+                                                                                    {
+                                                                                        "HI01-04": "20171003"
+                                                                                    }
+                                                                                ]
+                                                                            }
+                                                                        },
+                                                                        {
+                                                                            "Treatment Code Information (HI)": {
+                                                                                "Principal Diagnosis (HI)": [
+                                                                                    {
+                                                                                        "HI12-01": "BBQ"
+                                                                                    },
+                                                                                    {
+                                                                                        "HI12-02": "B8001ZZ"
+                                                                                    },
+                                                                                    {
+                                                                                        "HI12-03": "D8"
+                                                                                    },
+                                                                                    {
+                                                                                        "HI12-04": "20171123"
+                                                                                    }
+                                                                                ]
+                                                                            }
+                                                                        },
+                                                                        {
+                                                                            "Treatment Code Information (HI)": {
+                                                                                "Principal Diagnosis (HI)": [
+                                                                                    {
+                                                                                        "HI12-01": "BI"
+                                                                                    },
+                                                                                    {
+                                                                                        "HI12-02": "24"
+                                                                                    },
+                                                                                    {
+                                                                                        "HI12-03": "RD8"
+                                                                                    },
+                                                                                    {
+                                                                                        "HI12-04": "20180506-20180507"
+                                                                                    }
+                                                                                ]
+                                                                            }
+                                                                        },
+                                                                        {
+                                                                            "Treatment Code Information (HI)": {
+                                                                                "Principal Diagnosis (HI)": [
+                                                                                    {
+                                                                                        "HI12-01": "BH"
+                                                                                    },
+                                                                                    {
+                                                                                        "HI12-02": "24"
+                                                                                    },
+                                                                                    {
+                                                                                        "HI12-03": "BH"
+                                                                                    },
+                                                                                    {
+                                                                                        "HI12-04": "20180506"
+                                                                                    }
+                                                                                ]
+                                                                            }
+                                                                        },
+                                                                        {
+                                                                            "Treatment Code Information (HI)": {
+                                                                                "Principal Diagnosis (HI)": [
+                                                                                    {
+                                                                                        "HI12-01": "BE"
+                                                                                    },
+                                                                                    {
+                                                                                        "HI12-02": "55"
+                                                                                    },
+                                                                                    {
+                                                                                        "HI12-03": ""
+                                                                                    },
+                                                                                    {
+                                                                                        "HI12-04": ""
+                                                                                    },
+                                                                                    {
+                                                                                        "HI12-05": "6.99"
+                                                                                    }
+                                                                                ]
+                                                                            }
+                                                                        },
+                                                                        {
+                                                                            "Treatment Code Information (HI)": {
+                                                                                "Principal Diagnosis (HI)": [
+                                                                                    {
+                                                                                        "HI01-01": "BE"
+                                                                                    },
+                                                                                    {
+                                                                                        "HI01-02": "20"
+                                                                                    },
+                                                                                    {
+                                                                                        "HI01-03": ""
+                                                                                    },
+                                                                                    {
+                                                                                        "HI01-04": ""
+                                                                                    },
+                                                                                    {
+                                                                                        "HI01-05": "76.54"
+                                                                                    }
+                                                                                ]
+                                                                            }
+                                                                        },
+                                                                        {
+                                                                            "Treatment Code Information (HI)": {
+                                                                                "Principal Diagnosis (HI)": [
+                                                                                    {
+                                                                                        "HI12-01": "BG"
+                                                                                    },
+                                                                                    {
+                                                                                        "HI12-02": "A0"
+                                                                                    }
+                                                                                ]
+                                                                            }
+                                                                        },
+                                                                        {
+                                                                            "Claim Pricing/Repricing Information (HCP)": {
+                                                                                "Pricing Methodology (HCP01)": "03",
+                                                                                "Repriced Allowed Amount (HCP02)": "100",
+                                                                                "Repriced Saving Amount (HCP03)": "10",
+                                                                                "Repricing Organization Identifier (HCP04)": "36C79119D0004",
+                                                                                "Repricing Per Diem or Flat Rate Amount (HCP05)": "20",
+                                                                                "Repriced Approved DRG Code (HCP06)": "011",
+                                                                                "Repriced Approved Amount (HCP07)": "225.50",
+                                                                                "Reject Reason Code (HCP13)": "12",
+                                                                                "Policy Compliance Code (HCP14)": "T1",
+                                                                                "Exception Code (HCP15)": "4"
+                                                                            }
+                                                                        },
+                                                                        {
+                                                                            "Claim Pricing/Repricing Information (HCP)": {
+                                                                                "Pricing Methodology (HCP01)": "71",
+                                                                                "Repriced Allowed Amount (HCP02)": "1",
+                                                                                "Repriced Saving Amount (HCP03)": "JONES",
+                                                                                "Repricing Organization Identifier (HCP04)": "ALEX",
+                                                                                "Repricing Per Diem or Flat Rate Amount (HCP05)": "A"
+                                                                            }
+                                                                        },
+                                                                        {
+                                                                            "Claim Pricing/Repricing Information (HCP)": {
+                                                                                "Pricing Methodology (HCP01)": "AT",
+                                                                                "Repriced Allowed Amount (HCP02)": "PXC",
+                                                                                "Repriced Saving Amount (HCP03)": "208D00000X"
+                                                                            }
+                                                                        },
+                                                                        {
+                                                                            "Claim Pricing/Repricing Information (HCP)": {
+                                                                                "Pricing Methodology (HCP01)": "LU",
+                                                                                "Repriced Allowed Amount (HCP02)": "12345"
+                                                                            }
+                                                                        },
+                                                                        {
+                                                                            "Claim Pricing/Repricing Information (HCP)": {
+                                                                                "Pricing Methodology (HCP01)": "72",
+                                                                                "Repriced Allowed Amount (HCP02)": "1",
+                                                                                "Repriced Saving Amount (HCP03)": "BELL",
+                                                                                "Repricing Organization Identifier (HCP04)": "RITA",
+                                                                                "Repricing Per Diem or Flat Rate Amount (HCP05)": "H"
+                                                                            }
+                                                                        },
+                                                                        {
+                                                                            "Claim Pricing/Repricing Information (HCP)": {
+                                                                                "Pricing Methodology (HCP01)": "ZZ",
+                                                                                "Repriced Allowed Amount (HCP02)": "1",
+                                                                                "Repriced Saving Amount (HCP03)": "JOHNSON",
+                                                                                "Repricing Organization Identifier (HCP04)": "SALLY",
+                                                                                "Repricing Per Diem or Flat Rate Amount (HCP05)": "M"
+                                                                            }
+                                                                        },
+                                                                        {
+                                                                            "Operating Physician Name (2310B)": [
+                                                                                {
+                                                                                    "Operating Physician Name (NM1)": {
+                                                                                        "Entity Identifier Code (NM101)": "82",
+                                                                                        "Entity Type Qualifier (NM102)": "1",
+                                                                                        "Operating Physician Last Name (NM103)": "DAVIDSON",
+                                                                                        "Operating Physician First Name (NM104)": "MICHELLE",
+                                                                                        "Operating Physician Middle Name or Initial (NM105)": "S",
+                                                                                        "Identification Code Qualifier (NM108)": "XX",
+                                                                                        "Operating Physician Primary Identifier (NM109)": "9995553336"
+                                                                                    }
+                                                                                }
+                                                                            ]
+                                                                        },
+                                                                        {
+                                                                            "Other Operating Physician Name (2310C)": [
+                                                                                {
+                                                                                    "Other Operating Physician Name (NM1)": {
+                                                                                        "Entity Identifier Code (NM101)": "77",
+                                                                                        "Entity Type Qualifier (NM102)": "2",
+                                                                                        "Other Operating Physician Last Name (NM103)": "BEST HEALTH CENTER",
+                                                                                        "Identification Code Qualifier (NM108)": "XX",
+                                                                                        "Other Operating Physician Identifier (NM109)": "1689432123"
+                                                                                    }
+                                                                                },
+                                                                                {
+                                                                                    "Billing Provider Address (N3)": {
+                                                                                        "Billing Provider Address Line (N301)": "123 HEALTHY ST",
+                                                                                        "Billing Provider Address Line (N302)": "SUITE 2000"
+                                                                                    }
+                                                                                },
+                                                                                {
+                                                                                    "Billing Provider City, State, ZIP Code (N4)": {
+                                                                                        "Billing Provider City Name (N401)": "FAIRFAX",
+                                                                                        "Billing Provider State or Province Code (N402)": "VA",
+                                                                                        "Billing Provider Postal Zone or ZIP Code (N403)": "22042",
+                                                                                        "Country Code (N404)": "USA"
+                                                                                    }
+                                                                                }
+                                                                            ]
+                                                                        },
+                                                                        {
+                                                                            "Attending Provider Name (2310A)": [
+                                                                                {
+                                                                                    "Attending Provider Name (NM1)": {
+                                                                                        "Entity Identifier Code (NM101)": "DN",
+                                                                                        "Entity Type Qualifier (NM102)": "1",
+                                                                                        "Attending Provider Last Name (NM103)": "SMITH",
+                                                                                        "Attending Provider First Name (NM104)": "JOHN",
+                                                                                        "Attending Provider Middle Name or Initial (NM105)": "A",
+                                                                                        "Identification Code Qualifier (NM108)": "XX",
+                                                                                        "Attending Provider Primary Identifier (NM109)": "ORDPRV2468"
+                                                                                    }
+                                                                                }
+                                                                            ]
+                                                                        },
+                                                                        {
+                                                                            "Other Subscriber Information (2320)": [
+                                                                                {
+                                                                                    "Other Subscriber Information (SBR)": {
+                                                                                        "Payer Responsibility Sequence Number Code (SBR01)": "P",
+                                                                                        "Individual Relationship Code (SBR02)": "18",
+                                                                                        "Insured Group or Policy Number (SBR03)": "GR00786",
+                                                                                        "Other Insured Group Name (SBR04)": "Other Insured Group Name",
+                                                                                        "Insurance Type Code (SBR05)": "12",
+                                                                                        "Claim Filing Indicator Code (SBR09)": "CI"
+                                                                                    }
+                                                                                },
+                                                                                {
+                                                                                    "Claim Level Adjustments (CAS)": {
+                                                                                        "Claim Adjustment Group Code (CAS01)": "CR",
+                                                                                        "Adjustment Reason Code (CAS02)": "26",
+                                                                                        "Adjustment Amount (CAS03)": "55.00",
+                                                                                        "Adjustment Quantity (CAS04)": "1",
+                                                                                        "Adjustment Reason Code (CAS05)": "90",
+                                                                                        "Adjustment Amount (CAS06)": "65.55",
+                                                                                        "Adjustment Quantity (CAS07)": "1",
+                                                                                        "Adjustment Reason Code (CAS08)": "70",
+                                                                                        "Adjustment Amount (CAS09)": "73.03",
+                                                                                        "Adjustment Quantity (CAS10)": "2",
+                                                                                        "Adjustment Reason Code (CAS11)": "20",
+                                                                                        "Adjustment Amount (CAS12)": "85.15",
+                                                                                        "Adjustment Quantity (CAS13)": "1",
+                                                                                        "Adjustment Reason Code (CAS14)": "102",
+                                                                                        "Adjustment Amount (CAS15)": "99.99",
+                                                                                        "Adjustment Quantity (CAS16)": "1",
+                                                                                        "Adjustment Reason Code (CAS17)": "4",
+                                                                                        "Adjustment Amount (CAS18)": "102.22",
+                                                                                        "Adjustment Quantity (CAS19)": "1"
+                                                                                    }
+                                                                                },
+                                                                                {
+                                                                                    "Claim Level Adjustments (CAS)": {
+                                                                                        "Claim Adjustment Group Code (CAS01)": "PI",
+                                                                                        "Adjustment Reason Code (CAS02)": "2",
+                                                                                        "Adjustment Amount (CAS03)": "25.00",
+                                                                                        "Adjustment Quantity (CAS04)": "1",
+                                                                                        "Adjustment Reason Code (CAS05)": "3",
+                                                                                        "Adjustment Amount (CAS06)": "25.55",
+                                                                                        "Adjustment Quantity (CAS07)": "1",
+                                                                                        "Adjustment Reason Code (CAS08)": "2",
+                                                                                        "Adjustment Amount (CAS09)": "33.03",
+                                                                                        "Adjustment Quantity (CAS10)": "2",
+                                                                                        "Adjustment Reason Code (CAS11)": "75",
+                                                                                        "Adjustment Amount (CAS12)": "45.15",
+                                                                                        "Adjustment Quantity (CAS13)": "1",
+                                                                                        "Adjustment Reason Code (CAS14)": "22",
+                                                                                        "Adjustment Amount (CAS15)": "59.99",
+                                                                                        "Adjustment Quantity (CAS16)": "1",
+                                                                                        "Adjustment Reason Code (CAS17)": "2",
+                                                                                        "Adjustment Amount (CAS18)": "62.22",
+                                                                                        "Adjustment Quantity (CAS19)": "1"
+                                                                                    }
+                                                                                },
+                                                                                {
+                                                                                    "Coordination of Benefits (COB) Total Non-Covered Amount (AMT)": {
+                                                                                        "Amount Qualifier Code (AMT01)": "D",
+                                                                                        "Non-Covered Charge Amount (AMT02)": "8852.72"
+                                                                                    }
+                                                                                },
+                                                                                {
+                                                                                    "Coordination of Benefits (COB) Total Non-Covered Amount (AMT)": {
+                                                                                        "Amount Qualifier Code (AMT01)": "A8",
+                                                                                        "Non-Covered Charge Amount (AMT02)": "780"
+                                                                                    }
+                                                                                },
+                                                                                {
+                                                                                    "Coordination of Benefits (COB) Total Non-Covered Amount (AMT)": {
+                                                                                        "Amount Qualifier Code (AMT01)": "EAF",
+                                                                                        "Non-Covered Charge Amount (AMT02)": "60"
+                                                                                    }
+                                                                                },
+                                                                                {
+                                                                                    "Other Insurance Coverage Information (OI)": {
+                                                                                        "Benefits Assignment Certification Indicator (OI03)": "Y",
+                                                                                        "Release of Information Code (OI06)": "Y"
+                                                                                    }
+                                                                                },
+                                                                                {
+                                                                                    "Other Insurance Coverage Information (OI)": {
+                                                                                        "Benefits Assignment Certification Indicator (OI03)": "1",
+                                                                                        "Patient Signature Source Code (OI04)": "255.05",
+                                                                                        "Release of Information Code (OI06)": "288.08"
+                                                                                    }
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,54 @@
+{
+    "is_valid": false,
+    "total_errors": 8,
+    "errors": [
+        {
+            "id": "e1",
+            "message": "Line:4 SEG:1 - Segment NM1*85 not found.  Started at /ISA_LOOP/GS_LOOP/ST_LOOP/ST",
+            "segment": "GEN",
+            "severity": "error"
+        },
+        {
+            "id": "e2",
+            "message": "Line:5 SEG:1 - Segment NM1*QC not found.  Started at /ISA_LOOP/GS_LOOP/ST_LOOP/ST",
+            "segment": "GEN",
+            "severity": "error"
+        },
+        {
+            "id": "e3",
+            "message": "Line:6 SEG:1 - Segment CLM* not found.  Started at /ISA_LOOP/GS_LOOP/ST_LOOP/ST",
+            "segment": "GEN",
+            "severity": "error"
+        },
+        {
+            "id": "e4",
+            "message": "Line:7 SEG:3 - Mandatory loop \"Table 1 - Header\" (HEADER) missing",
+            "segment": "GEN",
+            "severity": "error"
+        },
+        {
+            "id": "e5",
+            "message": "Line:7 SEG:3 - Mandatory loop \"Billing Provider Hierarchical Level\" (2000A) missing",
+            "segment": "GEN",
+            "severity": "error"
+        },
+        {
+            "id": "e6",
+            "message": "Line:6 SEG:SEG1 - Segment contains trailing element terminators",
+            "segment": "GEN",
+            "severity": "error"
+        },
+        {
+            "id": "e7",
+            "message": "Line:6 SEG:8 - Segment \"CLM*~\" is empty",
+            "segment": "GEN",
+            "severity": "error"
+        },
+        {
+            "id": "e8",
+            "message": "Line:3 ST:4 - SE count of 6 for SE02=0002 is wrong. I count 5",
+            "segment": "GEN",
+            "severity": "error"
+        }
+    ]
+}

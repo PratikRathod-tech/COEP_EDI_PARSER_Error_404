@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<x12simple>
+  <loop id='ISA_LOOP'>
+    <seg id='ISA'>
+      <ele id='ISA01'>00</ele>
+      <ele id='ISA02'>          </ele>
+      <ele id='ISA03'>00</ele>
+      <ele id='ISA04'>          </ele>
+      <ele id='ISA05'>ZZ</ele>
+      <ele id='ISA06'>SUBMITTER ID   </ele>
+      <ele id='ISA07'>ZZ</ele>
+      <ele id='ISA08'>RECEIVER ID    </ele>
+      <ele id='ISA09'>151031</ele>
+      <ele id='ISA10'>1230</ele>
+      <ele id='ISA11'>^</ele>
+      <ele id='ISA12'>00501</ele>
+      <ele id='ISA13'>000000001</ele>
+      <ele id='ISA14'>0</ele>
+      <ele id='ISA15'>T</ele>
+      <ele id='ISA16'>:</ele>
+    </seg>
+    <loop id='GS_LOOP'>
+      <seg id='GS'>
+        <ele id='GS01'>HP</ele>
+        <ele id='GS02'>SENDER CODE</ele>
+        <ele id='GS03'>RECEIVER CODE</ele>
+        <ele id='GS04'>20151031</ele>
+        <ele id='GS05'>1230</ele>
+        <ele id='GS06'>1</ele>
+        <ele id='GS07'>X</ele>
+        <ele id='GS08'>005010X221A1</ele>
+      </seg>
+      <loop id='ST_LOOP'>
+        <seg id='ST'>
+          <ele id='ST01'>835</ele>
+          <ele id='ST02'>0001</ele>
+        </seg>
+        <loop id='HEADER'>
+          <seg id='BPR'>
+            <ele id='BPR01'>I</ele>
+            <ele id='BPR02'>150.00</ele>
+            <ele id='BPR03'>C</ele>
+            <ele id='BPR04'>ACH</ele>
+            <ele id='BPR05'>CTX</ele>
+            <ele id='BPR06'>01</ele>
+            <ele id='BPR07'>999999999</ele>
+            <ele id='BPR08'>DA</ele>
+            <ele id='BPR09'>123456</ele>
+            <ele id='BPR10'>151031</ele>
+          </seg>
+        </loop>
+        <seg id='SE'>
+          <ele id='SE01'>4</ele>
+          <ele id='SE02'>0001</ele>
+        </seg>
+      </loop>
+      <seg id='GE'>
+        <ele id='GE01'>1</ele>
+        <ele id='GE02'>1</ele>
+      </seg>
+    </loop>
+    <seg id='IEA'>
+      <ele id='IEA01'>1</ele>
+      <ele id='IEA02'>000000001</ele>
+    </seg>
+  </loop>
+</x12simple>

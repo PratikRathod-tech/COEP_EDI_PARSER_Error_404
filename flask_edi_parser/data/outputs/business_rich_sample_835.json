@@ -1,0 +1,65 @@
+{
+    "Transaction_Type": "835_Remittance",
+    "Financial_Header_1000": {
+        "Financial Information (BPR)": {
+            "Transaction Handling Code (BPR01)": "I",
+            "Total Actual Provider Payment Amount (BPR02)": "150.00",
+            "Credit or Debit Flag Code (BPR03)": "C",
+            "Payment Method Code (BPR04)": "ACH",
+            "Account Number Qualifier (BPR08)": "DA",
+            "Sender Bank Account Number (BPR09)": "123456",
+            "Payer Identifier (BPR10)": "151031"
+        },
+        "Reassociation Trace Number (TRN)": {
+            "Trace Type Code (TRN01)": "1",
+            "Check or EFT Trace Number (TRN02)": "CHK12345",
+            "Payer Identifier (TRN03)": "1999999999"
+        },
+        "Production Date (DTM)": {
+            "Date Time Qualifier (DTM01)": "405",
+            "Production Date (DTM02)": "20151030"
+        },
+        "Payer Name (N102)": "PAYER NAME",
+        "Payee Name (N102)": "PROVIDER NAME"
+    },
+    "Claims_2100": [
+        {
+            "Claim Payment Information (CLP)": {
+                "Claim Submitter's Identifier (CLP01)": "CLAIM001",
+                "Claim Status Code (CLP02)": "1",
+                "Total Claim Charge Amount (CLP03)": "100.00",
+                "Claim Payment Amount (CLP04)": "80.00",
+                "Patient Responsibility Amount (CLP05)": "20.00",
+                "Payer Claim Control Number (CLP07)": "PAYER_REF_01"
+            },
+            "Patient_Name": "JOHN DOE",
+            "Adjustments_CAS": [
+                {
+                    "Claim Adjustment Group Code (CAS01)": "PR",
+                    "Claim Adjustment Reason Code (CAS02)": "1",
+                    "Monetary Amount (CAS03)": "20.00"
+                }
+            ],
+            "Service_Lines_2110": []
+        },
+        {
+            "Claim Payment Information (CLP)": {
+                "Claim Submitter's Identifier (CLP01)": "CLAIM002",
+                "Claim Status Code (CLP02)": "1",
+                "Total Claim Charge Amount (CLP03)": "200.00",
+                "Claim Payment Amount (CLP04)": "150.00",
+                "Patient Responsibility Amount (CLP05)": "50.00",
+                "Payer Claim Control Number (CLP07)": "PAYER_REF_02"
+            },
+            "Patient_Name": "JANE SMITH",
+            "Adjustments_CAS": [
+                {
+                    "Claim Adjustment Group Code (CAS01)": "CO",
+                    "Claim Adjustment Reason Code (CAS02)": "45",
+                    "Monetary Amount (CAS03)": "50.00"
+                }
+            ],
+            "Service_Lines_2110": []
+        }
+    ]
+}

@@ -1,0 +1,71 @@
+{
+    "metadata": {
+        "transaction_type": "837P",
+        "element_separator": "*",
+        "component_separator": ":",
+        "segment_terminator": "~"
+    },
+    "x12simple": [
+        {
+            "Interchange Control Header (ISA_LOOP)": [
+                {
+                    "Interchange Control Header (ISA)": {
+                        "Authorization Information Qualifier (ISA01)": "00",
+                        "Authorization Information (ISA02)": "          ",
+                        "Security Information Qualifier (ISA03)": "00",
+                        "Security Information (ISA04)": "          ",
+                        "Interchange ID Qualifier (ISA05)": "ZZ",
+                        "Interchange Sender ID (ISA06)": "SENDERID       ",
+                        "Interchange ID Qualifier (ISA07)": "ZZ",
+                        "Interchange Receiver ID (ISA08)": "RECEIVERID     ",
+                        "Interchange Date (ISA09)": "210101",
+                        "Interchange Time (ISA10)": "1253",
+                        "Interchange Control Standards Identifier (ISA11)": "^",
+                        "Interchange Control Version Number (ISA12)": "00501",
+                        "Interchange Control Number (ISA13)": "000000905",
+                        "Acknowledgment Requested (ISA14)": "0",
+                        "Usage Indicator (ISA15)": "T",
+                        "Component Element Separator (ISA16)": ":"
+                    }
+                },
+                {
+                    "Functional Group Header (GS_LOOP)": [
+                        {
+                            "Functional Group Header (GS)": {
+                                "Functional Identifier Code (GS01)": "HC",
+                                "Application Sender's Code (GS02)": "SENDER",
+                                "Application Receiver's Code (GS03)": "RECEIVER",
+                                "Date (GS04)": "20210101",
+                                "Time (GS05)": "1253",
+                                "Group Control Number (GS06)": "1",
+                                "Responsible Agency Code (GS07)": "X",
+                                "Version / Release / Industry Identifier Code (GS08)": "005010X222A1"
+                            }
+                        },
+                        {
+                            "Transaction Set Header (ST_LOOP)": [
+                                {
+                                    "Transaction Set Header (ST)": {
+                                        "Transaction Set Identifier Code (ST01)": "837",
+                                        "Transaction Set Control Number (ST02)": "0002"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Transaction Set Header (ST_LOOP)": [
+                                {
+                                    "Transaction Set Header (ST)": {
+                                        "Transaction Set Identifier Code (ST01)": "85",
+                                        "Transaction Set Control Number (ST02)": "2",
+                                        "Implementation Convention Reference (ST03)": "ABC CLINIC"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

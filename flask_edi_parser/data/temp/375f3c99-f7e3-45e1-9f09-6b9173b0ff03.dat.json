@@ -1,0 +1,1957 @@
+{
+    "metadata": {
+        "transaction_type": "837I",
+        "element_separator": "*",
+        "component_separator": ":",
+        "segment_terminator": "~"
+    },
+    "segments": [
+        {
+            "segment_id": "ISA",
+            "elements": [
+                "00",
+                "          ",
+                "00",
+                "          ",
+                "ZZ",
+                "133052274      ",
+                "ZZ",
+                "121150001      ",
+                "190311",
+                "1700",
+                "$",
+                "00501",
+                "000000002",
+                "0",
+                "T",
+                [
+                    "",
+                    ""
+                ]
+            ]
+        },
+        {
+            "segment_id": "GS",
+            "elements": [
+                "HC",
+                "133052274",
+                "121150001",
+                "20190311",
+                "1700",
+                "02",
+                "X",
+                "005010X222A1"
+            ]
+        },
+        {
+            "segment_id": "ST",
+            "elements": [
+                "837",
+                "00000024",
+                "005010X223A2"
+            ]
+        },
+        {
+            "segment_id": "BHT",
+            "elements": [
+                "0019",
+                "00",
+                "00000024",
+                "20190311",
+                "09460310",
+                "CH"
+            ]
+        },
+        {
+            "segment_id": "NM1",
+            "elements": [
+                "41",
+                "2",
+                "CHANGEHC",
+                "",
+                "",
+                "",
+                "",
+                "46",
+                "SUBMITID02"
+            ]
+        },
+        {
+            "segment_id": "PER",
+            "elements": [
+                "IC",
+                "CHANGEHC",
+                "TE",
+                "8008456592"
+            ]
+        },
+        {
+            "segment_id": "NM1",
+            "elements": [
+                "40",
+                "2",
+                "BEST PLAN SERVICE",
+                "",
+                "",
+                "",
+                "",
+                "46",
+                "ETIN9999"
+            ]
+        },
+        {
+            "segment_id": "HL",
+            "elements": [
+                "1",
+                "",
+                "20",
+                "1"
+            ]
+        },
+        {
+            "segment_id": "PRV",
+            "elements": [
+                "BI",
+                "PXC",
+                "207L00000X"
+            ]
+        },
+        {
+            "segment_id": "NM1",
+            "elements": [
+                "85",
+                "2",
+                "BEST MEDICAL ASSOCIATES LLC",
+                "",
+                "",
+                "",
+                "",
+                "XX",
+                "0123456789"
+            ]
+        },
+        {
+            "segment_id": "N3",
+            "elements": [
+                "222 HEALTHY STREET",
+                "SUITE 200"
+            ]
+        },
+        {
+            "segment_id": "N4",
+            "elements": [
+                "HERNDON",
+                "VA",
+                "201714444",
+                "USA"
+            ]
+        },
+        {
+            "segment_id": "REF",
+            "elements": [
+                "EI",
+                "123401234"
+            ]
+        },
+        {
+            "segment_id": "PER",
+            "elements": [
+                "IC",
+                "ATTN ALEX",
+                "TE",
+                "7031234567",
+                "EX",
+                "123",
+                "EM",
+                "ALEX@BESTMED.NET"
+            ]
+        },
+        {
+            "segment_id": "NM1",
+            "elements": [
+                "87",
+                "2"
+            ]
+        },
+        {
+            "segment_id": "N3",
+            "elements": [
+                "P O BOX 22310"
+            ]
+        },
+        {
+            "segment_id": "N4",
+            "elements": [
+                "OKLAHOMA CITY",
+                "OK",
+                "799998961"
+            ]
+        },
+        {
+            "segment_id": "NM1",
+            "elements": [
+                "PE",
+                "2",
+                "PLAN TO PAY TO",
+                "",
+                "",
+                "",
+                "",
+                "XX",
+                "PTP123"
+            ]
+        },
+        {
+            "segment_id": "N3",
+            "elements": [
+                "236 SEAWAY ST"
+            ]
+        },
+        {
+            "segment_id": "N4",
+            "elements": [
+                "MIAMI",
+                "FL",
+                "33111"
+            ]
+        },
+        {
+            "segment_id": "REF",
+            "elements": [
+                "FY",
+                "587654321"
+            ]
+        },
+        {
+            "segment_id": "HL",
+            "elements": [
+                "2",
+                "1",
+                "22",
+                "0"
+            ]
+        },
+        {
+            "segment_id": "SBR",
+            "elements": [
+                "S",
+                "18",
+                "S2345",
+                "Other Insured Group Name",
+                "",
+                "",
+                "",
+                "",
+                "13"
+            ]
+        },
+        {
+            "segment_id": "NM1",
+            "elements": [
+                "IL",
+                "1",
+                "DOE",
+                "JANE",
+                "A",
+                "",
+                "",
+                "MI",
+                "1008716534V004619"
+            ]
+        },
+        {
+            "segment_id": "N3",
+            "elements": [
+                "444 ORANGE STREET",
+                "APT 4B"
+            ]
+        },
+        {
+            "segment_id": "N4",
+            "elements": [
+                "LAKEVILLE",
+                "TX",
+                "557143298",
+                "USA"
+            ]
+        },
+        {
+            "segment_id": "DMG",
+            "elements": [
+                "D8",
+                "19911010",
+                "F"
+            ]
+        },
+        {
+            "segment_id": "NM1",
+            "elements": [
+                "PR",
+                "2",
+                "BEST PLAN SERVICE",
+                "",
+                "",
+                "",
+                "",
+                "PI",
+                "PAYERID1234"
+            ]
+        },
+        {
+            "segment_id": "N3",
+            "elements": [
+                "3394 JACKSON DR",
+                "SUITE 117"
+            ]
+        },
+        {
+            "segment_id": "N4",
+            "elements": [
+                "SPRINGFIELD",
+                "VA",
+                "22309"
+            ]
+        },
+        {
+            "segment_id": "REF",
+            "elements": [
+                "EI",
+                "123456789"
+            ]
+        },
+        {
+            "segment_id": "REF",
+            "elements": [
+                "G2",
+                "12345"
+            ]
+        },
+        {
+            "segment_id": "HL",
+            "elements": [
+                "3",
+                "2",
+                "23",
+                "0"
+            ]
+        },
+        {
+            "segment_id": "PAT",
+            "elements": [
+                "19"
+            ]
+        },
+        {
+            "segment_id": "NM1",
+            "elements": [
+                "QC",
+                "1",
+                "DOE",
+                "FRED",
+                "J"
+            ]
+        },
+        {
+            "segment_id": "N3",
+            "elements": [
+                "123 MAIN STREET"
+            ]
+        },
+        {
+            "segment_id": "N4",
+            "elements": [
+                "KANSAS CITY",
+                "MO",
+                "64108"
+            ]
+        },
+        {
+            "segment_id": "DMG",
+            "elements": [
+                "D8",
+                "20190910",
+                "M"
+            ]
+        },
+        {
+            "segment_id": "REF",
+            "elements": [
+                "Y4",
+                "4445555"
+            ]
+        },
+        {
+            "segment_id": "CLM",
+            "elements": [
+                "ABC0002",
+                "89.93",
+                "",
+                "",
+                [
+                    "11",
+                    "A",
+                    "1"
+                ],
+                "",
+                "A",
+                "Y",
+                "Y",
+                "",
+                "OA"
+            ]
+        },
+        {
+            "segment_id": "DTP",
+            "elements": [
+                "096",
+                "TM",
+                "1300"
+            ]
+        },
+        {
+            "segment_id": "DTP",
+            "elements": [
+                "434",
+                "RD8",
+                "20190310-20190311"
+            ]
+        },
+        {
+            "segment_id": "DTP",
+            "elements": [
+                "435",
+                "DT",
+                "201903101402"
+            ]
+        },
+        {
+            "segment_id": "DTP",
+            "elements": [
+                "050",
+                "D8",
+                "20190215"
+            ]
+        },
+        {
+            "segment_id": "CL1",
+            "elements": [
+                "3",
+                "7",
+                "01"
+            ]
+        },
+        {
+            "segment_id": "PWK",
+            "elements": [
+                "OZ",
+                "BM",
+                "",
+                "",
+                "AC",
+                "DMN0012"
+            ]
+        },
+        {
+            "segment_id": "REF",
+            "elements": [
+                "4N",
+                "1"
+            ]
+        },
+        {
+            "segment_id": "REF",
+            "elements": [
+                "9F",
+                "2410628868"
+            ]
+        },
+        {
+            "segment_id": "REF",
+            "elements": [
+                "G1",
+                "PA00000024"
+            ]
+        },
+        {
+            "segment_id": "REF",
+            "elements": [
+                "F8",
+                "CLAIM04"
+            ]
+        },
+        {
+            "segment_id": "REF",
+            "elements": [
+                "D9",
+                "CLAIM0004"
+            ]
+        },
+        {
+            "segment_id": "REF",
+            "elements": [
+                "LU",
+                "DD"
+            ]
+        },
+        {
+            "segment_id": "REF",
+            "elements": [
+                "EA",
+                "44444TH56"
+            ]
+        },
+        {
+            "segment_id": "NTE",
+            "elements": [
+                "ALG",
+                "PATIENT ALLERGIC TO PENICILLIN"
+            ]
+        },
+        {
+            "segment_id": "NTE",
+            "elements": [
+                "ADD",
+                "Billing Note"
+            ]
+        },
+        {
+            "segment_id": "HI",
+            "elements": [
+                [
+                    "ABK",
+                    "M24562",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "N"
+                ]
+            ]
+        },
+        {
+            "segment_id": "HI",
+            "elements": [
+                [
+                    "ABJ",
+                    "H5988"
+                ]
+            ]
+        },
+        {
+            "segment_id": "HI",
+            "elements": [
+                [
+                    "APR",
+                    "H59369"
+                ]
+            ]
+        },
+        {
+            "segment_id": "HI",
+            "elements": [
+                [
+                    "ABN",
+                    "V4312XA"
+                ],
+                [
+                    "ABN",
+                    "Z970"
+                ],
+                [
+                    "ABN",
+                    "Z9681"
+                ]
+            ]
+        },
+        {
+            "segment_id": "HI",
+            "elements": [
+                [
+                    "DR",
+                    "025"
+                ]
+            ]
+        },
+        {
+            "segment_id": "HI",
+            "elements": [
+                [
+                    "ABF",
+                    "E8359",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "N"
+                ],
+                [
+                    "ABF",
+                    "A0102",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "Y"
+                ],
+                [
+                    "ABF",
+                    "A0103",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "Y"
+                ]
+            ]
+        },
+        {
+            "segment_id": "HI",
+            "elements": [
+                [
+                    "BBR",
+                    "009G0ZZ",
+                    "D8",
+                    "20171003"
+                ]
+            ]
+        },
+        {
+            "segment_id": "HI",
+            "elements": [
+                [
+                    "BBQ",
+                    "F01ZFEZ",
+                    "D8",
+                    "20171004"
+                ],
+                [
+                    "BBQ",
+                    "009G0ZZ",
+                    "D8",
+                    "20171013"
+                ],
+                [
+                    "BBQ",
+                    "009G0ZZ",
+                    "D8",
+                    "20171023"
+                ],
+                [
+                    "BBQ",
+                    "009K0ZZ",
+                    "D8",
+                    "20171030"
+                ],
+                [
+                    "BBQ",
+                    "009N0ZX",
+                    "D8",
+                    "20171103"
+                ],
+                [
+                    "BBQ",
+                    "B82600Z",
+                    "D8",
+                    "20171103"
+                ],
+                [
+                    "BBQ",
+                    "B806ZZZ",
+                    "D8",
+                    "20171103"
+                ],
+                [
+                    "BBQ",
+                    "B846ZZZ",
+                    "D8",
+                    "20171103"
+                ],
+                [
+                    "BBQ",
+                    "B845ZZZ",
+                    "D8",
+                    "20171123"
+                ],
+                [
+                    "BBQ",
+                    "B908YZZ",
+                    "D8",
+                    "20171123"
+                ],
+                [
+                    "BBQ",
+                    "B803ZZZ",
+                    "D8",
+                    "20171123"
+                ],
+                [
+                    "BBQ",
+                    "B8001ZZ",
+                    "D8",
+                    "20171123"
+                ]
+            ]
+        },
+        {
+            "segment_id": "HI",
+            "elements": [
+                [
+                    "BI",
+                    "01",
+                    "RD8",
+                    "20160103-20160108"
+                ],
+                [
+                    "BI",
+                    "10",
+                    "RD8",
+                    "20180101-20180110"
+                ],
+                [
+                    "BI",
+                    "11",
+                    "RD8",
+                    "20171010-20171012"
+                ],
+                [
+                    "BI",
+                    "16",
+                    "RD8",
+                    "20170810-20170816"
+                ],
+                [
+                    "BI",
+                    "18",
+                    "RD8",
+                    "20151212-20151222"
+                ],
+                [
+                    "BI",
+                    "17",
+                    "RD8",
+                    "20171224-20171231"
+                ],
+                [
+                    "BI",
+                    "36",
+                    "RD8",
+                    "20171003-20171123"
+                ],
+                [
+                    "BI",
+                    "A3",
+                    "RD8",
+                    "20180404-20180604"
+                ],
+                [
+                    "BI",
+                    "C3",
+                    "RD8",
+                    "20180422-20180424"
+                ],
+                [
+                    "BI",
+                    "25",
+                    "RD8",
+                    "20180404-20180414"
+                ],
+                [
+                    "BI",
+                    "22",
+                    "RD8",
+                    "20180430-20180501"
+                ],
+                [
+                    "BI",
+                    "24",
+                    "RD8",
+                    "20180506-20180507"
+                ]
+            ]
+        },
+        {
+            "segment_id": "HI",
+            "elements": [
+                [
+                    "BH",
+                    "40",
+                    "D8",
+                    "20160103"
+                ],
+                [
+                    "BH",
+                    "10",
+                    "D8",
+                    "20180101"
+                ],
+                [
+                    "BH",
+                    "11",
+                    "D8",
+                    "20171010"
+                ],
+                [
+                    "BH",
+                    "16",
+                    "D8",
+                    "20170810"
+                ],
+                [
+                    "BH",
+                    "18",
+                    "D8",
+                    "20151212"
+                ],
+                [
+                    "BH",
+                    "17",
+                    "D8",
+                    "20171224"
+                ],
+                [
+                    "BH",
+                    "36",
+                    "D8",
+                    "20171003"
+                ],
+                [
+                    "BH",
+                    "A3",
+                    "D8",
+                    "20180404"
+                ],
+                [
+                    "BH",
+                    "C3",
+                    "D8",
+                    "20180422"
+                ],
+                [
+                    "BH",
+                    "25",
+                    "D8",
+                    "20180404"
+                ],
+                [
+                    "BH",
+                    "22",
+                    "D8",
+                    "20180430"
+                ],
+                [
+                    "BH",
+                    "24",
+                    "BH",
+                    "20180506"
+                ]
+            ]
+        },
+        {
+            "segment_id": "HI",
+            "elements": [
+                [
+                    "BE",
+                    "01",
+                    "",
+                    "",
+                    "73.42"
+                ],
+                [
+                    "BE",
+                    "20",
+                    "",
+                    "",
+                    "76.54"
+                ],
+                [
+                    "BE",
+                    "17",
+                    "",
+                    "",
+                    "1176.54"
+                ],
+                [
+                    "BE",
+                    "31",
+                    "",
+                    "",
+                    "2255.85"
+                ],
+                [
+                    "BE",
+                    "B1",
+                    "",
+                    "",
+                    "150.00"
+                ],
+                [
+                    "BE",
+                    "23",
+                    "",
+                    "",
+                    "4400.35"
+                ],
+                [
+                    "BE",
+                    "24",
+                    "",
+                    "",
+                    "1500.25"
+                ],
+                [
+                    "BE",
+                    "47",
+                    "",
+                    "",
+                    "876.54"
+                ],
+                [
+                    "BE",
+                    "62",
+                    "",
+                    "",
+                    "76.54"
+                ],
+                [
+                    "BE",
+                    "70",
+                    "",
+                    "",
+                    "16.54"
+                ],
+                [
+                    "BE",
+                    "66",
+                    "",
+                    "",
+                    "500.54"
+                ],
+                [
+                    "BE",
+                    "55",
+                    "",
+                    "",
+                    "6.99"
+                ]
+            ]
+        },
+        {
+            "segment_id": "HI",
+            "elements": [
+                [
+                    "BE",
+                    "20",
+                    "",
+                    "",
+                    "76.54"
+                ]
+            ]
+        },
+        {
+            "segment_id": "HI",
+            "elements": [
+                [
+                    "BG",
+                    "03"
+                ],
+                [
+                    "BG",
+                    "04"
+                ],
+                [
+                    "BG",
+                    "12"
+                ],
+                [
+                    "BG",
+                    "20"
+                ],
+                [
+                    "BG",
+                    "22"
+                ],
+                [
+                    "BG",
+                    "26"
+                ],
+                [
+                    "BG",
+                    "28"
+                ],
+                [
+                    "BG",
+                    "39"
+                ],
+                [
+                    "BG",
+                    "41"
+                ],
+                [
+                    "BG",
+                    "71"
+                ],
+                [
+                    "BG",
+                    "73"
+                ],
+                [
+                    "BG",
+                    "A0"
+                ]
+            ]
+        },
+        {
+            "segment_id": "HCP",
+            "elements": [
+                "03",
+                "100",
+                "10",
+                "36C79119D0004",
+                "20",
+                "011",
+                "225.50",
+                [
+                    "HC",
+                    "81099"
+                ],
+                "34.50",
+                "AB",
+                "AK",
+                "01",
+                "12",
+                "T1",
+                "4"
+            ]
+        },
+        {
+            "segment_id": "NM1",
+            "elements": [
+                "71",
+                "1",
+                "JONES",
+                "ALEX",
+                "A",
+                "",
+                "",
+                "XX",
+                "1699222100"
+            ]
+        },
+        {
+            "segment_id": "PRV",
+            "elements": [
+                "AT",
+                "PXC",
+                "208D00000X"
+            ]
+        },
+        {
+            "segment_id": "REF",
+            "elements": [
+                "LU",
+                "12345"
+            ]
+        },
+        {
+            "segment_id": "NM1",
+            "elements": [
+                "72",
+                "1",
+                "BELL",
+                "RITA",
+                "H",
+                "",
+                "",
+                "XX",
+                "OPRDOC1234"
+            ]
+        },
+        {
+            "segment_id": "NM1",
+            "elements": [
+                "ZZ",
+                "1",
+                "JOHNSON",
+                "SALLY",
+                "M",
+                "",
+                "",
+                "XX",
+                "OTHOPR1234"
+            ]
+        },
+        {
+            "segment_id": "NM1",
+            "elements": [
+                "82",
+                "1",
+                "DAVIDSON",
+                "MICHELLE",
+                "S",
+                "",
+                "",
+                "XX",
+                "9995553336"
+            ]
+        },
+        {
+            "segment_id": "NM1",
+            "elements": [
+                "77",
+                "2",
+                "BEST HEALTH CENTER",
+                "",
+                "",
+                "",
+                "",
+                "XX",
+                "1689432123"
+            ]
+        },
+        {
+            "segment_id": "N3",
+            "elements": [
+                "123 HEALTHY ST",
+                "SUITE 2000"
+            ]
+        },
+        {
+            "segment_id": "N4",
+            "elements": [
+                "FAIRFAX",
+                "VA",
+                "22042",
+                "USA"
+            ]
+        },
+        {
+            "segment_id": "NM1",
+            "elements": [
+                "DN",
+                "1",
+                "SMITH",
+                "JOHN",
+                "A",
+                "",
+                "",
+                "XX",
+                "ORDPRV2468"
+            ]
+        },
+        {
+            "segment_id": "SBR",
+            "elements": [
+                "P",
+                "18",
+                "GR00786",
+                "Other Insured Group Name",
+                "12",
+                "",
+                "",
+                "",
+                "CI"
+            ]
+        },
+        {
+            "segment_id": "CAS",
+            "elements": [
+                "CR",
+                "26",
+                "55.00",
+                "1",
+                "90",
+                "65.55",
+                "1",
+                "70",
+                "73.03",
+                "2",
+                "20",
+                "85.15",
+                "1",
+                "102",
+                "99.99",
+                "1",
+                "4",
+                "102.22",
+                "1"
+            ]
+        },
+        {
+            "segment_id": "CAS",
+            "elements": [
+                "PI",
+                "2",
+                "25.00",
+                "1",
+                "3",
+                "25.55",
+                "1",
+                "2",
+                "33.03",
+                "2",
+                "75",
+                "45.15",
+                "1",
+                "22",
+                "59.99",
+                "1",
+                "2",
+                "62.22",
+                "1"
+            ]
+        },
+        {
+            "segment_id": "AMT",
+            "elements": [
+                "D",
+                "8852.72"
+            ]
+        },
+        {
+            "segment_id": "AMT",
+            "elements": [
+                "A8",
+                "780"
+            ]
+        },
+        {
+            "segment_id": "AMT",
+            "elements": [
+                "EAF",
+                "60"
+            ]
+        },
+        {
+            "segment_id": "OI",
+            "elements": [
+                "",
+                "",
+                "Y",
+                "",
+                "",
+                "Y"
+            ]
+        },
+        {
+            "segment_id": "MIA",
+            "elements": [
+                "1",
+                "",
+                "1",
+                "255.05",
+                "N118",
+                "288.08",
+                "38.88",
+                "83.03",
+                "15.65",
+                "25.00",
+                "22.99",
+                "46.36",
+                "52.28",
+                "99.99",
+                "1",
+                "71.12",
+                "26.55",
+                "18.08",
+                "36.00",
+                "M2",
+                "MA54",
+                "MA41",
+                "M30",
+                "240.00"
+            ]
+        },
+        {
+            "segment_id": "MOA",
+            "elements": [
+                "85.00",
+                "158.58",
+                "M71",
+                "MA54",
+                "N28",
+                "N118",
+                "MA127",
+                "82.23",
+                "12.42"
+            ]
+        },
+        {
+            "segment_id": "NM1",
+            "elements": [
+                "IL",
+                "1",
+                "DOE",
+                "JANE",
+                "A",
+                "",
+                "",
+                "MI",
+                "123456789"
+            ]
+        },
+        {
+            "segment_id": "N3",
+            "elements": [
+                "444 ORANGE STREET",
+                "APT 4B"
+            ]
+        },
+        {
+            "segment_id": "N4",
+            "elements": [
+                "LAKEVILLE",
+                "TX",
+                "557143298"
+            ]
+        },
+        {
+            "segment_id": "NM1",
+            "elements": [
+                "PR",
+                "2",
+                "OTHER PAYER",
+                "",
+                "",
+                "",
+                "",
+                "PI",
+                "12345"
+            ]
+        },
+        {
+            "segment_id": "N3",
+            "elements": [
+                "PO BOX 7901",
+                "DEP 2"
+            ]
+        },
+        {
+            "segment_id": "N4",
+            "elements": [
+                "MADISON",
+                "MA",
+                "53707"
+            ]
+        },
+        {
+            "segment_id": "DTP",
+            "elements": [
+                "573",
+                "D8",
+                "20190310"
+            ]
+        },
+        {
+            "segment_id": "REF",
+            "elements": [
+                "FY",
+                "98765"
+            ]
+        },
+        {
+            "segment_id": "REF",
+            "elements": [
+                "EI",
+                "987654321"
+            ]
+        },
+        {
+            "segment_id": "REF",
+            "elements": [
+                "T4",
+                "Y"
+            ]
+        },
+        {
+            "segment_id": "REF",
+            "elements": [
+                "F8",
+                "CLAIM014"
+            ]
+        },
+        {
+            "segment_id": "NM1",
+            "elements": [
+                "71",
+                "1"
+            ]
+        },
+        {
+            "segment_id": "REF",
+            "elements": [
+                "G2",
+                "12345"
+            ]
+        },
+        {
+            "segment_id": "NM1",
+            "elements": [
+                "72",
+                "1"
+            ]
+        },
+        {
+            "segment_id": "REF",
+            "elements": [
+                "G2",
+                "12345"
+            ]
+        },
+        {
+            "segment_id": "NM1",
+            "elements": [
+                "ZZ",
+                "1"
+            ]
+        },
+        {
+            "segment_id": "REF",
+            "elements": [
+                "G2",
+                "12345"
+            ]
+        },
+        {
+            "segment_id": "NM1",
+            "elements": [
+                "77",
+                "1"
+            ]
+        },
+        {
+            "segment_id": "REF",
+            "elements": [
+                "G2",
+                "12345"
+            ]
+        },
+        {
+            "segment_id": "NM1",
+            "elements": [
+                "82",
+                "1"
+            ]
+        },
+        {
+            "segment_id": "REF",
+            "elements": [
+                "G2",
+                "12345"
+            ]
+        },
+        {
+            "segment_id": "NM1",
+            "elements": [
+                "DN",
+                "1"
+            ]
+        },
+        {
+            "segment_id": "REF",
+            "elements": [
+                "G2",
+                "12345"
+            ]
+        },
+        {
+            "segment_id": "NM1",
+            "elements": [
+                "85",
+                "1",
+                "DOE",
+                "JANE",
+                "A",
+                "",
+                "",
+                "MI",
+                "OtherPayerBilling"
+            ]
+        },
+        {
+            "segment_id": "REF",
+            "elements": [
+                "G2",
+                "12345"
+            ]
+        },
+        {
+            "segment_id": "LX",
+            "elements": [
+                "1"
+            ]
+        },
+        {
+            "segment_id": "SV2",
+            "elements": [
+                "0300",
+                [
+                    "HC",
+                    "81099",
+                    "A1",
+                    "05",
+                    "02",
+                    "01",
+                    "Short description"
+                ],
+                "173.42",
+                "UN",
+                "1",
+                "",
+                "11.07"
+            ]
+        },
+        {
+            "segment_id": "PWK",
+            "elements": [
+                "OZ",
+                "BM",
+                "",
+                "",
+                "AC",
+                "DMN0012"
+            ]
+        },
+        {
+            "segment_id": "DTP",
+            "elements": [
+                "472",
+                "RD8",
+                "20190310-20190511"
+            ]
+        },
+        {
+            "segment_id": "REF",
+            "elements": [
+                "6R",
+                "LX0004-1"
+            ]
+        },
+        {
+            "segment_id": "NTE",
+            "elements": [
+                "TPO",
+                "state regulation 123 was applied during the pricing of this claim"
+            ]
+        },
+        {
+            "segment_id": "HCP",
+            "elements": [
+                "03",
+                "100",
+                "10",
+                "RPO12345",
+                "20",
+                "011",
+                "225.50",
+                [
+                    "HC",
+                    "81099"
+                ],
+                "34.50",
+                "AB",
+                "AK",
+                "01",
+                "12",
+                "T1",
+                "4"
+            ]
+        },
+        {
+            "segment_id": "LIN",
+            "elements": [
+                "",
+                "N4",
+                "00002143481"
+            ]
+        },
+        {
+            "segment_id": "CTP",
+            "elements": [
+                "",
+                "",
+                "",
+                "1.01",
+                "UN"
+            ]
+        },
+        {
+            "segment_id": "REF",
+            "elements": [
+                "XZ",
+                "123456"
+            ]
+        },
+        {
+            "segment_id": "NM1",
+            "elements": [
+                "72",
+                "1",
+                "HAMILTON",
+                "ANAYA",
+                "H",
+                "",
+                "",
+                "XX",
+                "OPRPHY4321"
+            ]
+        },
+        {
+            "segment_id": "NM1",
+            "elements": [
+                "ZZ",
+                "1",
+                "BLUE",
+                "KELLY",
+                "M",
+                "",
+                "",
+                "XX",
+                "OTHOPR4321"
+            ]
+        },
+        {
+            "segment_id": "NM1",
+            "elements": [
+                "82",
+                "1",
+                "BIG",
+                "ANNA",
+                "A",
+                "",
+                "",
+                "XX",
+                "9998887777"
+            ]
+        },
+        {
+            "segment_id": "NM1",
+            "elements": [
+                "DN",
+                "1",
+                "THRONBERRY",
+                "JOHN",
+                "L",
+                "",
+                "",
+                "XX",
+                "REFPRV8642"
+            ]
+        },
+        {
+            "segment_id": "SVD",
+            "elements": [
+                "P123",
+                "173.42",
+                [
+                    "HC",
+                    "81099",
+                    "01",
+                    "02",
+                    "03",
+                    "04",
+                    "UNLISTED URINALYSIS PROCEDURE",
+                    "26"
+                ],
+                "",
+                "2",
+                "3"
+            ]
+        },
+        {
+            "segment_id": "CAS",
+            "elements": [
+                "OA",
+                "12",
+                "18.00",
+                "1",
+                "2",
+                "65.55",
+                "1",
+                "91",
+                "33.03",
+                "2",
+                "3",
+                "55.15",
+                "1",
+                "161",
+                "99.99",
+                "1",
+                "130",
+                "82.22",
+                "1"
+            ]
+        },
+        {
+            "segment_id": "CAS",
+            "elements": [
+                "PR",
+                "2",
+                "35.00",
+                "1"
+            ]
+        },
+        {
+            "segment_id": "CAS",
+            "elements": [
+                "PI",
+                "1",
+                "6600.00",
+                "1"
+            ]
+        },
+        {
+            "segment_id": "DTP",
+            "elements": [
+                "573",
+                "D8",
+                "20190310"
+            ]
+        },
+        {
+            "segment_id": "AMT",
+            "elements": [
+                "EAF",
+                "75"
+            ]
+        },
+        {
+            "segment_id": "LX",
+            "elements": [
+                "2"
+            ]
+        },
+        {
+            "segment_id": "SV2",
+            "elements": [
+                "0730",
+                [
+                    "HC",
+                    "00842",
+                    "14",
+                    "28",
+                    "34",
+                    "08",
+                    "Sample procedure"
+                ],
+                "86.54",
+                "UN",
+                "1",
+                "",
+                "28.01"
+            ]
+        },
+        {
+            "segment_id": "PWK",
+            "elements": [
+                "ZZ",
+                "BC",
+                "",
+                "",
+                "AB",
+                "TPM0048"
+            ]
+        },
+        {
+            "segment_id": "DTP",
+            "elements": [
+                "472",
+                "D8",
+                "20190310"
+            ]
+        },
+        {
+            "segment_id": "REF",
+            "elements": [
+                "6R",
+                "LX0004-2"
+            ]
+        },
+        {
+            "segment_id": "LIN",
+            "elements": [
+                "",
+                "N4",
+                "00093-0051-05"
+            ]
+        },
+        {
+            "segment_id": "CTP",
+            "elements": [
+                "",
+                "",
+                "",
+                "5",
+                "UN"
+            ]
+        },
+        {
+            "segment_id": "REF",
+            "elements": [
+                "XZ",
+                "945632"
+            ]
+        },
+        {
+            "segment_id": "NM1",
+            "elements": [
+                "72",
+                "1",
+                "HAMILTON",
+                "ANAYA",
+                "H",
+                "",
+                "",
+                "XX",
+                "OPRPHY4321"
+            ]
+        },
+        {
+            "segment_id": "NM1",
+            "elements": [
+                "ZZ",
+                "1",
+                "BLUE",
+                "KELLY",
+                "M",
+                "",
+                "",
+                "XX",
+                "OTHOPR4321"
+            ]
+        },
+        {
+            "segment_id": "NM1",
+            "elements": [
+                "82",
+                "1",
+                "BIG",
+                "ANNA",
+                "A",
+                "",
+                "",
+                "XX",
+                "9998887777"
+            ]
+        },
+        {
+            "segment_id": "NM1",
+            "elements": [
+                "DN",
+                "1",
+                "THRONBERRY",
+                "JOHN",
+                "M",
+                "",
+                "",
+                "XX",
+                "REFPRV8642"
+            ]
+        },
+        {
+            "segment_id": "SVD",
+            "elements": [
+                "P123",
+                "76.54",
+                [
+                    "HC",
+                    "93005",
+                    "02",
+                    "05",
+                    "07",
+                    "09",
+                    "ECG ROUTINE ECG W/LEAST 12 LDS TRCG ONLY W/O I&R",
+                    "26"
+                ],
+                "",
+                "1",
+                "5"
+            ]
+        },
+        {
+            "segment_id": "CAS",
+            "elements": [
+                "OA",
+                "136",
+                "15.00",
+                "1",
+                "B4",
+                "95.55",
+                "1",
+                "186",
+                "73.03",
+                "2",
+                "235",
+                "15.15",
+                "1",
+                "P29",
+                "39.99",
+                "1",
+                "A0",
+                "92.22",
+                "1"
+            ]
+        },
+        {
+            "segment_id": "CAS",
+            "elements": [
+                "PR",
+                "2",
+                "65.00",
+                "1"
+            ]
+        },
+        {
+            "segment_id": "CAS",
+            "elements": [
+                "PI",
+                "1",
+                "3600.00",
+                "1"
+            ]
+        },
+        {
+            "segment_id": "DTP",
+            "elements": [
+                "573",
+                "D8",
+                "20190310"
+            ]
+        },
+        {
+            "segment_id": "AMT",
+            "elements": [
+                "EAF",
+                "20"
+            ]
+        },
+        {
+            "segment_id": "SE",
+            "elements": [
+                "104",
+                "00000024"
+            ]
+        },
+        {
+            "segment_id": "GE",
+            "elements": [
+                "1",
+                "000004513"
+            ]
+        },
+        {
+            "segment_id": "IEA",
+            "elements": [
+                "1",
+                "000000001"
+            ]
+        }
+    ]
+}

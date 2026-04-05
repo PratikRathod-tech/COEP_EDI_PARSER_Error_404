@@ -1,0 +1,28 @@
+{
+    "x12simple": [
+        {
+            "Interchange Control Header Loop (ISA_LOOP)": [
+                {
+                    "Interchange Control Header (ISA)": {
+                        "ISA01": "00",
+                        "ISA02": "          ",
+                        "ISA03": "00",
+                        "ISA04": "          ",
+                        "ISA05": "ZZ",
+                        "ISA06": "RECEIVERID     ",
+                        "ISA07": "ZZ",
+                        "ISA08": "SENDERID       ",
+                        "ISA09": "200711",
+                        "ISA10": "0100",
+                        "ISA11": "^",
+                        "ISA12": "00501",
+                        "ISA13": "000000001",
+                        "ISA14": "0",
+                        "ISA15": "T",
+                        "ISA16": ":"
+                    }
+                }
+            ]
+        }
+    ]
+}

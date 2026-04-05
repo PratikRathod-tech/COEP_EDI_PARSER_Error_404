@@ -1,0 +1,1353 @@
+{
+    "Custom Mapper Output": "Activated for Institutional/Dental 837",
+    "Header": [],
+    "Provider_Loops_2000A": [],
+    "Subscriber_Loops_2000B": [],
+    "Patient_Loops_2000C": [],
+    "Claims_2300": [
+        {
+            "Claim_ID": "ABC0002",
+            "Details": {
+                "CLM Segment Details": {
+                    "Claim Submitter's Identifier (CLM01)": "ABC0002",
+                    "Total Claim Charge Amount (CLM02)": "89.93",
+                    "Facility Type Code (CLM05)": [
+                        "11",
+                        "A",
+                        "1"
+                    ],
+                    "Provider Accept Assignment (CLM07)": "A",
+                    "Benefits Assignment (CLM08)": "Y",
+                    "Release of Information (CLM09)": "Y",
+                    "CLM_11": "OA"
+                },
+                "DTP Segment Details": [
+                    {
+                        "Date Time Qualifier (DTP01)": "096",
+                        "Date Time Period Format Qualifier (DTP02)": "TM",
+                        "Date Time Period (DTP03)": "1300"
+                    },
+                    {
+                        "Date Time Qualifier (DTP01)": "434",
+                        "Date Time Period Format Qualifier (DTP02)": "RD8",
+                        "Date Time Period (DTP03)": "20190310-20190311"
+                    },
+                    {
+                        "Date Time Qualifier (DTP01)": "435",
+                        "Date Time Period Format Qualifier (DTP02)": "DT",
+                        "Date Time Period (DTP03)": "201903101402"
+                    },
+                    {
+                        "Date Time Qualifier (DTP01)": "050",
+                        "Date Time Period Format Qualifier (DTP02)": "D8",
+                        "Date Time Period (DTP03)": "20190215"
+                    }
+                ],
+                "Segment CL1": [
+                    "3",
+                    "7",
+                    "01"
+                ],
+                "Segment PWK": [
+                    "OZ",
+                    "BM",
+                    "",
+                    "",
+                    "AC",
+                    "DMN0012"
+                ],
+                "Reference Information": [
+                    {
+                        "Reference Identification Qualifier (REF01)": "4N",
+                        "Reference Identification (REF02)": "1"
+                    },
+                    {
+                        "Reference Identification Qualifier (REF01)": "F8",
+                        "Reference Identification (REF02)": "CLAIM04"
+                    },
+                    {
+                        "Reference Identification Qualifier (REF01)": "D9",
+                        "Reference Identification (REF02)": "CLAIM0004"
+                    },
+                    {
+                        "Reference Identification Qualifier (REF01)": "LU",
+                        "Reference Identification (REF02)": "DD"
+                    },
+                    {
+                        "Reference Identification Qualifier (REF01)": "EA",
+                        "Reference Identification (REF02)": "44444TH56"
+                    },
+                    {
+                        "Reference Identification Qualifier (REF01)": "LU",
+                        "Reference Identification (REF02)": "12345"
+                    }
+                ],
+                "Referral": {
+                    "Reference Identification Qualifier (REF01)": "9F",
+                    "Reference Identification (REF02)": "2410628868"
+                },
+                "Prior Auth": {
+                    "Reference Identification Qualifier (REF01)": "G1",
+                    "Reference Identification (REF02)": "PA00000024"
+                },
+                "Segment NTE": [
+                    "ALG",
+                    "PATIENT ALLERGIC TO PENICILLIN",
+                    [
+                        "ADD",
+                        "Billing Note"
+                    ]
+                ],
+                "Health Care Diagnosis Codes (HI)": [
+                    {
+                        "Qualifier": "ABK",
+                        "Code": "M24562"
+                    },
+                    [
+                        {
+                            "Qualifier": "ABJ",
+                            "Code": "H5988"
+                        }
+                    ],
+                    [
+                        {
+                            "Qualifier": "APR",
+                            "Code": "H59369"
+                        }
+                    ],
+                    [
+                        {
+                            "Qualifier": "ABN",
+                            "Code": "V4312XA"
+                        },
+                        {
+                            "Qualifier": "ABN",
+                            "Code": "Z970"
+                        },
+                        {
+                            "Qualifier": "ABN",
+                            "Code": "Z9681"
+                        }
+                    ],
+                    [
+                        {
+                            "Qualifier": "DR",
+                            "Code": "025"
+                        }
+                    ],
+                    [
+                        {
+                            "Qualifier": "ABF",
+                            "Code": "E8359"
+                        },
+                        {
+                            "Qualifier": "ABF",
+                            "Code": "A0102"
+                        },
+                        {
+                            "Qualifier": "ABF",
+                            "Code": "A0103"
+                        }
+                    ],
+                    [
+                        {
+                            "Qualifier": "BBR",
+                            "Code": "009G0ZZ"
+                        }
+                    ],
+                    [
+                        {
+                            "Qualifier": "BBQ",
+                            "Code": "F01ZFEZ"
+                        },
+                        {
+                            "Qualifier": "BBQ",
+                            "Code": "009G0ZZ"
+                        },
+                        {
+                            "Qualifier": "BBQ",
+                            "Code": "009G0ZZ"
+                        },
+                        {
+                            "Qualifier": "BBQ",
+                            "Code": "009K0ZZ"
+                        },
+                        {
+                            "Qualifier": "BBQ",
+                            "Code": "009N0ZX"
+                        },
+                        {
+                            "Qualifier": "BBQ",
+                            "Code": "B82600Z"
+                        },
+                        {
+                            "Qualifier": "BBQ",
+                            "Code": "B806ZZZ"
+                        },
+                        {
+                            "Qualifier": "BBQ",
+                            "Code": "B846ZZZ"
+                        },
+                        {
+                            "Qualifier": "BBQ",
+                            "Code": "B845ZZZ"
+                        },
+                        {
+                            "Qualifier": "BBQ",
+                            "Code": "B908YZZ"
+                        },
+                        {
+                            "Qualifier": "BBQ",
+                            "Code": "B803ZZZ"
+                        },
+                        {
+                            "Qualifier": "BBQ",
+                            "Code": "B8001ZZ"
+                        }
+                    ],
+                    [
+                        {
+                            "Qualifier": "BI",
+                            "Code": "01"
+                        },
+                        {
+                            "Qualifier": "BI",
+                            "Code": "10"
+                        },
+                        {
+                            "Qualifier": "BI",
+                            "Code": "11"
+                        },
+                        {
+                            "Qualifier": "BI",
+                            "Code": "16"
+                        },
+                        {
+                            "Qualifier": "BI",
+                            "Code": "18"
+                        },
+                        {
+                            "Qualifier": "BI",
+                            "Code": "17"
+                        },
+                        {
+                            "Qualifier": "BI",
+                            "Code": "36"
+                        },
+                        {
+                            "Qualifier": "BI",
+                            "Code": "A3"
+                        },
+                        {
+                            "Qualifier": "BI",
+                            "Code": "C3"
+                        },
+                        {
+                            "Qualifier": "BI",
+                            "Code": "25"
+                        },
+                        {
+                            "Qualifier": "BI",
+                            "Code": "22"
+                        },
+                        {
+                            "Qualifier": "BI",
+                            "Code": "24"
+                        }
+                    ],
+                    [
+                        {
+                            "Qualifier": "BH",
+                            "Code": "40"
+                        },
+                        {
+                            "Qualifier": "BH",
+                            "Code": "10"
+                        },
+                        {
+                            "Qualifier": "BH",
+                            "Code": "11"
+                        },
+                        {
+                            "Qualifier": "BH",
+                            "Code": "16"
+                        },
+                        {
+                            "Qualifier": "BH",
+                            "Code": "18"
+                        },
+                        {
+                            "Qualifier": "BH",
+                            "Code": "17"
+                        },
+                        {
+                            "Qualifier": "BH",
+                            "Code": "36"
+                        },
+                        {
+                            "Qualifier": "BH",
+                            "Code": "A3"
+                        },
+                        {
+                            "Qualifier": "BH",
+                            "Code": "C3"
+                        },
+                        {
+                            "Qualifier": "BH",
+                            "Code": "25"
+                        },
+                        {
+                            "Qualifier": "BH",
+                            "Code": "22"
+                        },
+                        {
+                            "Qualifier": "BH",
+                            "Code": "24"
+                        }
+                    ],
+                    [
+                        {
+                            "Qualifier": "BE",
+                            "Code": "01"
+                        },
+                        {
+                            "Qualifier": "BE",
+                            "Code": "20"
+                        },
+                        {
+                            "Qualifier": "BE",
+                            "Code": "17"
+                        },
+                        {
+                            "Qualifier": "BE",
+                            "Code": "31"
+                        },
+                        {
+                            "Qualifier": "BE",
+                            "Code": "B1"
+                        },
+                        {
+                            "Qualifier": "BE",
+                            "Code": "23"
+                        },
+                        {
+                            "Qualifier": "BE",
+                            "Code": "24"
+                        },
+                        {
+                            "Qualifier": "BE",
+                            "Code": "47"
+                        },
+                        {
+                            "Qualifier": "BE",
+                            "Code": "62"
+                        },
+                        {
+                            "Qualifier": "BE",
+                            "Code": "70"
+                        },
+                        {
+                            "Qualifier": "BE",
+                            "Code": "66"
+                        },
+                        {
+                            "Qualifier": "BE",
+                            "Code": "55"
+                        }
+                    ],
+                    [
+                        {
+                            "Qualifier": "BE",
+                            "Code": "20"
+                        }
+                    ],
+                    [
+                        {
+                            "Qualifier": "BG",
+                            "Code": "03"
+                        },
+                        {
+                            "Qualifier": "BG",
+                            "Code": "04"
+                        },
+                        {
+                            "Qualifier": "BG",
+                            "Code": "12"
+                        },
+                        {
+                            "Qualifier": "BG",
+                            "Code": "20"
+                        },
+                        {
+                            "Qualifier": "BG",
+                            "Code": "22"
+                        },
+                        {
+                            "Qualifier": "BG",
+                            "Code": "26"
+                        },
+                        {
+                            "Qualifier": "BG",
+                            "Code": "28"
+                        },
+                        {
+                            "Qualifier": "BG",
+                            "Code": "39"
+                        },
+                        {
+                            "Qualifier": "BG",
+                            "Code": "41"
+                        },
+                        {
+                            "Qualifier": "BG",
+                            "Code": "71"
+                        },
+                        {
+                            "Qualifier": "BG",
+                            "Code": "73"
+                        },
+                        {
+                            "Qualifier": "BG",
+                            "Code": "A0"
+                        }
+                    ]
+                ],
+                "Segment HCP": [
+                    "03",
+                    "100",
+                    "10",
+                    "36C79119D0004",
+                    "20",
+                    "011",
+                    "225.50",
+                    [
+                        "HC",
+                        "81099"
+                    ],
+                    "34.50",
+                    "AB",
+                    "AK",
+                    "01",
+                    "12",
+                    "T1",
+                    "4"
+                ],
+                "Entity Name": [
+                    {
+                        "Entity Identifier Code (NM101)": "71",
+                        "Entity Type Qualifier (NM102)": "1",
+                        "Last or Organization Name (NM103)": "JONES",
+                        "First Name (NM104)": "ALEX",
+                        "NM1_05": "A",
+                        "Identification Code Qualifier (NM108)": "XX",
+                        "Identification Code (NM109)": "1699222100"
+                    },
+                    {
+                        "Entity Identifier Code (NM101)": "72",
+                        "Entity Type Qualifier (NM102)": "1",
+                        "Last or Organization Name (NM103)": "BELL",
+                        "First Name (NM104)": "RITA",
+                        "NM1_05": "H",
+                        "Identification Code Qualifier (NM108)": "XX",
+                        "Identification Code (NM109)": "OPRDOC1234"
+                    },
+                    {
+                        "Entity Identifier Code (NM101)": "ZZ",
+                        "Entity Type Qualifier (NM102)": "1",
+                        "Last or Organization Name (NM103)": "JOHNSON",
+                        "First Name (NM104)": "SALLY",
+                        "NM1_05": "M",
+                        "Identification Code Qualifier (NM108)": "XX",
+                        "Identification Code (NM109)": "OTHOPR1234"
+                    }
+                ],
+                "Segment PRV": [
+                    "AT",
+                    "PXC",
+                    "208D00000X"
+                ]
+            },
+            "Rendering_Provider_2310B": {
+                "Rendering Provider": [
+                    {
+                        "Entity Identifier Code (NM101)": "82",
+                        "Entity Type Qualifier (NM102)": "1",
+                        "Last or Organization Name (NM103)": "DAVIDSON",
+                        "First Name (NM104)": "MICHELLE",
+                        "NM1_05": "S",
+                        "Identification Code Qualifier (NM108)": "XX",
+                        "Identification Code (NM109)": "9995553336"
+                    },
+                    {
+                        "Entity Identifier Code (NM101)": "82",
+                        "Entity Type Qualifier (NM102)": "1"
+                    }
+                ],
+                "Reference Information": {
+                    "Reference Identification Qualifier (REF01)": "G2",
+                    "Reference Identification (REF02)": "12345"
+                }
+            },
+            "Service_Location_2310C": {
+                "Entity Name": [
+                    {
+                        "Entity Identifier Code (NM101)": "77",
+                        "Entity Type Qualifier (NM102)": "2",
+                        "Last or Organization Name (NM103)": "BEST HEALTH CENTER",
+                        "Identification Code Qualifier (NM108)": "XX",
+                        "Identification Code (NM109)": "1689432123"
+                    },
+                    {
+                        "Entity Identifier Code (NM101)": "77",
+                        "Entity Type Qualifier (NM102)": "1"
+                    }
+                ],
+                "Segment N3": [
+                    "123 HEALTHY ST",
+                    "SUITE 2000"
+                ],
+                "Segment N4": [
+                    "FAIRFAX",
+                    "VA",
+                    "22042",
+                    "USA"
+                ],
+                "Reference Information": {
+                    "Reference Identification Qualifier (REF01)": "G2",
+                    "Reference Identification (REF02)": "12345"
+                }
+            },
+            "Referring_Provider_2310A": {
+                "Referring": [
+                    {
+                        "Entity Identifier Code (NM101)": "DN",
+                        "Entity Type Qualifier (NM102)": "1",
+                        "Last or Organization Name (NM103)": "SMITH",
+                        "First Name (NM104)": "JOHN",
+                        "NM1_05": "A",
+                        "Identification Code Qualifier (NM108)": "XX",
+                        "Identification Code (NM109)": "ORDPRV2468"
+                    },
+                    {
+                        "Entity Identifier Code (NM101)": "DN",
+                        "Entity Type Qualifier (NM102)": "1"
+                    }
+                ],
+                "Segment SBR": [
+                    "P",
+                    "18",
+                    "GR00786",
+                    "Other Insured Group Name",
+                    "12",
+                    "",
+                    "",
+                    "",
+                    "CI"
+                ],
+                "CAS Segment Details": [
+                    {
+                        "Claim Adjustment Group Code (CAS01)": "CR",
+                        "Adjustment Reason Code (CAS02)": "26",
+                        "Adjustment Amount (CAS03)": "55.00",
+                        "Adjustment Quantity (CAS04)": "1",
+                        "Adjustment Reason Code (CAS05)": "90",
+                        "Adjustment Amount (CAS06)": "65.55",
+                        "CAS_07": "1",
+                        "CAS_08": "70",
+                        "CAS_09": "73.03",
+                        "CAS_10": "2",
+                        "CAS_11": "20",
+                        "CAS_12": "85.15",
+                        "CAS_13": "1",
+                        "CAS_14": "102",
+                        "CAS_15": "99.99",
+                        "CAS_16": "1",
+                        "CAS_17": "4",
+                        "CAS_18": "102.22",
+                        "CAS_19": "1"
+                    },
+                    {
+                        "Claim Adjustment Group Code (CAS01)": "PI",
+                        "Adjustment Reason Code (CAS02)": "2",
+                        "Adjustment Amount (CAS03)": "25.00",
+                        "Adjustment Quantity (CAS04)": "1",
+                        "Adjustment Reason Code (CAS05)": "3",
+                        "Adjustment Amount (CAS06)": "25.55",
+                        "CAS_07": "1",
+                        "CAS_08": "2",
+                        "CAS_09": "33.03",
+                        "CAS_10": "2",
+                        "CAS_11": "75",
+                        "CAS_12": "45.15",
+                        "CAS_13": "1",
+                        "CAS_14": "22",
+                        "CAS_15": "59.99",
+                        "CAS_16": "1",
+                        "CAS_17": "2",
+                        "CAS_18": "62.22",
+                        "CAS_19": "1"
+                    }
+                ],
+                "AMT Segment Details": [
+                    {
+                        "Amount Qualifier Code (AMT01)": "D",
+                        "Monetary Amount (AMT02)": "8852.72"
+                    },
+                    {
+                        "Amount Qualifier Code (AMT01)": "A8",
+                        "Monetary Amount (AMT02)": "780"
+                    },
+                    {
+                        "Amount Qualifier Code (AMT01)": "EAF",
+                        "Monetary Amount (AMT02)": "60"
+                    }
+                ],
+                "Segment OI": [
+                    "",
+                    "",
+                    "Y",
+                    "",
+                    "",
+                    "Y"
+                ],
+                "Segment MIA": [
+                    "1",
+                    "",
+                    "1",
+                    "255.05",
+                    "N118",
+                    "288.08",
+                    "38.88",
+                    "83.03",
+                    "15.65",
+                    "25.00",
+                    "22.99",
+                    "46.36",
+                    "52.28",
+                    "99.99",
+                    "1",
+                    "71.12",
+                    "26.55",
+                    "18.08",
+                    "36.00",
+                    "M2",
+                    "MA54",
+                    "MA41",
+                    "M30",
+                    "240.00"
+                ],
+                "Segment MOA": [
+                    "85.00",
+                    "158.58",
+                    "M71",
+                    "MA54",
+                    "N28",
+                    "N118",
+                    "MA127",
+                    "82.23",
+                    "12.42"
+                ],
+                "Subscriber": {
+                    "Entity Identifier Code (NM101)": "IL",
+                    "Entity Type Qualifier (NM102)": "1",
+                    "Last or Organization Name (NM103)": "DOE",
+                    "First Name (NM104)": "JANE",
+                    "NM1_05": "A",
+                    "Identification Code Qualifier (NM108)": "MI",
+                    "Identification Code (NM109)": "123456789"
+                },
+                "Segment N3": [
+                    "444 ORANGE STREET",
+                    "APT 4B",
+                    [
+                        "PO BOX 7901",
+                        "DEP 2"
+                    ]
+                ],
+                "Segment N4": [
+                    "LAKEVILLE",
+                    "TX",
+                    "557143298",
+                    [
+                        "MADISON",
+                        "MA",
+                        "53707"
+                    ]
+                ],
+                "Entity Name": [
+                    {
+                        "Entity Identifier Code (NM101)": "PR",
+                        "Entity Type Qualifier (NM102)": "2",
+                        "Last or Organization Name (NM103)": "OTHER PAYER",
+                        "Identification Code Qualifier (NM108)": "PI",
+                        "Identification Code (NM109)": "12345"
+                    },
+                    {
+                        "Entity Identifier Code (NM101)": "71",
+                        "Entity Type Qualifier (NM102)": "1"
+                    },
+                    {
+                        "Entity Identifier Code (NM101)": "72",
+                        "Entity Type Qualifier (NM102)": "1"
+                    },
+                    {
+                        "Entity Identifier Code (NM101)": "ZZ",
+                        "Entity Type Qualifier (NM102)": "1"
+                    }
+                ],
+                "DTP Segment Details": {
+                    "Date Time Qualifier (DTP01)": "573",
+                    "Date Time Period Format Qualifier (DTP02)": "D8",
+                    "Date Time Period (DTP03)": "20190310"
+                },
+                "Reference Information": [
+                    {
+                        "Reference Identification Qualifier (REF01)": "FY",
+                        "Reference Identification (REF02)": "98765"
+                    },
+                    {
+                        "Reference Identification Qualifier (REF01)": "T4",
+                        "Reference Identification (REF02)": "Y"
+                    },
+                    {
+                        "Reference Identification Qualifier (REF01)": "F8",
+                        "Reference Identification (REF02)": "CLAIM014"
+                    },
+                    {
+                        "Reference Identification Qualifier (REF01)": "G2",
+                        "Reference Identification (REF02)": "12345"
+                    },
+                    {
+                        "Reference Identification Qualifier (REF01)": "G2",
+                        "Reference Identification (REF02)": "12345"
+                    },
+                    {
+                        "Reference Identification Qualifier (REF01)": "G2",
+                        "Reference Identification (REF02)": "12345"
+                    },
+                    {
+                        "Reference Identification Qualifier (REF01)": "G2",
+                        "Reference Identification (REF02)": "12345"
+                    },
+                    {
+                        "Reference Identification Qualifier (REF01)": "G2",
+                        "Reference Identification (REF02)": "12345"
+                    }
+                ],
+                "Employer ID": {
+                    "Reference Identification Qualifier (REF01)": "EI",
+                    "Reference Identification (REF02)": "987654321"
+                },
+                "Billing Provider": {
+                    "Entity Identifier Code (NM101)": "85",
+                    "Entity Type Qualifier (NM102)": "1",
+                    "Last or Organization Name (NM103)": "DOE",
+                    "First Name (NM104)": "JANE",
+                    "NM1_05": "A",
+                    "Identification Code Qualifier (NM108)": "MI",
+                    "Identification Code (NM109)": "OtherPayerBilling"
+                }
+            }
+        }
+    ],
+    "Service_Lines_2400": [
+        {
+            "Line_Number": "1",
+            "Details": {
+                "Segment LX": [
+                    "1"
+                ],
+                "SV2 Segment Details": {
+                    "Revenue Code (SV201)": "0300",
+                    "Procedure Code (SV202)": [
+                        "HC",
+                        "81099",
+                        "A1",
+                        "05",
+                        "02",
+                        "01",
+                        "Short description"
+                    ],
+                    "Line Item Charge Amount (SV203)": "INVALID_AMT",
+                    "Unit or Basis for Measurement Code (SV204)": "UN",
+                    "Service Unit Count (SV205)": "1",
+                    "Non-Covered Charge Amount (SV207)": "11.07"
+                },
+                "Segment PWK": [
+                    "OZ",
+                    "BM",
+                    "",
+                    "",
+                    "AC",
+                    "DMN0012"
+                ],
+                "DTP Segment Details": [
+                    {
+                        "Date Time Qualifier (DTP01)": "472",
+                        "Date Time Period Format Qualifier (DTP02)": "RD8",
+                        "Date Time Period (DTP03)": "20190310-20190511"
+                    },
+                    {
+                        "Date Time Qualifier (DTP01)": "573",
+                        "Date Time Period Format Qualifier (DTP02)": "D8",
+                        "Date Time Period (DTP03)": "20190310"
+                    }
+                ],
+                "Reference Information": [
+                    {
+                        "Reference Identification Qualifier (REF01)": "6R",
+                        "Reference Identification (REF02)": "LX0004-1"
+                    },
+                    {
+                        "Reference Identification Qualifier (REF01)": "XZ",
+                        "Reference Identification (REF02)": "123456"
+                    }
+                ],
+                "Segment NTE": [
+                    "TPO",
+                    "state regulation 123 was applied during the pricing of this claim"
+                ],
+                "Segment HCP": [
+                    "03",
+                    "100",
+                    "10",
+                    "RPO12345",
+                    "20",
+                    "011",
+                    "225.50",
+                    [
+                        "HC",
+                        "81099"
+                    ],
+                    "34.50",
+                    "AB",
+                    "AK",
+                    "01",
+                    "12",
+                    "T1",
+                    "4"
+                ],
+                "Segment LIN": [
+                    "",
+                    "N4",
+                    "00002143481"
+                ],
+                "Segment CTP": [
+                    "",
+                    "",
+                    "",
+                    "1.01",
+                    "UN"
+                ],
+                "Entity Name": [
+                    {
+                        "Entity Identifier Code (NM101)": "72",
+                        "Entity Type Qualifier (NM102)": "1",
+                        "Last or Organization Name (NM103)": "HAMILTON",
+                        "First Name (NM104)": "ANAYA",
+                        "NM1_05": "H",
+                        "Identification Code Qualifier (NM108)": "XX",
+                        "Identification Code (NM109)": "OPRPHY4321"
+                    },
+                    {
+                        "Entity Identifier Code (NM101)": "ZZ",
+                        "Entity Type Qualifier (NM102)": "1",
+                        "Last or Organization Name (NM103)": "BLUE",
+                        "First Name (NM104)": "KELLY",
+                        "NM1_05": "M",
+                        "Identification Code Qualifier (NM108)": "XX",
+                        "Identification Code (NM109)": "OTHOPR4321"
+                    }
+                ],
+                "Rendering Provider": {
+                    "Entity Identifier Code (NM101)": "82",
+                    "Entity Type Qualifier (NM102)": "1",
+                    "Last or Organization Name (NM103)": "BIG",
+                    "First Name (NM104)": "ANNA",
+                    "NM1_05": "A",
+                    "Identification Code Qualifier (NM108)": "XX",
+                    "Identification Code (NM109)": "9998887777"
+                },
+                "Referring": {
+                    "Entity Identifier Code (NM101)": "DN",
+                    "Entity Type Qualifier (NM102)": "1",
+                    "Last or Organization Name (NM103)": "THRONBERRY",
+                    "First Name (NM104)": "JOHN",
+                    "NM1_05": "L",
+                    "Identification Code Qualifier (NM108)": "XX",
+                    "Identification Code (NM109)": "REFPRV8642"
+                },
+                "Segment SVD": [
+                    "P123",
+                    "173.42",
+                    [
+                        "HC",
+                        "81099",
+                        "01",
+                        "02",
+                        "03",
+                        "04",
+                        "UNLISTED URINALYSIS PROCEDURE",
+                        "26"
+                    ],
+                    "",
+                    "2",
+                    "3"
+                ],
+                "CAS Segment Details": [
+                    {
+                        "Claim Adjustment Group Code (CAS01)": "OA",
+                        "Adjustment Reason Code (CAS02)": "12",
+                        "Adjustment Amount (CAS03)": "18.00",
+                        "Adjustment Quantity (CAS04)": "1",
+                        "Adjustment Reason Code (CAS05)": "2",
+                        "Adjustment Amount (CAS06)": "65.55",
+                        "CAS_07": "1",
+                        "CAS_08": "91",
+                        "CAS_09": "33.03",
+                        "CAS_10": "2",
+                        "CAS_11": "3",
+                        "CAS_12": "55.15",
+                        "CAS_13": "1",
+                        "CAS_14": "161",
+                        "CAS_15": "99.99",
+                        "CAS_16": "1",
+                        "CAS_17": "130",
+                        "CAS_18": "82.22",
+                        "CAS_19": "1"
+                    },
+                    {
+                        "Claim Adjustment Group Code (CAS01)": "PR",
+                        "Adjustment Reason Code (CAS02)": "2",
+                        "Adjustment Amount (CAS03)": "35.00",
+                        "Adjustment Quantity (CAS04)": "1"
+                    },
+                    {
+                        "Claim Adjustment Group Code (CAS01)": "PI",
+                        "Adjustment Reason Code (CAS02)": "1",
+                        "Adjustment Amount (CAS03)": "6600.00",
+                        "Adjustment Quantity (CAS04)": "1"
+                    }
+                ],
+                "AMT Segment Details": {
+                    "Amount Qualifier Code (AMT01)": "EAF",
+                    "Monetary Amount (AMT02)": "75"
+                }
+            }
+        },
+        {
+            "Line_Number": "2",
+            "Details": {
+                "Segment LX": [
+                    "2"
+                ],
+                "SV2 Segment Details": {
+                    "Revenue Code (SV201)": "0730",
+                    "Procedure Code (SV202)": [
+                        "HC",
+                        "00842",
+                        "14",
+                        "28",
+                        "34",
+                        "08",
+                        "Sample procedure"
+                    ],
+                    "Line Item Charge Amount (SV203)": "86.54",
+                    "Unit or Basis for Measurement Code (SV204)": "UN",
+                    "Service Unit Count (SV205)": "1",
+                    "Non-Covered Charge Amount (SV207)": "28.01"
+                },
+                "Segment PWK": [
+                    "ZZ",
+                    "BC",
+                    "",
+                    "",
+                    "AB",
+                    "TPM0048"
+                ],
+                "DTP Segment Details": [
+                    {
+                        "Date Time Qualifier (DTP01)": "472",
+                        "Date Time Period Format Qualifier (DTP02)": "D8",
+                        "Date Time Period (DTP03)": "20190310"
+                    },
+                    {
+                        "Date Time Qualifier (DTP01)": "573",
+                        "Date Time Period Format Qualifier (DTP02)": "D8",
+                        "Date Time Period (DTP03)": "20190310"
+                    }
+                ],
+                "Reference Information": [
+                    {
+                        "Reference Identification Qualifier (REF01)": "6R",
+                        "Reference Identification (REF02)": "LX0004-2"
+                    },
+                    {
+                        "Reference Identification Qualifier (REF01)": "XZ",
+                        "Reference Identification (REF02)": "945632"
+                    }
+                ],
+                "Segment LIN": [
+                    "",
+                    "N4",
+                    "00093-0051-05"
+                ],
+                "Segment CTP": [
+                    "",
+                    "",
+                    "",
+                    "5",
+                    "UN"
+                ],
+                "Entity Name": [
+                    {
+                        "Entity Identifier Code (NM101)": "72",
+                        "Entity Type Qualifier (NM102)": "1",
+                        "Last or Organization Name (NM103)": "HAMILTON",
+                        "First Name (NM104)": "ANAYA",
+                        "NM1_05": "H",
+                        "Identification Code Qualifier (NM108)": "XX",
+                        "Identification Code (NM109)": "OPRPHY4321"
+                    },
+                    {
+                        "Entity Identifier Code (NM101)": "ZZ",
+                        "Entity Type Qualifier (NM102)": "1",
+                        "Last or Organization Name (NM103)": "BLUE",
+                        "First Name (NM104)": "KELLY",
+                        "NM1_05": "M",
+                        "Identification Code Qualifier (NM108)": "XX",
+                        "Identification Code (NM109)": "OTHOPR4321"
+                    }
+                ],
+                "Rendering Provider": {
+                    "Entity Identifier Code (NM101)": "82",
+                    "Entity Type Qualifier (NM102)": "1",
+                    "Last or Organization Name (NM103)": "BIG",
+                    "First Name (NM104)": "ANNA",
+                    "NM1_05": "A",
+                    "Identification Code Qualifier (NM108)": "XX",
+                    "Identification Code (NM109)": "9998887777"
+                },
+                "Referring": {
+                    "Entity Identifier Code (NM101)": "DN",
+                    "Entity Type Qualifier (NM102)": "1",
+                    "Last or Organization Name (NM103)": "THRONBERRY",
+                    "First Name (NM104)": "JOHN",
+                    "NM1_05": "M",
+                    "Identification Code Qualifier (NM108)": "XX",
+                    "Identification Code (NM109)": "REFPRV8642"
+                },
+                "Segment SVD": [
+                    "P123",
+                    "76.54",
+                    [
+                        "HC",
+                        "93005",
+                        "02",
+                        "05",
+                        "07",
+                        "09",
+                        "ECG ROUTINE ECG W/LEAST 12 LDS TRCG ONLY W/O I&R",
+                        "26"
+                    ],
+                    "",
+                    "1",
+                    "5"
+                ],
+                "CAS Segment Details": [
+                    {
+                        "Claim Adjustment Group Code (CAS01)": "OA",
+                        "Adjustment Reason Code (CAS02)": "136",
+                        "Adjustment Amount (CAS03)": "15.00",
+                        "Adjustment Quantity (CAS04)": "1",
+                        "Adjustment Reason Code (CAS05)": "B4",
+                        "Adjustment Amount (CAS06)": "95.55",
+                        "CAS_07": "1",
+                        "CAS_08": "186",
+                        "CAS_09": "73.03",
+                        "CAS_10": "2",
+                        "CAS_11": "235",
+                        "CAS_12": "15.15",
+                        "CAS_13": "1",
+                        "CAS_14": "P29",
+                        "CAS_15": "39.99",
+                        "CAS_16": "1",
+                        "CAS_17": "A0",
+                        "CAS_18": "92.22",
+                        "CAS_19": "1"
+                    },
+                    {
+                        "Claim Adjustment Group Code (CAS01)": "PR",
+                        "Adjustment Reason Code (CAS02)": "2",
+                        "Adjustment Amount (CAS03)": "65.00",
+                        "Adjustment Quantity (CAS04)": "1"
+                    },
+                    {
+                        "Claim Adjustment Group Code (CAS01)": "PI",
+                        "Adjustment Reason Code (CAS02)": "1",
+                        "Adjustment Amount (CAS03)": "3600.00",
+                        "Adjustment Quantity (CAS04)": "1"
+                    }
+                ],
+                "AMT Segment Details": {
+                    "Amount Qualifier Code (AMT01)": "EAF",
+                    "Monetary Amount (AMT02)": "20"
+                }
+            }
+        }
+    ],
+    "Unmapped_Trailers": [],
+    "Segment ISA": [
+        "00",
+        "          ",
+        "00",
+        "          ",
+        "ZZ",
+        "133052274      ",
+        "ZZ",
+        "121150001      ",
+        "190311",
+        "1700",
+        "$",
+        "00501",
+        "000000002",
+        "0",
+        "T",
+        [
+            "",
+            ""
+        ]
+    ],
+    "Segment GS": [
+        "HC",
+        "133052274",
+        "121150001",
+        "20190311",
+        "1700",
+        "02",
+        "X",
+        "005010X222A1"
+    ],
+    "Segment ST": [
+        "837",
+        "00000024",
+        "005010X223A2"
+    ],
+    "Segment BHT": [
+        "0019",
+        "00",
+        "00000024",
+        "20190311",
+        "09460310",
+        "CH"
+    ],
+    "Entity Name": [
+        {
+            "Entity Identifier Code (NM101)": "41",
+            "Entity Type Qualifier (NM102)": "2",
+            "Last or Organization Name (NM103)": "CHANGEHC",
+            "Identification Code Qualifier (NM108)": "46",
+            "Identification Code (NM109)": "SUBMITID02"
+        },
+        {
+            "Entity Identifier Code (NM101)": "40",
+            "Entity Type Qualifier (NM102)": "2",
+            "Last or Organization Name (NM103)": "BEST PLAN SERVICE",
+            "Identification Code Qualifier (NM108)": "46",
+            "Identification Code (NM109)": "ETIN9999"
+        },
+        {
+            "Entity Identifier Code (NM101)": "87",
+            "Entity Type Qualifier (NM102)": "2"
+        },
+        {
+            "Entity Identifier Code (NM101)": "PE",
+            "Entity Type Qualifier (NM102)": "2",
+            "Last or Organization Name (NM103)": "PLAN TO PAY TO",
+            "Identification Code Qualifier (NM108)": "XX",
+            "Identification Code (NM109)": "PTP123"
+        },
+        {
+            "Entity Identifier Code (NM101)": "PR",
+            "Entity Type Qualifier (NM102)": "2",
+            "Last or Organization Name (NM103)": "BEST PLAN SERVICE",
+            "Identification Code Qualifier (NM108)": "PI",
+            "Identification Code (NM109)": "PAYERID1234"
+        }
+    ],
+    "Segment PER": [
+        "IC",
+        "CHANGEHC",
+        "TE",
+        "8008456592",
+        [
+            "IC",
+            "ATTN ALEX",
+            "TE",
+            "7031234567",
+            "EX",
+            "123",
+            "EM",
+            "ALEX@BESTMED.NET"
+        ]
+    ],
+    "Segment HL": [
+        "1",
+        "",
+        "20",
+        "1",
+        [
+            "2",
+            "1",
+            "22",
+            "0"
+        ],
+        [
+            "3",
+            "2",
+            "23",
+            "0"
+        ]
+    ],
+    "Segment PRV": [
+        "BI",
+        "PXC",
+        "207L00000X"
+    ],
+    "Billing Provider": {
+        "Entity Identifier Code (NM101)": "85",
+        "Entity Type Qualifier (NM102)": "2",
+        "Last or Organization Name (NM103)": "BEST MEDICAL ASSOCIATES LLC",
+        "Identification Code Qualifier (NM108)": "XX",
+        "Identification Code (NM109)": "0123456789"
+    },
+    "Segment N3": [
+        "222 HEALTHY STREET",
+        "SUITE 200",
+        [
+            "P O BOX 22310"
+        ],
+        [
+            "236 SEAWAY ST"
+        ],
+        [
+            "444 ORANGE STREET",
+            "APT 4B"
+        ],
+        [
+            "3394 JACKSON DR",
+            "SUITE 117"
+        ],
+        [
+            "123 MAIN STREET"
+        ]
+    ],
+    "Segment N4": [
+        "HERNDON",
+        "VA",
+        "201714444",
+        "USA",
+        [
+            "OKLAHOMA CITY",
+            "OK",
+            "799998961"
+        ],
+        [
+            "MIAMI",
+            "FL",
+            "33111"
+        ],
+        [
+            "LAKEVILLE",
+            "TX",
+            "557143298",
+            "USA"
+        ],
+        [
+            "SPRINGFIELD",
+            "VA",
+            "22309"
+        ],
+        [
+            "KANSAS CITY",
+            "MO",
+            "64108"
+        ]
+    ],
+    "Employer ID": [
+        {
+            "Reference Identification Qualifier (REF01)": "EI",
+            "Reference Identification (REF02)": "123401234"
+        },
+        {
+            "Reference Identification Qualifier (REF01)": "EI",
+            "Reference Identification (REF02)": "123456789"
+        }
+    ],
+    "Reference Information": [
+        {
+            "Reference Identification Qualifier (REF01)": "FY",
+            "Reference Identification (REF02)": "587654321"
+        },
+        {
+            "Reference Identification Qualifier (REF01)": "G2",
+            "Reference Identification (REF02)": "12345"
+        },
+        {
+            "Reference Identification Qualifier (REF01)": "Y4",
+            "Reference Identification (REF02)": "4445555"
+        }
+    ],
+    "Segment SBR": [
+        "S",
+        "18",
+        "S2345",
+        "Other Insured Group Name",
+        "",
+        "",
+        "",
+        "",
+        "13"
+    ],
+    "Subscriber": {
+        "Entity Identifier Code (NM101)": "IL",
+        "Entity Type Qualifier (NM102)": "1",
+        "Last or Organization Name (NM103)": "DOE",
+        "First Name (NM104)": "JANE",
+        "NM1_05": "A",
+        "Identification Code Qualifier (NM108)": "MI",
+        "Identification Code (NM109)": "1008716534V004619"
+    },
+    "Segment DMG": [
+        "D8",
+        "19911010",
+        "F",
+        [
+            "D8",
+            "20190910",
+            "M"
+        ]
+    ],
+    "Segment PAT": [
+        "19"
+    ],
+    "Patient": {
+        "Entity Identifier Code (NM101)": "QC",
+        "Entity Type Qualifier (NM102)": "1",
+        "Last or Organization Name (NM103)": "DOE",
+        "First Name (NM104)": "FRED",
+        "NM1_05": "J"
+    },
+    "Segment SE": [
+        "104",
+        "00000024"
+    ],
+    "Segment GE": [
+        "1",
+        "000004513"
+    ],
+    "Segment IEA": [
+        "1",
+        "000000001"
+    ]
+}

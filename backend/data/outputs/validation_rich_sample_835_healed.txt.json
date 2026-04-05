@@ -1,0 +1,20 @@
+{
+    "is_valid": false,
+    "total_errors": 14,
+    "errors": [
+        "Line:4 ELE:4 - Data element \"Payer Identifier\" (BPR10) is too short: len(\"151031\") = 6 < 10 (min_len) (151031)",
+        "Line:4 ELE:1 - Mandatory data element \"Check Issue or EFT Effective Date\" (BPR16) is missing",
+        "Line:8 SEG:3 - Mandatory segment \"Payer Address\" (N3) missing",
+        "Line:8 SEG:3 - Mandatory segment \"Payer City, State, ZIP Code\" (N4) missing",
+        "Line:8 SEG:3 - Mandatory segment \"Payer Technical Contact Information\" (PER) missing",
+        "Line:8 ELE:1 - Mandatory data element \"Identification Code Qualifier\" (N103) is missing",
+        "Line:8 ELE:1 - Mandatory data element \"Payee Identification Code\" (N104) is missing",
+        "Line:9 SEG:1 - Segment CLP*CLAIM001 not found.  Started at /ISA_LOOP/GS_LOOP/ST_LOOP/HEADER/1000B/N1",
+        "Line:10 SEG:1 - Segment CAS*PR not found.  Started at /ISA_LOOP/GS_LOOP/ST_LOOP/HEADER/1000B/N1",
+        "Line:11 SEG:1 - Segment NM1*QC not found.  Started at /ISA_LOOP/GS_LOOP/ST_LOOP/HEADER/1000B/N1",
+        "Line:12 SEG:1 - Segment CLP*CLAIM002 not found.  Started at /ISA_LOOP/GS_LOOP/ST_LOOP/HEADER/1000B/N1",
+        "Line:13 SEG:1 - Segment CAS*CO not found.  Started at /ISA_LOOP/GS_LOOP/ST_LOOP/HEADER/1000B/N1",
+        "Line:14 SEG:1 - Segment NM1*QC not found.  Started at /ISA_LOOP/GS_LOOP/ST_LOOP/HEADER/1000B/N1",
+        "Line:3 ST:4 - SE count of 14 for SE02=0001 is wrong. I count 13"
+    ]
+}

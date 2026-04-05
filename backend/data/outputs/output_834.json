@@ -1,0 +1,86 @@
+{
+    "metadata": {
+        "transaction_type": "834",
+        "element_separator": "*",
+        "component_separator": ":",
+        "segment_terminator": "~"
+    },
+    "segments": [
+        {
+            "segment_id": "ISA",
+            "elements": [
+                "00",
+                "          ",
+                "00",
+                "          ",
+                "ZZ",
+                "SUBMITTER ID   ",
+                "ZZ",
+                "RECEIVER ID    ",
+                "151031",
+                "1230",
+                "^",
+                "00501",
+                "000000001",
+                "0",
+                "T",
+                [
+                    "",
+                    ""
+                ]
+            ]
+        },
+        {
+            "segment_id": "GS",
+            "elements": [
+                "BE",
+                "SENDER CODE",
+                "RECEIVER CODE",
+                "20151031",
+                "1230",
+                "1",
+                "X",
+                "005010X220A1"
+            ]
+        },
+        {
+            "segment_id": "ST",
+            "elements": [
+                "834",
+                "0001",
+                "005010X220A1"
+            ]
+        },
+        {
+            "segment_id": "BGN",
+            "elements": [
+                "00",
+                "123456",
+                "20151031",
+                "1230",
+                "2"
+            ]
+        },
+        {
+            "segment_id": "SE",
+            "elements": [
+                "4",
+                "0001"
+            ]
+        },
+        {
+            "segment_id": "GE",
+            "elements": [
+                "1",
+                "1"
+            ]
+        },
+        {
+            "segment_id": "IEA",
+            "elements": [
+                "1",
+                "000000001"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,7 @@
+**Summary for Business User:**
+The EDI file contains an error that prevents the correct processing of a service line, which may impact billing and payment accuracy.
+
+**Actionable Suggestion:**
+To resolve this issue:
+
+• **Verify Service Line #1 Amount**: Review the SV203 segment to ensure the amount is correctly formatted as a numeric value (e.g., 100.00). If necessary, correct the formatting to match the required standard.

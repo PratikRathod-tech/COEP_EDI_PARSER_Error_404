@@ -1,0 +1,12 @@
+{
+    "is_valid": false,
+    "total_errors": 6,
+    "errors": [
+        "Line:4 ELE:4 - Data element \"Payer Identifier\" (BPR10) is too short: len(\"151031\") = 6 < 10 (min_len) (151031)",
+        "Line:4 ELE:1 - Mandatory data element \"Check Issue or EFT Effective Date\" (BPR16) is missing",
+        "Line:5 SEG:3 - Mandatory segment \"Reassociation Trace Number\" (TRN) missing",
+        "Line:5 SEG:3 - Mandatory loop \"Payer Identification\" (1000A) missing",
+        "Line:5 SEG:3 - Mandatory loop \"Payee Identification\" (1000B) missing",
+        "Line:3 ST:4 - SE count of 4 for SE02=0001 is wrong. I count 3"
+    ]
+}

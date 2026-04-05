@@ -1,0 +1,106 @@
+[
+    {
+        "error_id": "e1",
+        "error_summary": "Invalid Identification Code Qualifier.",
+        "target_segment_id": "NM1",
+        "element_index": 8,
+        "suggested_value": "FI",
+        "severity": "error"
+    },
+    {
+        "error_id": "e2",
+        "error_summary": "Mandatory REF segment missing.",
+        "target_segment_id": "REF",
+        "element_index": 1,
+        "suggested_value": "EI*123456789",
+        "severity": "error"
+    },
+    {
+        "error_id": "e3",
+        "error_summary": "Invalid State/Province Code.",
+        "target_segment_id": "N4",
+        "element_index": 2,
+        "suggested_value": "CA",
+        "severity": "error"
+    },
+    {
+        "error_id": "e4",
+        "error_summary": "Mandatory OI segment missing.",
+        "target_segment_id": "OI",
+        "element_index": 1,
+        "suggested_value": "N***Y",
+        "severity": "error"
+    },
+    {
+        "error_id": "e5",
+        "error_summary": "Mandatory NM1*P3 segment missing.",
+        "target_segment_id": "NM1",
+        "element_index": 1,
+        "suggested_value": "P3*1*PAYTOPROVIDERLAST*PAYTOPROVIDERFIRST****FI*1234567890",
+        "severity": "error"
+    },
+    {
+        "error_id": "e6",
+        "error_summary": "Invalid Entity Type Qualifier.",
+        "target_segment_id": "NM1",
+        "element_index": 2,
+        "suggested_value": "2",
+        "severity": "error"
+    },
+    {
+        "error_id": "e7",
+        "error_summary": "NM103 must be empty.",
+        "target_segment_id": "NM1",
+        "element_index": 3,
+        "suggested_value": "",
+        "severity": "error"
+    },
+    {
+        "error_id": "e8",
+        "error_summary": "NM104 must be empty.",
+        "target_segment_id": "NM1",
+        "element_index": 4,
+        "suggested_value": "",
+        "severity": "error"
+    },
+    {
+        "error_id": "e9",
+        "error_summary": "NM105 must be empty.",
+        "target_segment_id": "NM1",
+        "element_index": 5,
+        "suggested_value": "",
+        "severity": "error"
+    },
+    {
+        "error_id": "e10",
+        "error_summary": "NM108 must be empty.",
+        "target_segment_id": "NM1",
+        "element_index": 8,
+        "suggested_value": "",
+        "severity": "error"
+    },
+    {
+        "error_id": "e11",
+        "error_summary": "NM109 must be empty.",
+        "target_segment_id": "NM1",
+        "element_index": 9,
+        "suggested_value": "",
+        "severity": "error"
+    },
+    {
+        "error_id": "e12",
+        "error_summary": "Invalid Attachment Transmission Code.",
+        "target_segment_id": "PWK",
+        "element_index": 2,
+        "suggested_value": "BM",
+        "severity": "error"
+    },
+    {
+        "error_id": "e13",
+        "error_summary": "Mandatory LIN segment missing.",
+        "target_segment_id": "LIN",
+        "element_index": 1,
+        "suggested_value": "1*HC*99213",
+        "severity": "error"
+    }
+]

@@ -1,0 +1,7 @@
+# Core EDI Engine Dependencies
+streamlit
+pandas
+pyx12
+requests
+google-generativeai
+python-dotenv

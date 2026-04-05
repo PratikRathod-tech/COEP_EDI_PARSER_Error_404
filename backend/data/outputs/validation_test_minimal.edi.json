@@ -1,0 +1,12 @@
+{
+    "is_valid": false,
+    "total_errors": 1,
+    "errors": [
+        {
+            "id": "e1",
+            "message": "Structural Error: This file does not appear to be a valid X12 EDI document. Please check the ISA start segment.",
+            "segment": "GEN",
+            "severity": "error"
+        }
+    ]
+}

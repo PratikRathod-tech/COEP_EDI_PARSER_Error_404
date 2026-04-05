@@ -1,0 +1,273 @@
+{
+    "x12simple": [
+        {
+            "Interchange Control Header (ISA_LOOP)": [
+                {
+                    "Interchange Control Header (ISA)": {
+                        "Authorization Information Qualifier (ISA01)": "00",
+                        "Authorization Information (ISA02)": "          ",
+                        "Security Information Qualifier (ISA03)": "00",
+                        "Security Information (ISA04)": "          ",
+                        "Interchange ID Qualifier (ISA05)": "ZZ",
+                        "Interchange Sender ID (ISA06)": "SUBMITTER ID   ",
+                        "Interchange ID Qualifier (ISA07)": "ZZ",
+                        "Interchange Receiver ID (ISA08)": "RECEIVER ID    ",
+                        "Interchange Date (ISA09)": "151031",
+                        "Interchange Time (ISA10)": "1230",
+                        "Interchange Control Standards Identifier (ISA11)": "^",
+                        "Interchange Control Version Number (ISA12)": "00501",
+                        "Interchange Control Number (ISA13)": "000000001",
+                        "Acknowledgment Requested (ISA14)": "0",
+                        "Usage Indicator (ISA15)": "T",
+                        "Component Element Separator (ISA16)": ":"
+                    }
+                },
+                {
+                    "Functional Group Header (GS_LOOP)": [
+                        {
+                            "Functional Group Header (GS)": {
+                                "Functional Identifier Code (GS01)": "BE",
+                                "Application Sender's Code (GS02)": "SENDER",
+                                "Application Receiver's Code (GS03)": "RECEIVER",
+                                "Date (GS04)": "20151031",
+                                "Time (GS05)": "1230",
+                                "Group Control Number (GS06)": "1",
+                                "Responsible Agency Code (GS07)": "X",
+                                "Version / Release / Industry Identifier Code (GS08)": "005010X220A1"
+                            }
+                        },
+                        {
+                            "Transaction Set Header (ST_LOOP)": [
+                                {
+                                    "Transaction Set Header (ST)": {
+                                        "Transaction Set Identifier Code (ST01)": "834",
+                                        "Transaction Set Control Number (ST02)": "0001",
+                                        "Implementation Convention Reference (ST03)": "005010X220A1"
+                                    }
+                                },
+                                {
+                                    "Header (HEADER)": [
+                                        {
+                                            "Beginning Segment (BGN)": {
+                                                "Transaction Set Purpose Code (BGN01)": "00",
+                                                "Transaction Set Reference Number (BGN02)": "123456",
+                                                "Transaction Set Creation Date (BGN03)": "20151031",
+                                                "Transaction Set Creation Time (BGN04)": "1230",
+                                                "Time Zone Code (BGN05)": "2"
+                                            }
+                                        },
+                                        {
+                                            "Transaction Set Policy Number (REF)": {
+                                                "Reference Identification Qualifier (REF01)": "38",
+                                                "Master Policy Number (REF02)": "123456789"
+                                            }
+                                        },
+                                        {
+                                            "File Effective Date (DTP)": {
+                                                "Date Time Qualifier (DTP01)": "007",
+                                                "Date Time Period Format Qualifier (DTP02)": "D8",
+                                                "Date Time Period (DTP03)": "20151001"
+                                            }
+                                        },
+                                        {
+                                            "Sponsor Name (1000A)": [
+                                                {
+                                                    "Sponsor Name (N1)": {
+                                                        "Entity Identifier Code (N101)": "P5",
+                                                        "Plan Sponsor Name (N102)": "SPONSOR NAME"
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "Payer (1000B)": [
+                                                {
+                                                    "Payer (N1)": {
+                                                        "Entity Identifier Code (N101)": "IN",
+                                                        "Insurer Name (N102)": "PAYER NAME"
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Table2 - Area2 (DETAIL)": [
+                                        {
+                                            "Member Level Detail (2000)": [
+                                                {
+                                                    "Member Level Detail (INS)": {
+                                                        "Member Indicator (INS01)": "Y",
+                                                        "Individual Relationship Code (INS02)": "18",
+                                                        "Maintenance Type Code (INS03)": "021",
+                                                        "Maintenance Reason Code (INS04)": "20"
+                                                    }
+                                                },
+                                                {
+                                                    "Member Supplemental Identifier (REF)": {
+                                                        "Reference Identification Qualifier (REF01)": "0F",
+                                                        "Member Supplemental Identifier (REF02)": "SUB12345"
+                                                    }
+                                                },
+                                                {
+                                                    "Member Name (2100A)": [
+                                                        {
+                                                            "Member Name (NM1)": {
+                                                                "Entity Identifier Code (NM101)": "IL",
+                                                                "Entity Type Qualifier (NM102)": "1",
+                                                                "Member Last Name (NM103)": "DOE",
+                                                                "Member First Name (NM104)": "JOHN",
+                                                                "Member Middle Name (NM105)": "A",
+                                                                "Identification Code Qualifier (NM108)": "MI",
+                                                                "Member Identifier (NM109)": "123456789"
+                                                            }
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "Health Coverage (2300)": [
+                                                        {
+                                                            "Health Coverage (HD)": {
+                                                                "Maintenance Type Code (HD01)": "021",
+                                                                "Insurance Line Code (HD03)": "HLT"
+                                                            }
+                                                        },
+                                                        {
+                                                            "Health Coverage Dates (DTP)": {
+                                                                "Date Time Qualifier (DTP01)": "348",
+                                                                "Date Time Period Format Qualifier (DTP02)": "D8",
+                                                                "Coverage Period (DTP03)": "20151001"
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "Member Level Detail (2000)": [
+                                                {
+                                                    "Member Level Detail (INS)": {
+                                                        "Member Indicator (INS01)": "N",
+                                                        "Individual Relationship Code (INS02)": "19",
+                                                        "Maintenance Type Code (INS03)": "021",
+                                                        "Maintenance Reason Code (INS04)": "20"
+                                                    }
+                                                },
+                                                {
+                                                    "Member Supplemental Identifier (REF)": {
+                                                        "Reference Identification Qualifier (REF01)": "0F",
+                                                        "Member Supplemental Identifier (REF02)": "SUB12345"
+                                                    }
+                                                },
+                                                {
+                                                    "Member Name (2100A)": [
+                                                        {
+                                                            "Member Name (NM1)": {
+                                                                "Entity Identifier Code (NM101)": "IL",
+                                                                "Entity Type Qualifier (NM102)": "1",
+                                                                "Member Last Name (NM103)": "DOE",
+                                                                "Member First Name (NM104)": "BABY",
+                                                                "Member Middle Name (NM105)": "S",
+                                                                "Identification Code Qualifier (NM108)": "MI",
+                                                                "Member Identifier (NM109)": "12345678901"
+                                                            }
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "Health Coverage (2300)": [
+                                                        {
+                                                            "Health Coverage (HD)": {
+                                                                "Maintenance Type Code (HD01)": "021",
+                                                                "Insurance Line Code (HD03)": "HLT"
+                                                            }
+                                                        },
+                                                        {
+                                                            "Health Coverage Dates (DTP)": {
+                                                                "Date Time Qualifier (DTP01)": "348",
+                                                                "Date Time Period Format Qualifier (DTP02)": "D8",
+                                                                "Coverage Period (DTP03)": "20151001"
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "Member Level Detail (2000)": [
+                                                {
+                                                    "Member Level Detail (INS)": {
+                                                        "Member Indicator (INS01)": "Y",
+                                                        "Individual Relationship Code (INS02)": "18",
+                                                        "Maintenance Type Code (INS03)": "024",
+                                                        "Maintenance Reason Code (INS04)": "20"
+                                                    }
+                                                },
+                                                {
+                                                    "Member Supplemental Identifier (REF)": {
+                                                        "Reference Identification Qualifier (REF01)": "0F",
+                                                        "Member Supplemental Identifier (REF02)": "SUB99999"
+                                                    }
+                                                },
+                                                {
+                                                    "Member Name (2100A)": [
+                                                        {
+                                                            "Member Name (NM1)": {
+                                                                "Entity Identifier Code (NM101)": "IL",
+                                                                "Entity Type Qualifier (NM102)": "1",
+                                                                "Member Last Name (NM103)": "SMITH",
+                                                                "Member First Name (NM104)": "JANE",
+                                                                "Member Middle Name (NM105)": "B",
+                                                                "Identification Code Qualifier (NM108)": "MI",
+                                                                "Member Identifier (NM109)": "999999999"
+                                                            }
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "Health Coverage (2300)": [
+                                                        {
+                                                            "Health Coverage (HD)": {
+                                                                "Maintenance Type Code (HD01)": "024",
+                                                                "Insurance Line Code (HD03)": "HLT"
+                                                            }
+                                                        },
+                                                        {
+                                                            "Health Coverage Dates (DTP)": {
+                                                                "Date Time Qualifier (DTP01)": "348",
+                                                                "Date Time Period Format Qualifier (DTP02)": "D8",
+                                                                "Coverage Period (DTP03)": "20151001"
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Transaction Set Trailer (SE)": {
+                                        "Transaction Segment Count (SE01)": "22",
+                                        "Transaction Set Control Number (SE02)": "0001"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Functional Group Trailer (GE)": {
+                                "Number of Transaction Sets Included (GE01)": "1",
+                                "Group Control Number (GE02)": "1"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "Interchange Control Trailer (IEA)": {
+                        "Number of Included Functional Groups (IEA01)": "1",
+                        "Interchange Control Number (IEA02)": "000000001"
+                    }
+                }
+            ]
+        }
+    ]
+}

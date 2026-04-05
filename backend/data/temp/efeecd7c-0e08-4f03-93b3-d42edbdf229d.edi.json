@@ -1,0 +1,195 @@
+{
+    "metadata": {
+        "transaction_type": "834",
+        "element_separator": "*",
+        "component_separator": ">",
+        "segment_terminator": "\n"
+    },
+    "segments": [
+        {
+            "segment_id": "ISA",
+            "elements": [
+                "01",
+                "0000000000",
+                "01",
+                "0000000000",
+                "ZZ",
+                "ABCDEFGHIJKLMNO",
+                "ZZ",
+                "123456789012345",
+                "101127",
+                "1719",
+                "U",
+                "00400",
+                "000003438",
+                "0",
+                "P",
+                [
+                    "",
+                    ""
+                ]
+            ]
+        },
+        {
+            "segment_id": "GS",
+            "elements": [
+                "PO",
+                "4405197800",
+                "999999999",
+                "20101127",
+                "1719",
+                "1421",
+                "X",
+                "004010VICS"
+            ]
+        },
+        {
+            "segment_id": "ST",
+            "elements": [
+                "834",
+                "0179"
+            ]
+        },
+        {
+            "segment_id": "BGN",
+            "elements": [
+                "00",
+                "1",
+                "20050315",
+                "110650",
+                "",
+                "",
+                "",
+                "4"
+            ]
+        },
+        {
+            "segment_id": "REF",
+            "elements": [
+                "38",
+                "SAMPLE_POLICY_NUMBER"
+            ]
+        },
+        {
+            "segment_id": "DTP",
+            "elements": [
+                "303",
+                "D8",
+                "20080321"
+            ]
+        },
+        {
+            "segment_id": "N1",
+            "elements": [
+                "P5",
+                "COMPAN_NAME",
+                "FI",
+                "000000000"
+            ]
+        },
+        {
+            "segment_id": "INS",
+            "elements": [
+                "Y",
+                "18",
+                "030",
+                "20",
+                "A"
+            ]
+        },
+        {
+            "segment_id": "REF",
+            "elements": [
+                "0F",
+                "SUBSCRIBER_NUMBER"
+            ]
+        },
+        {
+            "segment_id": "NM1",
+            "elements": [
+                "IL",
+                "1",
+                "JOHN DOE",
+                "R",
+                "",
+                "",
+                "34",
+                "1",
+                "0000000"
+            ]
+        },
+        {
+            "segment_id": "PER",
+            "elements": [
+                "IP",
+                "",
+                "HP",
+                "2138051111"
+            ]
+        },
+        {
+            "segment_id": "N3",
+            "elements": [
+                "123 SAMPLE RD"
+            ]
+        },
+        {
+            "segment_id": "N4",
+            "elements": [
+                "CITY",
+                "ST",
+                "12345"
+            ]
+        },
+        {
+            "segment_id": "DMG",
+            "elements": [
+                "D8",
+                "19690101 ",
+                "F"
+            ]
+        },
+        {
+            "segment_id": "HD",
+            "elements": [
+                "030"
+            ]
+        },
+        {
+            "segment_id": "DTP",
+            "elements": [
+                "348",
+                "D8",
+                "20080101"
+            ]
+        },
+        {
+            "segment_id": "REF",
+            "elements": [
+                "1L",
+                "INDIV_POLICY_NO"
+            ]
+        },
+        {
+            "segment_id": "SE",
+            "elements": [
+                "16",
+                "0179"
+            ]
+        },
+        {
+            "segment_id": "GE",
+            "elements": [
+                "1",
+                "1421"
+            ]
+        },
+        {
+            "segment_id": "IEA",
+            "elements": [
+                "1",
+                "000003438"
+            ]
+        }
+    ]
+}

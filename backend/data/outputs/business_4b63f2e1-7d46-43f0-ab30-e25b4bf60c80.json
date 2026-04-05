@@ -1,0 +1,385 @@
+{
+    "x12simple": [
+        {
+            "Interchange Control Header (ISA_LOOP)": [
+                {
+                    "Interchange Control Header (ISA)": {
+                        "Authorization Information Qualifier (ISA01)": "00",
+                        "Authorization Information (ISA02)": "          ",
+                        "Security Information Qualifier (ISA03)": "00",
+                        "Security Information (ISA04)": "          ",
+                        "Interchange ID Qualifier (ISA05)": "ZZ",
+                        "Interchange Sender ID (ISA06)": "SENDERID12345  ",
+                        "Interchange ID Qualifier (ISA07)": "ZZ",
+                        "Interchange Receiver ID (ISA08)": "RECEIVERID54321",
+                        "Interchange Date (ISA09)": "230101",
+                        "Interchange Time (ISA10)": "1253",
+                        "Interchange Control Standards Identifier (ISA11)": "^",
+                        "Interchange Control Version Number (ISA12)": "00501",
+                        "Interchange Control Number (ISA13)": "000000905",
+                        "Acknowledgment Requested (ISA14)": "1",
+                        "Usage Indicator (ISA15)": "T",
+                        "Component Element Separator (ISA16)": ":"
+                    }
+                },
+                {
+                    "Functional Group Header (GS_LOOP)": [
+                        {
+                            "Functional Group Header (GS)": {
+                                "Functional Identifier Code (GS01)": "HC",
+                                "Application Sender's Code (GS02)": "SENDERID",
+                                "Application Receiver's Code (GS03)": "RECEIVERID",
+                                "Date (GS04)": "20230101",
+                                "Time (GS05)": "1253",
+                                "Group Control Number (GS06)": "1",
+                                "Responsible Agency Code (GS07)": "X",
+                                "Version / Release / Industry Identifier Code (GS08)": "005010X222A1"
+                            }
+                        },
+                        {
+                            "Transaction Set Header (ST_LOOP)": [
+                                {
+                                    "Transaction Set Header (ST)": {
+                                        "Transaction Set Identifier Code (ST01)": "837",
+                                        "Transaction Set Control Number (ST02)": "0001",
+                                        "Implementation Convention Reference (ST03)": "005010X222A1"
+                                    }
+                                },
+                                {
+                                    "Table 1 - Header (HEADER)": [
+                                        {
+                                            "Beginning of Hierarchical Transaction (BHT)": {
+                                                "Hierarchical Structure Code (BHT01)": "0019",
+                                                "Transaction Set Purpose Code (BHT02)": "00",
+                                                "Originator Application Transaction Identifier (BHT03)": "0123",
+                                                "Transaction Set Creation Date (BHT04)": "20230101",
+                                                "Transaction Set Creation Time (BHT05)": "1253",
+                                                "Claim or Encounter Identifier (BHT06)": "CH"
+                                            }
+                                        },
+                                        {
+                                            "Submitter Name (1000A)": [
+                                                {
+                                                    "Submitter Name (NM1)": {
+                                                        "Entity Identifier Code (NM101)": "41",
+                                                        "Entity Type Qualifier (NM102)": "2",
+                                                        "Submitter Last or Organization Name (NM103)": "SENDER NAME",
+                                                        "Identification Code Qualifier (NM108)": "46",
+                                                        "Submitter Identifier (NM109)": "123456789"
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "Receiver Name (1000B)": [
+                                                {
+                                                    "Receiver Name (NM1)": {
+                                                        "Entity Identifier Code (NM101)": "40",
+                                                        "Entity Type Qualifier (NM102)": "2",
+                                                        "Receiver Name (NM103)": "RECEIVER NAME",
+                                                        "Identification Code Qualifier (NM108)": "46",
+                                                        "Receiver Primary Identifier (NM109)": "987654321"
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Table 2 - Detail (DETAIL)": [
+                                        {
+                                            "Billing Provider Hierarchical Level (2000A)": [
+                                                {
+                                                    "Billing Provider Hierarchical Level (HL)": {
+                                                        "Hierarchical ID Number (HL01)": "1",
+                                                        "Hierarchical Level Code (HL03)": "20",
+                                                        "Hierarchical Child Code (HL04)": "1"
+                                                    }
+                                                },
+                                                {
+                                                    "Billing Provider Name (2010AA)": [
+                                                        {
+                                                            "Billing Provider Name (NM1)": {
+                                                                "Entity Identifier Code (NM101)": "85",
+                                                                "Entity Type Qualifier (NM102)": "2",
+                                                                "Billing Provider Last or Organizational Name (NM103)": "BILLING PROVIDER",
+                                                                "Identification Code Qualifier (NM108)": "XX",
+                                                                "Billing Provider Identifier (NM109)": "1234567893"
+                                                            }
+                                                        },
+                                                        {
+                                                            "Billing Provider Address (N3)": {
+                                                                "Billing Provider Address Line (N301)": "123 MAIN STREET"
+                                                            }
+                                                        },
+                                                        {
+                                                            "Billing Provider City, State, ZIP Code (N4)": {
+                                                                "Billing Provider City Name (N401)": "PUNE",
+                                                                "Billing Provider State or Province Code (N402)": "MH",
+                                                                "Billing Provider Postal Zone or ZIP Code (N403)": "411001"
+                                                            }
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "Subscriber Hierarchical Level (2000B)": [
+                                                        {
+                                                            "Subscriber Hierarchical Level (HL)": {
+                                                                "Hierarchical ID Number (HL01)": "2",
+                                                                "Hierarchical Parent ID Number (HL02)": "1",
+                                                                "Hierarchical Level Code (HL03)": "22",
+                                                                "Hierarchical Child Code (HL04)": "0"
+                                                            }
+                                                        },
+                                                        {
+                                                            "Subscriber Information (SBR)": {
+                                                                "Payer Responsibility Sequence Number Code (SBR01)": "P",
+                                                                "Individual Relationship Code (SBR02)": "18",
+                                                                "Claim Filing Indicator Code (SBR09)": "MC"
+                                                            }
+                                                        },
+                                                        {
+                                                            "Subscriber Name (2010BA)": [
+                                                                {
+                                                                    "Subscriber Name (NM1)": {
+                                                                        "Entity Identifier Code (NM101)": "IL",
+                                                                        "Entity Type Qualifier (NM102)": "1",
+                                                                        "Subscriber Last Name (NM103)": "DOE",
+                                                                        "Subscriber First Name (NM104)": "JOHN",
+                                                                        "Identification Code Qualifier (NM108)": "MI",
+                                                                        "Subscriber Primary Identifier (NM109)": "P123456"
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "Subscriber Address (N3)": {
+                                                                        "Subscriber Address Line (N301)": "456 PATIENT STREET"
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "Subscriber City, State, ZIP Code (N4)": {
+                                                                        "Subscriber City Name (N401)": "PUNE",
+                                                                        "Subscriber State Code (N402)": "MH",
+                                                                        "Subscriber Postal Zone or ZIP Code (N403)": "411002"
+                                                                    }
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "Payer Name (2010BB)": [
+                                                                {
+                                                                    "Payer Name (NM1)": {
+                                                                        "Entity Identifier Code (NM101)": "PR",
+                                                                        "Entity Type Qualifier (NM102)": "2",
+                                                                        "Payer Name (NM103)": "INSURANCE CO",
+                                                                        "Identification Code Qualifier (NM108)": "PI",
+                                                                        "Payer Identifier (NM109)": "INS123"
+                                                                    }
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "Claim Information (2300)": [
+                                                                {
+                                                                    "Claim Information (CLM)": {
+                                                                        "Patient Control Number (CLM01)": "1001",
+                                                                        "Total Claim Charge Amount (CLM02)": "500",
+                                                                        "Claim Information (CLM)": [
+                                                                            {
+                                                                                "CLM05-01": "11"
+                                                                            },
+                                                                            {
+                                                                                "CLM05-02": "B"
+                                                                            },
+                                                                            {
+                                                                                "CLM05-03": "1"
+                                                                            }
+                                                                        ],
+                                                                        "Provider or Supplier Signature Indicator (CLM06)": "Y",
+                                                                        "Assignment or Plan Participation Code (CLM07)": "A",
+                                                                        "Benefits Assignment Certification Indicator (CLM08)": "Y",
+                                                                        "Release of Information Code (CLM09)": "Y"
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "Condition Information (HI)": {
+                                                                        "Health Care Diagnosis Code (HI)": [
+                                                                            {
+                                                                                "HI01-01": "ABK"
+                                                                            },
+                                                                            {
+                                                                                "HI01-02": "J189"
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "Service Line Number (2400)": [
+                                                                        {
+                                                                            "Service Line Number (LX)": {
+                                                                                "Assigned Number (LX01)": "1"
+                                                                            }
+                                                                        },
+                                                                        {
+                                                                            "Professional Service (SV1)": {
+                                                                                "Professional Service (SV1)": [
+                                                                                    {
+                                                                                        "SV107-01": "1"
+                                                                                    }
+                                                                                ],
+                                                                                "Line Item Charge Amount (SV102)": "500",
+                                                                                "Unit or Basis for Measurement Code (SV103)": "UN",
+                                                                                "Service Unit Count (SV104)": "1"
+                                                                            }
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "Claim Information (2300)": [
+                                                                {
+                                                                    "Claim Information (CLM)": {
+                                                                        "Patient Control Number (CLM01)": "1002",
+                                                                        "Total Claim Charge Amount (CLM02)": "800",
+                                                                        "Claim Information (CLM)": [
+                                                                            {
+                                                                                "CLM05-01": "11"
+                                                                            },
+                                                                            {
+                                                                                "CLM05-02": "B"
+                                                                            },
+                                                                            {
+                                                                                "CLM05-03": "1"
+                                                                            }
+                                                                        ],
+                                                                        "Provider or Supplier Signature Indicator (CLM06)": "Y",
+                                                                        "Assignment or Plan Participation Code (CLM07)": "A",
+                                                                        "Benefits Assignment Certification Indicator (CLM08)": "Y",
+                                                                        "Release of Information Code (CLM09)": "Y"
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "Condition Information (HI)": {
+                                                                        "Health Care Diagnosis Code (HI)": [
+                                                                            {
+                                                                                "HI01-01": "ABK"
+                                                                            },
+                                                                            {
+                                                                                "HI01-02": "J189"
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "Service Line Number (2400)": [
+                                                                        {
+                                                                            "Service Line Number (LX)": {
+                                                                                "Assigned Number (LX01)": "2"
+                                                                            }
+                                                                        },
+                                                                        {
+                                                                            "Professional Service (SV1)": {
+                                                                                "Professional Service (SV1)": [
+                                                                                    {
+                                                                                        "SV107-01": "1"
+                                                                                    }
+                                                                                ],
+                                                                                "Line Item Charge Amount (SV102)": "800",
+                                                                                "Unit or Basis for Measurement Code (SV103)": "UN",
+                                                                                "Service Unit Count (SV104)": "1"
+                                                                            }
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "Claim Information (2300)": [
+                                                                {
+                                                                    "Claim Information (CLM)": {
+                                                                        "Patient Control Number (CLM01)": "1003",
+                                                                        "Total Claim Charge Amount (CLM02)": "600",
+                                                                        "Claim Information (CLM)": [
+                                                                            {
+                                                                                "CLM05-01": "11"
+                                                                            },
+                                                                            {
+                                                                                "CLM05-02": "B"
+                                                                            },
+                                                                            {
+                                                                                "CLM05-03": "1"
+                                                                            }
+                                                                        ],
+                                                                        "Provider or Supplier Signature Indicator (CLM06)": "Y",
+                                                                        "Assignment or Plan Participation Code (CLM07)": "A",
+                                                                        "Benefits Assignment Certification Indicator (CLM08)": "Y",
+                                                                        "Release of Information Code (CLM09)": "Y"
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "Condition Information (HI)": {
+                                                                        "Health Care Diagnosis Code (HI)": [
+                                                                            {
+                                                                                "HI01-01": "ABK"
+                                                                            },
+                                                                            {
+                                                                                "HI01-02": "J189"
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "Service Line Number (2400)": [
+                                                                        {
+                                                                            "Service Line Number (LX)": {
+                                                                                "Assigned Number (LX01)": "3"
+                                                                            }
+                                                                        },
+                                                                        {
+                                                                            "Professional Service (SV1)": {
+                                                                                "Professional Service (SV1)": [
+                                                                                    {
+                                                                                        "SV107-01": "1"
+                                                                                    }
+                                                                                ],
+                                                                                "Line Item Charge Amount (SV102)": "600",
+                                                                                "Unit or Basis for Measurement Code (SV103)": "UN",
+                                                                                "Service Unit Count (SV104)": "1"
+                                                                            }
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Transaction Set Trailer (SE)": {
+                                        "Transaction Segment Count (SE01)": "31",
+                                        "Transaction Set Control Number (SE02)": "0001"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Functional Group Trailer (GE)": {
+                                "Number of Transaction Sets Included (GE01)": "1",
+                                "Group Control Number (GE02)": "1"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "Interchange Control Trailer (IEA)": {
+                        "Number of Included Functional Groups (IEA01)": "1",
+                        "Interchange Control Number (IEA02)": "000000905"
+                    }
+                }
+            ]
+        }
+    ]
+}

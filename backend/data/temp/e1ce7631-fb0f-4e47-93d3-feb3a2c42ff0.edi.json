@@ -1,0 +1,1191 @@
+{
+    "x12simple": [
+        {
+            "Interchange Control Header (ISA_LOOP)": [
+                {
+                    "Interchange Control Header (ISA)": {
+                        "Authorization Information Qualifier (ISA01)": "00",
+                        "Authorization Information (ISA02)": "          ",
+                        "Security Information Qualifier (ISA03)": "00",
+                        "Security Information (ISA04)": "          ",
+                        "Interchange ID Qualifier (ISA05)": "ZZ",
+                        "Interchange Sender ID (ISA06)": "123456789012345",
+                        "Interchange ID Qualifier (ISA07)": "ZZ",
+                        "Interchange Receiver ID (ISA08)": "123456789012346",
+                        "Interchange Date (ISA09)": "080503",
+                        "Interchange Time (ISA10)": "1705",
+                        "Interchange Control Standards Identifier (ISA11)": ">",
+                        "Interchange Control Version Number (ISA12)": "00501",
+                        "Interchange Control Number (ISA13)": "000010216",
+                        "Acknowledgment Requested (ISA14)": "0",
+                        "Usage Indicator (ISA15)": "T",
+                        "Component Element Separator (ISA16)": ":"
+                    }
+                },
+                {
+                    "Functional Group Header (GS_LOOP)": [
+                        {
+                            "Functional Group Header (GS)": {
+                                "Functional Identifier Code (GS01)": "BE",
+                                "Application Sender's Code (GS02)": "1234567890",
+                                "Application Receiver's Code (GS03)": "1234567890",
+                                "Date (GS04)": "20080503",
+                                "Time (GS05)": "1705",
+                                "Group Control Number (GS06)": "20213",
+                                "Responsible Agency Code (GS07)": "X",
+                                "Version / Release / Industry Identifier Code (GS08)": "005010X220A1"
+                            }
+                        },
+                        {
+                            "Transaction Set Header (ST_LOOP)": [
+                                {
+                                    "Transaction Set Header (ST)": {
+                                        "Transaction Set Identifier Code (ST01)": "834",
+                                        "Transaction Set Control Number (ST02)": "0001",
+                                        "Implementation Convention Reference (ST03)": "005010X220A1"
+                                    }
+                                },
+                                {
+                                    "Header (HEADER)": [
+                                        {
+                                            "Beginning Segment (BGN)": {
+                                                "Transaction Set Purpose Code (BGN01)": "00",
+                                                "Transaction Set Reference Number (BGN02)": "1",
+                                                "Transaction Set Creation Date (BGN03)": "19980520",
+                                                "Transaction Set Creation Time (BGN04)": "1200",
+                                                "Original Transaction Set Reference Number (BGN06)": "OrigID",
+                                                "Action Code (BGN08)": "2"
+                                            }
+                                        },
+                                        {
+                                            "File Effective Date (DTP)": {
+                                                "Date Time Qualifier (DTP01)": "007",
+                                                "Date Time Period Format Qualifier (DTP02)": "D8",
+                                                "Date Time Period (DTP03)": "20250102"
+                                            }
+                                        },
+                                        {
+                                            "File Effective Date (DTP)": {
+                                                "Date Time Qualifier (DTP01)": "382",
+                                                "Date Time Period Format Qualifier (DTP02)": "D8",
+                                                "Date Time Period (DTP03)": "20250102"
+                                            }
+                                        },
+                                        {
+                                            "Transaction Set Control Totals (QTY)": {
+                                                "Quantity Qualifier (QTY01)": "TO",
+                                                "Record Totals (QTY02)": "10000"
+                                            }
+                                        },
+                                        {
+                                            "Transaction Set Control Totals (QTY)": {
+                                                "Quantity Qualifier (QTY01)": "ET",
+                                                "Record Totals (QTY02)": "100"
+                                            }
+                                        },
+                                        {
+                                            "Transaction Set Control Totals (QTY)": {
+                                                "Quantity Qualifier (QTY01)": "38",
+                                                "Record Totals (QTY02)": "MasterPolicyNumber"
+                                            }
+                                        },
+                                        {
+                                            "Sponsor Name (1000A)": [
+                                                {
+                                                    "Sponsor Name (N1)": {
+                                                        "Entity Identifier Code (N101)": "P5",
+                                                        "Plan Sponsor Name (N102)": "Sponsor",
+                                                        "Identification Code Qualifier (N103)": "FI",
+                                                        "Sponsor Identifier (N104)": "999888777"
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "Payer (1000B)": [
+                                                {
+                                                    "Payer (N1)": {
+                                                        "Entity Identifier Code (N101)": "IN",
+                                                        "Insurer Name (N102)": "Insurer",
+                                                        "Identification Code Qualifier (N103)": "FI",
+                                                        "Insurer Identification Code (N104)": "654456654"
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "TPA/Broker Name (1000C)": [
+                                                {
+                                                    "TPA/Broker Name (N1)": {
+                                                        "Entity Identifier Code (N101)": "TV",
+                                                        "TPA or Broker Name (N102)": "TPA",
+                                                        "Identification Code Qualifier (N103)": "XV",
+                                                        "TPA or Broker Identification Code (N104)": "tpaID"
+                                                    }
+                                                },
+                                                {
+                                                    "TPA/Broker Account Information (1100C)": [
+                                                        {
+                                                            "TPA/Broker Account Information (ACT)": {
+                                                                "TPA or Broker Account Number (ACT01)": "account1",
+                                                                "TPA or Broker Account Number (ACT06)": "account2"
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "TPA/Broker Name (1000C)": [
+                                                {
+                                                    "TPA/Broker Name (N1)": {
+                                                        "Entity Identifier Code (N101)": "TV",
+                                                        "TPA or Broker Name (N102)": "TPA2",
+                                                        "Identification Code Qualifier (N103)": "XV",
+                                                        "TPA or Broker Identification Code (N104)": "tpa2ID"
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Table2 - Area2 (DETAIL)": [
+                                        {
+                                            "Member Level Detail (2000)": [
+                                                {
+                                                    "Member Level Detail (INS)": {
+                                                        "Member Indicator (INS01)": "Y",
+                                                        "Individual Relationship Code (INS02)": "18",
+                                                        "Maintenance Type Code (INS03)": "021",
+                                                        "Maintenance Reason Code (INS04)": "20",
+                                                        "Benefit Status Code (INS05)": "A",
+                                                        "Member Level Detail (INS)": [
+                                                            {
+                                                                "INS06-01": "A"
+                                                            },
+                                                            {
+                                                                "INS06-02": "0"
+                                                            }
+                                                        ],
+                                                        "Consolidated Omnibus Budget Reconciliation Act (COBRA) Qualifying Event Code (INS07)": "CE",
+                                                        "Employment Status Code (INS08)": "FT",
+                                                        "Student Status Code (INS09)": "N",
+                                                        "Handicap Indicator (INS10)": "Y",
+                                                        "Date Time Period Format Qualifier (INS11)": "D8",
+                                                        "Member Individual Death Date (INS12)": "20250102",
+                                                        "Confidentiality Code (INS13)": "U",
+                                                        "Birth Sequence Number (INS17)": "2"
+                                                    }
+                                                },
+                                                {
+                                                    "Member Supplemental Identifier (REF)": {
+                                                        "Reference Identification Qualifier (REF01)": "0F",
+                                                        "Member Supplemental Identifier (REF02)": "member1"
+                                                    }
+                                                },
+                                                {
+                                                    "Member Supplemental Identifier (REF)": {
+                                                        "Reference Identification Qualifier (REF01)": "1L",
+                                                        "Member Supplemental Identifier (REF02)": "group1"
+                                                    }
+                                                },
+                                                {
+                                                    "Member Supplemental Identifier (REF)": {
+                                                        "Reference Identification Qualifier (REF01)": "23",
+                                                        "Member Supplemental Identifier (REF02)": "ClientNumber"
+                                                    }
+                                                },
+                                                {
+                                                    "Member Level Dates (DTP)": {
+                                                        "Date Time Qualifier (DTP01)": "356",
+                                                        "Date Time Period Format Qualifier (DTP02)": "D8",
+                                                        "Status Information Effective Date (DTP03)": "19960112"
+                                                    }
+                                                },
+                                                {
+                                                    "Member Name (2100A)": [
+                                                        {
+                                                            "Member Name (NM1)": {
+                                                                "Entity Identifier Code (NM101)": "IL",
+                                                                "Entity Type Qualifier (NM102)": "1",
+                                                                "Member Last Name (NM103)": "SMITH",
+                                                                "Member First Name (NM104)": "WILLIAM",
+                                                                "Member Name Prefix (NM106)": "Jr",
+                                                                "Identification Code Qualifier (NM108)": "34",
+                                                                "Member Identifier (NM109)": "202443307"
+                                                            }
+                                                        },
+                                                        {
+                                                            "Member Communications Numbers (PER)": {
+                                                                "Contact Function Code (PER01)": "IP",
+                                                                "Communication Number Qualifier (PER03)": "HP",
+                                                                "Communication Number (PER04)": "7172343334",
+                                                                "Communication Number Qualifier (PER05)": "WP",
+                                                                "Communication Number (PER06)": "7172341240"
+                                                            }
+                                                        },
+                                                        {
+                                                            "Member Residence Street Address (N3)": {
+                                                                "Member Address Line (N301)": "1715 SOUTHWIND AVENUE"
+                                                            }
+                                                        },
+                                                        {
+                                                            "Member City, State, ZIP Code (N4)": {
+                                                                "Member City Name (N401)": "ANYTOWN",
+                                                                "Member State Code (N402)": "PA",
+                                                                "Member Postal Zone or Zip Code (N403)": "171110000",
+                                                                "Country Code (N404)": "US",
+                                                                "Location Qualifier (N405)": "CY",
+                                                                "Location Identifier (N406)": "ADAMS"
+                                                            }
+                                                        },
+                                                        {
+                                                            "Member Demographics (DMG)": {
+                                                                "Date Time Period Format Qualifier (DMG01)": "D8",
+                                                                "Member Birth Date (DMG02)": "19700614",
+                                                                "Gender Code (DMG03)": "M",
+                                                                "Marital Status Code (DMG04)": "M",
+                                                                "Member Demographics (DMG)": [
+                                                                    {
+                                                                        "DMG05-01": ""
+                                                                    },
+                                                                    {
+                                                                        "DMG05-02": "RET"
+                                                                    },
+                                                                    {
+                                                                        "DMG05-03": "R5>A"
+                                                                    }
+                                                                ],
+                                                                "Citizenship Status Code (DMG06)": "1"
+                                                            }
+                                                        },
+                                                        {
+                                                            "Employment Class (EC)": {
+                                                                "Employment Class Code (EC01)": "04",
+                                                                "Employment Class Code (EC02)": "06",
+                                                                "Employment Class Code (EC03)": "07"
+                                                            }
+                                                        },
+                                                        {
+                                                            "Employment Class (EC)": {
+                                                                "Employment Class Code (EC01)": "09",
+                                                                "Employment Class Code (EC02)": "10",
+                                                                "Employment Class Code (EC03)": "11"
+                                                            }
+                                                        },
+                                                        {
+                                                            "Member Income (ICM)": {
+                                                                "Frequency Code (ICM01)": "1",
+                                                                "Wage Amount (ICM02)": "425.25",
+                                                                "Work Hours Count (ICM03)": "40",
+                                                                "Location Identification Code (ICM04)": "LocCode",
+                                                                "Salary Grade Code (ICM05)": "SalaryGrade"
+                                                            }
+                                                        },
+                                                        {
+                                                            "Member Policy Amounts (AMT)": {
+                                                                "Amount Qualifier Code (AMT01)": "D2",
+                                                                "Contract Amount (AMT02)": "100"
+                                                            }
+                                                        },
+                                                        {
+                                                            "Member Health Information (HLH)": {
+                                                                "Health Related Code (HLH01)": "X",
+                                                                "Member Height (HLH02)": "74",
+                                                                "Member Weight (HLH03)": "210"
+                                                            }
+                                                        },
+                                                        {
+                                                            "Member Language (LUI)": {
+                                                                "Identification Code Qualifier (LUI01)": "LE",
+                                                                "Language Code (LUI02)": "SPA",
+                                                                "Language Use Indicator (LUI04)": "6"
+                                                            }
+                                                        },
+                                                        {
+                                                            "Member Language (LUI)": {
+                                                                "Identification Code Qualifier (LUI01)": "LE",
+                                                                "Language Code (LUI02)": "SPA",
+                                                                "Language Use Indicator (LUI04)": "7"
+                                                            }
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "Incorrect Member Name (2100B)": [
+                                                        {
+                                                            "Incorrect Member Name (NM1)": {
+                                                                "Entity Identifier Code (NM101)": "70",
+                                                                "Entity Type Qualifier (NM102)": "1",
+                                                                "Prior Incorrect Member Last Name (NM103)": "DOE",
+                                                                "Prior Incorrect Member First Name (NM104)": "JOE",
+                                                                "Identification Code Qualifier (NM108)": "34",
+                                                                "Prior Incorrect Insured Identifier (NM109)": "202443309"
+                                                            }
+                                                        },
+                                                        {
+                                                            "Incorrect Member Demographics (DMG)": {
+                                                                "Date Time Period Format Qualifier (DMG01)": "D8",
+                                                                "Prior Incorrect Insured Birth Date (DMG02)": "19700614",
+                                                                "Prior Incorrect Insured Gender Code (DMG03)": "M",
+                                                                "Marital Status Code (DMG04)": "M",
+                                                                "Member Demographics (DMG)": [
+                                                                    {
+                                                                        "DMG05-01": ""
+                                                                    },
+                                                                    {
+                                                                        "DMG05-02": "RET"
+                                                                    },
+                                                                    {
+                                                                        "DMG05-03": "B"
+                                                                    }
+                                                                ],
+                                                                "Citizenship Status Code (DMG06)": "1"
+                                                            }
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "Member Mailing Address (2100C)": [
+                                                        {
+                                                            "Member Mailing Address (NM1)": {
+                                                                "Entity Identifier Code (NM101)": "31",
+                                                                "Entity Type Qualifier (NM102)": "1"
+                                                            }
+                                                        },
+                                                        {
+                                                            "Member Mail Street Address (N3)": {
+                                                                "Member Address Line (N301)": "9715 SOUTHWIND AVENUE"
+                                                            }
+                                                        },
+                                                        {
+                                                            "Member Mail City, State, ZIP Code (N4)": {
+                                                                "Member Mail City Name (N401)": "ANYTOWN",
+                                                                "Member Mail State Code (N402)": "PA",
+                                                                "Member Mail Postal Zone or ZIP Code (N403)": "971110000"
+                                                            }
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "Member Employer (2100D)": [
+                                                        {
+                                                            "Member Employer (NM1)": {
+                                                                "Entity Identifier Code (NM101)": "36",
+                                                                "Entity Type Qualifier (NM102)": "2",
+                                                                "Member Employer Name (NM103)": "EMPLOYER1",
+                                                                "Member Employer First Name (NM104)": "First",
+                                                                "Member Employer Middle Name (NM105)": "M",
+                                                                "Identification Code Qualifier (NM108)": "24",
+                                                                "Member Employer Identifier (NM109)": "emp1ID"
+                                                            }
+                                                        },
+                                                        {
+                                                            "Member Employer Communications Numbers (PER)": {
+                                                                "Contact Function Code (PER01)": "EP",
+                                                                "Member Employer Communications Contact Name (PER02)": "Employer's contact",
+                                                                "Communication Number Qualifier (PER03)": "HP",
+                                                                "Communication Number (PER04)": "9172343334",
+                                                                "Communication Number Qualifier (PER05)": "WP",
+                                                                "Communication Number (PER06)": "9172341240"
+                                                            }
+                                                        },
+                                                        {
+                                                            "Member Employer Street Address (N3)": {
+                                                                "Member Employer Address Line (N301)": "9715 EMPLOYER1 AVENUE"
+                                                            }
+                                                        },
+                                                        {
+                                                            "Member Employer City, State, ZIP Code (N4)": {
+                                                                "Member Employer City Name (N401)": "ANYTOWN",
+                                                                "Member Employer State Code (N402)": "PA",
+                                                                "Member Employer Postal Zone or ZIP Code (N403)": "971110000"
+                                                            }
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "Member School (2100E)": [
+                                                        {
+                                                            "Member School (NM1)": {
+                                                                "Entity Identifier Code (NM101)": "M8",
+                                                                "Entity Type Qualifier (NM102)": "2",
+                                                                "School Name (NM103)": "School1"
+                                                            }
+                                                        },
+                                                        {
+                                                            "Member School Commmunications Numbers (PER)": {
+                                                                "Contact Function Code (PER01)": "SK",
+                                                                "Member School Communications Contact Name (PER02)": "School's contact",
+                                                                "Communication Number Qualifier (PER03)": "HP",
+                                                                "Communication Number (PER04)": "9172343334",
+                                                                "Communication Number Qualifier (PER05)": "WP",
+                                                                "Communication Number (PER06)": "9172341240"
+                                                            }
+                                                        },
+                                                        {
+                                                            "Member School Street Address (N3)": {
+                                                                "School Address Line (N301)": "9715 SCHOOL AVENUE"
+                                                            }
+                                                        },
+                                                        {
+                                                            "Member School City, State, ZIP Code (N4)": {
+                                                                "Member School City Name (N401)": "ANYTOWN",
+                                                                "Member School State Code (N402)": "PA",
+                                                                "Member School Postal Zone or ZIP Code (N403)": "971110000"
+                                                            }
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "Custodial Parent (2100F)": [
+                                                        {
+                                                            "Custodial Parent (NM1)": {
+                                                                "Entity Identifier Code (NM101)": "S3",
+                                                                "Entity Type Qualifier (NM102)": "1",
+                                                                "Custodial Parent Last Name (NM103)": "Custodial",
+                                                                "Custodial Parent First Name (NM104)": "Parent",
+                                                                "Custodial Parent Middle Name (NM105)": "M",
+                                                                "Identification Code Qualifier (NM108)": "ZZ",
+                                                                "Custodial Parent Identifier (NM109)": "custodialParentID"
+                                                            }
+                                                        },
+                                                        {
+                                                            "Custodial Parent Communications Numbers (PER)": {
+                                                                "Contact Function Code (PER01)": "PQ",
+                                                                "Communication Number Qualifier (PER03)": "HP",
+                                                                "Communication Number (PER04)": "9172343334",
+                                                                "Communication Number Qualifier (PER05)": "WP",
+                                                                "Communication Number (PER06)": "9172341240"
+                                                            }
+                                                        },
+                                                        {
+                                                            "Custodial Parent Street Address (N3)": {
+                                                                "Custodial Parent Address Line (N301)": "9715 CUSTODIAL AVENUE"
+                                                            }
+                                                        },
+                                                        {
+                                                            "Custodial Parent City, State, ZIP Code (N4)": {
+                                                                "Custodial Parent City Name (N401)": "ANYTOWN",
+                                                                "Custodial Parent State Code (N402)": "PA",
+                                                                "Custodial Parent Postal Zone or ZIP Code (N403)": "971110000"
+                                                            }
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "Responsible Person (2100G)": [
+                                                        {
+                                                            "Responsible Person (NM1)": {
+                                                                "Entity Identifier Code (NM101)": "QD",
+                                                                "Entity Type Qualifier (NM102)": "1",
+                                                                "Responsible Party Last or Organization Name (NM103)": "Responsible",
+                                                                "Responsible Party First Name (NM104)": "Person",
+                                                                "Responsible Party Middle Name (NM105)": "M",
+                                                                "Identification Code Qualifier (NM108)": "34",
+                                                                "Responsible Party Identifier (NM109)": "responsiblePersonID"
+                                                            }
+                                                        },
+                                                        {
+                                                            "Responsible Person Communications Numbers (PER)": {
+                                                                "Contact Function Code (PER01)": "RP",
+                                                                "Communication Number Qualifier (PER03)": "HP",
+                                                                "Communication Number (PER04)": "9172343334",
+                                                                "Communication Number Qualifier (PER05)": "WP",
+                                                                "Communication Number (PER06)": "9172341240"
+                                                            }
+                                                        },
+                                                        {
+                                                            "Responsible Person Street Address (N3)": {
+                                                                "Responsible Party Address Line (N301)": "9715 RESPONSIBLE AVENUE"
+                                                            }
+                                                        },
+                                                        {
+                                                            "Responsible Person City, State, ZIP Code (N4)": {
+                                                                "Responsible Person City Name (N401)": "ANYTOWN",
+                                                                "Responsible Person State Code (N402)": "PA",
+                                                                "Responsible Person Postal Zone or ZIP Code (N403)": "971110000"
+                                                            }
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "Drop Off Location (2100H)": [
+                                                        {
+                                                            "Drop Off Location (NM1)": {
+                                                                "Entity Identifier Code (NM101)": "45",
+                                                                "Entity Type Qualifier (NM102)": "1",
+                                                                "Name Last or Organization Name (NM103)": "DropOff"
+                                                            }
+                                                        },
+                                                        {
+                                                            "Drop Off Location Street Address (N3)": {
+                                                                "Drop Off Location Address Line (N301)": "9715 DROPOFF AVENUE"
+                                                            }
+                                                        },
+                                                        {
+                                                            "Drop Off Location City, State, ZIP Code (N4)": {
+                                                                "Drop Off Location City Name (N401)": "ANYTOWN",
+                                                                "Drop Off Location State Code (N402)": "PA",
+                                                                "Drop Off Location Postal Zone or ZIP Code (N403)": "971110000"
+                                                            }
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "Disability Information (2200)": [
+                                                        {
+                                                            "Disability Information (DSB)": {
+                                                                "Disability Type Code (DSB01)": "2",
+                                                                "Product or Service ID Qualifier (DSB07)": "DX",
+                                                                "Diagnosis Code (DSB08)": "585"
+                                                            }
+                                                        },
+                                                        {
+                                                            "Disability Eligibility Dates (DTP)": {
+                                                                "Date Time Qualifier (DTP01)": "360",
+                                                                "Date Time Period Format Qualifier (DTP02)": "D8",
+                                                                "Disability Eligibility Date (DTP03)": "20250401"
+                                                            }
+                                                        },
+                                                        {
+                                                            "Disability Eligibility Dates (DTP)": {
+                                                                "Date Time Qualifier (DTP01)": "361",
+                                                                "Date Time Period Format Qualifier (DTP02)": "D8",
+                                                                "Disability Eligibility Date (DTP03)": "20250501"
+                                                            }
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "Health Coverage (2300)": [
+                                                        {
+                                                            "Health Coverage (HD)": {
+                                                                "Maintenance Type Code (HD01)": "021",
+                                                                "Insurance Line Code (HD03)": "HMO",
+                                                                "Plan Coverage Description (HD04)": "PlanDesc",
+                                                                "Coverage Level Code (HD05)": "FAM",
+                                                                "Late Enrollment Indicator (HD09)": "N"
+                                                            }
+                                                        },
+                                                        {
+                                                            "Health Coverage Dates (DTP)": {
+                                                                "Date Time Qualifier (DTP01)": "348",
+                                                                "Date Time Period Format Qualifier (DTP02)": "D8",
+                                                                "Coverage Period (DTP03)": "19960601"
+                                                            }
+                                                        },
+                                                        {
+                                                            "Health Coverage Policy (AMT)": {
+                                                                "Amount Qualifier Code (AMT01)": "C1",
+                                                                "Contract Amount (AMT02)": "20"
+                                                            }
+                                                        },
+                                                        {
+                                                            "Prior Coverage Months (REF)": {
+                                                                "Reference Identification Qualifier (REF01)": "1L",
+                                                                "Prior Coverage Month Count (REF02)": "PolicyNumber"
+                                                            }
+                                                        },
+                                                        {
+                                                            "Prior Coverage Months (REF)": {
+                                                                "Reference Identification Qualifier (REF01)": "QQ",
+                                                                "Prior Coverage Month Count (REF02)": "0"
+                                                            }
+                                                        },
+                                                        {
+                                                            "Identification Card (IDC)": {
+                                                                "Plan Coverage Description (IDC01)": "PlanDesc",
+                                                                "Identification Card Type Code (IDC02)": "H",
+                                                                "Identification Card Count (IDC03)": "5.2",
+                                                                "Action Code (IDC04)": "RX"
+                                                            }
+                                                        },
+                                                        {
+                                                            "Provider Information (2310)": [
+                                                                {
+                                                                    "Provider Information (LX)": {
+                                                                        "Assigned Number (LX01)": "01"
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "Provider Name (NM1)": {
+                                                                        "Entity Identifier Code (NM101)": "P3",
+                                                                        "Entity Type Qualifier (NM102)": "1",
+                                                                        "Provider Last or Organization Name (NM103)": "BROWN",
+                                                                        "Provider First Name (NM104)": "BERNARD",
+                                                                        "Provider Name Prefix (NM106)": "DR",
+                                                                        "Identification Code Qualifier (NM108)": "SV",
+                                                                        "Provider Identifier (NM109)": "prov1ID",
+                                                                        "Entity Relationship Code (NM110)": "25"
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "Provider Address (N3)": {
+                                                                        "Provider Address Line (N301)": "2715 SOUTHWIND AVENUE"
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "Provider City, State, ZIP Code (N4)": {
+                                                                        "Provider City Name (N401)": "ANYTOWN",
+                                                                        "Provider State Code (N402)": "PA",
+                                                                        "Provider Postal Zone or ZIP Code (N403)": "271110000"
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "Provider Communications Numbers (PER)": {
+                                                                        "Contact Function Code (PER01)": "IC",
+                                                                        "Communication Number Qualifier (PER03)": "HP",
+                                                                        "Communication Number (PER04)": "2172343334",
+                                                                        "Communication Number Qualifier (PER05)": "WP",
+                                                                        "Communication Number (PER06)": "2172341240"
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "Provider Change Reason (PLA)": {
+                                                                        "Action Code (PLA01)": "2",
+                                                                        "Entity Identifier Code (PLA02)": "1P",
+                                                                        "Provider Effective Date (PLA03)": "20240501",
+                                                                        "Maintenance Reason Code (PLA05)": "AI"
+                                                                    }
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "Provider Information (2310)": [
+                                                                {
+                                                                    "Provider Information (LX)": {
+                                                                        "Assigned Number (LX01)": "02"
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "Provider Name (NM1)": {
+                                                                        "Entity Identifier Code (NM101)": "Y2",
+                                                                        "Entity Type Qualifier (NM102)": "1",
+                                                                        "Provider Last or Organization Name (NM103)": "BROWN",
+                                                                        "Provider First Name (NM104)": "BERNARD",
+                                                                        "Provider Name Prefix (NM106)": "DR",
+                                                                        "Identification Code Qualifier (NM108)": "SV",
+                                                                        "Provider Identifier (NM109)": "943766",
+                                                                        "Entity Relationship Code (NM110)": "25"
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "Provider Address (N3)": {
+                                                                        "Provider Address Line (N301)": "2715 SOUTHWIND AVENUE"
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "Provider City, State, ZIP Code (N4)": {
+                                                                        "Provider City Name (N401)": "ANYTOWN",
+                                                                        "Provider State Code (N402)": "PA",
+                                                                        "Provider Postal Zone or ZIP Code (N403)": "271110000"
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "Provider Change Reason (PLA)": {
+                                                                        "Action Code (PLA01)": "2",
+                                                                        "Entity Identifier Code (PLA02)": "1P",
+                                                                        "Provider Effective Date (PLA03)": "20230501",
+                                                                        "Maintenance Reason Code (PLA05)": "AI"
+                                                                    }
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "Coordination of Benefits (2320)": [
+                                                                {
+                                                                    "Coordination of Benefits (COB)": {
+                                                                        "Payer Responsibility Sequence Number Code (COB01)": "P",
+                                                                        "Member Group or Policy Number (COB02)": "XYZ123",
+                                                                        "Coordination of Benefits Code (COB03)": "1",
+                                                                        "Service Type Code (COB04)": "1>35"
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "Additional Coordination of Benefits Identifiers (REF)": {
+                                                                        "Reference Identification Qualifier (REF01)": "6P",
+                                                                        "Member Group or Policy Number (REF02)": "COB-GroupNumber"
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "Additional Coordination of Benefits Identifiers (REF)": {
+                                                                        "Reference Identification Qualifier (REF01)": "SY",
+                                                                        "Member Group or Policy Number (REF02)": "COB-SSN"
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "Coordination of Benefits Eligibility Dates (DTP)": {
+                                                                        "Date Time Qualifier (DTP01)": "344",
+                                                                        "Date Time Period Format Qualifier (DTP02)": "D8",
+                                                                        "Coordination of Benefits Date (DTP03)": "20250201"
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "Coordination of Benefits Eligibility Dates (DTP)": {
+                                                                        "Date Time Qualifier (DTP01)": "345",
+                                                                        "Date Time Period Format Qualifier (DTP02)": "D8",
+                                                                        "Coordination of Benefits Date (DTP03)": "20250228"
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "Coordination of Benefits Related Entity (2330)": [
+                                                                        {
+                                                                            "Coordination of Benefits Related Entity (NM1)": {
+                                                                                "Entity Identifier Code (NM101)": "36",
+                                                                                "Entity Type Qualifier (NM102)": "2",
+                                                                                "Coordination of Benefits Insurer Name (NM103)": "COB-Employer",
+                                                                                "Identification Code Qualifier (NM108)": "FI",
+                                                                                "Coordination of Benefits Insurer Identification Code (NM109)": "COB-EmployerId"
+                                                                            }
+                                                                        },
+                                                                        {
+                                                                            "Coordination of Benefits Related Entity Address (N3)": {
+                                                                                "Address Information (N301)": "9715 RESPONSIBLE AVENUE"
+                                                                            }
+                                                                        },
+                                                                        {
+                                                                            "Coordination of Benefits Other Insurance Company City, State, ZIP Code (N4)": {
+                                                                                "Coordination of Benefits Other Insurance Company City Name (N401)": "ANYTOWN",
+                                                                                "Coordination of Benefits Other Insurance Company State Code (N402)": "PA",
+                                                                                "Coordination of Benefits Other Insurance Company Postal Zone or ZIP Code (N403)": "971110000"
+                                                                            }
+                                                                        },
+                                                                        {
+                                                                            "Administrative Communications Contact (PER)": {
+                                                                                "Contact Function Code (PER01)": "CN",
+                                                                                "Communication Number Qualifier (PER03)": "HP",
+                                                                                "Communication Number (PER04)": "9172343334"
+                                                                            }
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "Health Coverage (2300)": [
+                                                        {
+                                                            "Health Coverage (HD)": {
+                                                                "Maintenance Type Code (HD01)": "021",
+                                                                "Insurance Line Code (HD03)": "EPO",
+                                                                "Plan Coverage Description (HD04)": "PlanDesc2",
+                                                                "Coverage Level Code (HD05)": "FAM",
+                                                                "Late Enrollment Indicator (HD09)": "N"
+                                                            }
+                                                        },
+                                                        {
+                                                            "Health Coverage Dates (DTP)": {
+                                                                "Date Time Qualifier (DTP01)": "348",
+                                                                "Date Time Period Format Qualifier (DTP02)": "D8",
+                                                                "Coverage Period (DTP03)": "20250501"
+                                                            }
+                                                        },
+                                                        {
+                                                            "Health Coverage Policy (AMT)": {
+                                                                "Amount Qualifier Code (AMT01)": "C1",
+                                                                "Contract Amount (AMT02)": "20"
+                                                            }
+                                                        },
+                                                        {
+                                                            "Prior Coverage Months (REF)": {
+                                                                "Reference Identification Qualifier (REF01)": "1L",
+                                                                "Prior Coverage Month Count (REF02)": "PolicyNumber2"
+                                                            }
+                                                        },
+                                                        {
+                                                            "Prior Coverage Months (REF)": {
+                                                                "Reference Identification Qualifier (REF01)": "QQ",
+                                                                "Prior Coverage Month Count (REF02)": "0"
+                                                            }
+                                                        },
+                                                        {
+                                                            "Prior Coverage Months (REF)": {
+                                                                "Reference Identification Qualifier (REF01)": "2700"
+                                                            }
+                                                        },
+                                                        {
+                                                            "Provider Information (2310)": [
+                                                                {
+                                                                    "Provider Information (LX)": {
+                                                                        "Assigned Number (LX01)": "1"
+                                                                    }
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "Additional Reporting Categories (2700)": [
+                                                        {
+                                                            "Member Reporting Categories (2710)": [
+                                                                {
+                                                                    "Reporting Category (2750)": [
+                                                                        {
+                                                                            "Reporting Category (N1)": {
+                                                                                "Entity Identifier Code (N101)": "75",
+                                                                                "Member Reporting Category Name (N102)": "SOUTHEASTERN UNION"
+                                                                            }
+                                                                        },
+                                                                        {
+                                                                            "Reporting Category Reference (REF)": {
+                                                                                "Reference Identification Qualifier (REF01)": "26",
+                                                                                "Member Reporting Category Reference ID (REF02)": "442"
+                                                                            }
+                                                                        },
+                                                                        {
+                                                                            "Reporting Category Date (DTP)": {
+                                                                                "Date Time Qualifier (DTP01)": "007",
+                                                                                "Date Time Period Format Qualifier (DTP02)": "RD8",
+                                                                                "Member Reporting Category Effective Date(s) (DTP03)": "20250301-20250531"
+                                                                            }
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                {
+                                                                    "Member Reporting Categories (LX)": {
+                                                                        "Assigned Number (LX01)": "2"
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "Reporting Category (2750)": [
+                                                                        {
+                                                                            "Reporting Category (N1)": {
+                                                                                "Entity Identifier Code (N101)": "75",
+                                                                                "Member Reporting Category Name (N102)": "PAYER2"
+                                                                            }
+                                                                        },
+                                                                        {
+                                                                            "Reporting Category Reference (REF)": {
+                                                                                "Reference Identification Qualifier (REF01)": "26",
+                                                                                "Member Reporting Category Reference ID (REF02)": "442"
+                                                                            }
+                                                                        },
+                                                                        {
+                                                                            "Reporting Category Date (DTP)": {
+                                                                                "Date Time Qualifier (DTP01)": "007",
+                                                                                "Date Time Period Format Qualifier (DTP02)": "D8",
+                                                                                "Member Reporting Category Effective Date(s) (DTP03)": "20040101"
+                                                                            }
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                {
+                                                                    "Additional Reporting Categories Loop Termination (LE)": {
+                                                                        "Loop Identifier Code (LE01)": "2700"
+                                                                    }
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "Member Level Detail (2000)": [
+                                                {
+                                                    "Member Level Detail (INS)": {
+                                                        "Member Indicator (INS01)": "Y",
+                                                        "Individual Relationship Code (INS02)": "18",
+                                                        "Maintenance Type Code (INS03)": "021",
+                                                        "Maintenance Reason Code (INS04)": "20",
+                                                        "Benefit Status Code (INS05)": "A",
+                                                        "Employment Status Code (INS08)": "FT"
+                                                    }
+                                                },
+                                                {
+                                                    "Member Supplemental Identifier (REF)": {
+                                                        "Reference Identification Qualifier (REF01)": "0F",
+                                                        "Member Supplemental Identifier (REF02)": "member2"
+                                                    }
+                                                },
+                                                {
+                                                    "Member Supplemental Identifier (REF)": {
+                                                        "Reference Identification Qualifier (REF01)": "1L",
+                                                        "Member Supplemental Identifier (REF02)": "group2"
+                                                    }
+                                                },
+                                                {
+                                                    "Member Level Dates (DTP)": {
+                                                        "Date Time Qualifier (DTP01)": "356",
+                                                        "Date Time Period Format Qualifier (DTP02)": "D8",
+                                                        "Status Information Effective Date (DTP03)": "19960112"
+                                                    }
+                                                },
+                                                {
+                                                    "Member Name (2100A)": [
+                                                        {
+                                                            "Member Name (NM1)": {
+                                                                "Entity Identifier Code (NM101)": "IL",
+                                                                "Entity Type Qualifier (NM102)": "1",
+                                                                "Member Last Name (NM103)": "SMITH",
+                                                                "Member First Name (NM104)": "Jane",
+                                                                "Member Name Prefix (NM106)": "Jr",
+                                                                "Identification Code Qualifier (NM108)": "34",
+                                                                "Member Identifier (NM109)": "202443309"
+                                                            }
+                                                        },
+                                                        {
+                                                            "Member Communications Numbers (PER)": {
+                                                                "Contact Function Code (PER01)": "IP",
+                                                                "Communication Number Qualifier (PER03)": "HP",
+                                                                "Communication Number (PER04)": "7172343334",
+                                                                "Communication Number Qualifier (PER05)": "WP",
+                                                                "Communication Number (PER06)": "7172341240"
+                                                            }
+                                                        },
+                                                        {
+                                                            "Member Residence Street Address (N3)": {
+                                                                "Member Address Line (N301)": "1715 SOUTHWIND AVENUE"
+                                                            }
+                                                        },
+                                                        {
+                                                            "Member City, State, ZIP Code (N4)": {
+                                                                "Member City Name (N401)": "ANYTOWN",
+                                                                "Member State Code (N402)": "PA",
+                                                                "Member Postal Zone or Zip Code (N403)": "171110000"
+                                                            }
+                                                        },
+                                                        {
+                                                            "Member Demographics (DMG)": {
+                                                                "Date Time Period Format Qualifier (DMG01)": "D8",
+                                                                "Member Birth Date (DMG02)": "19700614",
+                                                                "Gender Code (DMG03)": "M"
+                                                            }
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "Health Coverage (2300)": [
+                                                        {
+                                                            "Health Coverage (HD)": {
+                                                                "Maintenance Type Code (HD01)": "021",
+                                                                "Insurance Line Code (HD03)": "HMO"
+                                                            }
+                                                        },
+                                                        {
+                                                            "Health Coverage Dates (DTP)": {
+                                                                "Date Time Qualifier (DTP01)": "348",
+                                                                "Date Time Period Format Qualifier (DTP02)": "D8",
+                                                                "Coverage Period (DTP03)": "19960601"
+                                                            }
+                                                        },
+                                                        {
+                                                            "Provider Information (2310)": [
+                                                                {
+                                                                    "Provider Information (LX)": {
+                                                                        "Assigned Number (LX01)": "01"
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "Provider Name (NM1)": {
+                                                                        "Entity Identifier Code (NM101)": "P3",
+                                                                        "Entity Type Qualifier (NM102)": "1",
+                                                                        "Provider Last or Organization Name (NM103)": "BROWN",
+                                                                        "Provider First Name (NM104)": "BERNARD",
+                                                                        "Provider Name Prefix (NM106)": "DR",
+                                                                        "Identification Code Qualifier (NM108)": "SV",
+                                                                        "Provider Identifier (NM109)": "143766",
+                                                                        "Entity Relationship Code (NM110)": "25"
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "Provider Change Reason (PLA)": {
+                                                                        "Action Code (PLA01)": "2",
+                                                                        "Entity Identifier Code (PLA02)": "1P",
+                                                                        "Provider Effective Date (PLA03)": "20240501",
+                                                                        "Maintenance Reason Code (PLA05)": "AI"
+                                                                    }
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Transaction Set Trailer (SE)": {
+                                        "Transaction Segment Count (SE01)": "115",
+                                        "Transaction Set Control Number (SE02)": "0001"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Transaction Set Header (ST_LOOP)": [
+                                {
+                                    "Transaction Set Header (ST)": {
+                                        "Transaction Set Identifier Code (ST01)": "834",
+                                        "Transaction Set Control Number (ST02)": "0002",
+                                        "Implementation Convention Reference (ST03)": "005010X220A1"
+                                    }
+                                },
+                                {
+                                    "Header (HEADER)": [
+                                        {
+                                            "Beginning Segment (BGN)": {
+                                                "Transaction Set Purpose Code (BGN01)": "00",
+                                                "Transaction Set Reference Number (BGN02)": "1",
+                                                "Transaction Set Creation Date (BGN03)": "19980520",
+                                                "Transaction Set Creation Time (BGN04)": "1200",
+                                                "Action Code (BGN08)": "2"
+                                            }
+                                        },
+                                        {
+                                            "Transaction Set Policy Number (REF)": {
+                                                "Reference Identification Qualifier (REF01)": "38",
+                                                "Master Policy Number (REF02)": "MasterPolicyNumbe2"
+                                            }
+                                        },
+                                        {
+                                            "Sponsor Name (1000A)": [
+                                                {
+                                                    "Sponsor Name (N1)": {
+                                                        "Entity Identifier Code (N101)": "P5",
+                                                        "Plan Sponsor Name (N102)": "Sponsor2",
+                                                        "Identification Code Qualifier (N103)": "FI",
+                                                        "Sponsor Identifier (N104)": "999888777"
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "Payer (1000B)": [
+                                                {
+                                                    "Payer (N1)": {
+                                                        "Entity Identifier Code (N101)": "IN",
+                                                        "Insurer Name (N102)": "Insurer2",
+                                                        "Identification Code Qualifier (N103)": "FI",
+                                                        "Insurer Identification Code (N104)": "654456654"
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Table2 - Area2 (DETAIL)": [
+                                        {
+                                            "Member Level Detail (2000)": [
+                                                {
+                                                    "Member Level Detail (INS)": {
+                                                        "Member Indicator (INS01)": "Y",
+                                                        "Individual Relationship Code (INS02)": "18",
+                                                        "Maintenance Type Code (INS03)": "021",
+                                                        "Maintenance Reason Code (INS04)": "20",
+                                                        "Benefit Status Code (INS05)": "A",
+                                                        "Consolidated Omnibus Budget Reconciliation Act (COBRA) Qualifying Event Code (INS07)": "CE",
+                                                        "Employment Status Code (INS08)": "FT",
+                                                        "Student Status Code (INS09)": "ST",
+                                                        "Handicap Indicator (INS10)": "Y",
+                                                        "Date Time Period Format Qualifier (INS11)": "C"
+                                                    }
+                                                },
+                                                {
+                                                    "Member Supplemental Identifier (REF)": {
+                                                        "Reference Identification Qualifier (REF01)": "0F",
+                                                        "Member Supplemental Identifier (REF02)": "member3"
+                                                    }
+                                                },
+                                                {
+                                                    "Member Supplemental Identifier (REF)": {
+                                                        "Reference Identification Qualifier (REF01)": "1L",
+                                                        "Member Supplemental Identifier (REF02)": "group3"
+                                                    }
+                                                },
+                                                {
+                                                    "Member Supplemental Identifier (REF)": {
+                                                        "Reference Identification Qualifier (REF01)": "23",
+                                                        "Member Supplemental Identifier (REF02)": "ClientNumber3"
+                                                    }
+                                                },
+                                                {
+                                                    "Member Level Dates (DTP)": {
+                                                        "Date Time Qualifier (DTP01)": "356",
+                                                        "Date Time Period Format Qualifier (DTP02)": "D8",
+                                                        "Status Information Effective Date (DTP03)": "19960112"
+                                                    }
+                                                },
+                                                {
+                                                    "Member Name (2100A)": [
+                                                        {
+                                                            "Member Name (NM1)": {
+                                                                "Entity Identifier Code (NM101)": "IL",
+                                                                "Entity Type Qualifier (NM102)": "1",
+                                                                "Member Last Name (NM103)": "SMITH",
+                                                                "Member First Name (NM104)": "WILLIAM",
+                                                                "Member Name Prefix (NM106)": "Jr",
+                                                                "Identification Code Qualifier (NM108)": "34",
+                                                                "Member Identifier (NM109)": "202443307"
+                                                            }
+                                                        },
+                                                        {
+                                                            "Member Communications Numbers (PER)": {
+                                                                "Contact Function Code (PER01)": "IP",
+                                                                "Communication Number Qualifier (PER03)": "HP",
+                                                                "Communication Number (PER04)": "7172343334",
+                                                                "Communication Number Qualifier (PER05)": "WP",
+                                                                "Communication Number (PER06)": "7172341240"
+                                                            }
+                                                        },
+                                                        {
+                                                            "Member Residence Street Address (N3)": {
+                                                                "Member Address Line (N301)": "1715 SOUTHWIND AVENUE"
+                                                            }
+                                                        },
+                                                        {
+                                                            "Member City, State, ZIP Code (N4)": {
+                                                                "Member City Name (N401)": "ANYTOWN",
+                                                                "Member State Code (N402)": "PA",
+                                                                "Member Postal Zone or Zip Code (N403)": "171110000"
+                                                            }
+                                                        },
+                                                        {
+                                                            "Member Demographics (DMG)": {
+                                                                "Date Time Period Format Qualifier (DMG01)": "D8",
+                                                                "Member Birth Date (DMG02)": "19700614",
+                                                                "Gender Code (DMG03)": "M"
+                                                            }
+                                                        },
+                                                        {
+                                                            "Member Policy Amounts (AMT)": {
+                                                                "Amount Qualifier Code (AMT01)": "D2",
+                                                                "Contract Amount (AMT02)": "100"
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Transaction Set Trailer (SE)": {
+                                        "Transaction Segment Count (SE01)": "18",
+                                        "Transaction Set Control Number (SE02)": "0002"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Functional Group Trailer (GE)": {
+                                "Number of Transaction Sets Included (GE01)": "1",
+                                "Group Control Number (GE02)": "20213"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "Interchange Control Trailer (IEA)": {
+                        "Number of Included Functional Groups (IEA01)": "1",
+                        "Interchange Control Number (IEA02)": "000010216"
+                    }
+                }
+            ]
+        }
+    ]
+}

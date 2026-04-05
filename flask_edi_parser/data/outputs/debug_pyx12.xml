@@ -1,0 +1,957 @@
+<?xml version="1.0" encoding="utf-8"?>
+<x12simple>
+  <loop id='ISA_LOOP'>
+    <seg id='ISA'>
+      <ele id='ISA01'>00</ele>
+      <ele id='ISA02'>          </ele>
+      <ele id='ISA03'>00</ele>
+      <ele id='ISA04'>          </ele>
+      <ele id='ISA05'>ZZ</ele>
+      <ele id='ISA06'>133052274      </ele>
+      <ele id='ISA07'>ZZ</ele>
+      <ele id='ISA08'>121150001      </ele>
+      <ele id='ISA09'>190311</ele>
+      <ele id='ISA10'>1700</ele>
+      <ele id='ISA11'>$</ele>
+      <ele id='ISA12'>00501</ele>
+      <ele id='ISA13'>000000002</ele>
+      <ele id='ISA14'>0</ele>
+      <ele id='ISA15'>T</ele>
+      <ele id='ISA16'>:</ele>
+    </seg>
+    <loop id='GS_LOOP'>
+      <seg id='GS'>
+        <ele id='GS01'>HC</ele>
+        <ele id='GS02'>133052274</ele>
+        <ele id='GS03'>121150001</ele>
+        <ele id='GS04'>20190311</ele>
+        <ele id='GS05'>1700</ele>
+        <ele id='GS06'>02</ele>
+        <ele id='GS07'>X</ele>
+        <ele id='GS08'>005010X222A1</ele>
+      </seg>
+      <loop id='ST_LOOP'>
+        <seg id='ST'>
+          <ele id='ST01'>837</ele>
+          <ele id='ST02'>00000024</ele>
+          <ele id='ST03'>005010X223A2</ele>
+        </seg>
+        <loop id='HEADER'>
+          <seg id='BHT'>
+            <ele id='BHT01'>0019</ele>
+            <ele id='BHT02'>00</ele>
+            <ele id='BHT03'>00000024</ele>
+            <ele id='BHT04'>20190311</ele>
+            <ele id='BHT05'>09460310</ele>
+            <ele id='BHT06'>CH</ele>
+          </seg>
+          <loop id='1000A'>
+            <seg id='NM1'>
+              <ele id='NM101'>41</ele>
+              <ele id='NM102'>2</ele>
+              <ele id='NM103'>CHANGEHC</ele>
+              <ele id='NM108'>46</ele>
+              <ele id='NM109'>SUBMITID02</ele>
+            </seg>
+            <seg id='PER'>
+              <ele id='PER01'>IC</ele>
+              <ele id='PER02'>CHANGEHC</ele>
+              <ele id='PER03'>TE</ele>
+              <ele id='PER04'>8008456592</ele>
+            </seg>
+          </loop>
+          <loop id='1000B'>
+            <seg id='NM1'>
+              <ele id='NM101'>40</ele>
+              <ele id='NM102'>2</ele>
+              <ele id='NM103'>BEST PLAN SERVICE</ele>
+              <ele id='NM108'>46</ele>
+              <ele id='NM109'>ETIN9999</ele>
+            </seg>
+          </loop>
+        </loop>
+        <loop id='DETAIL'>
+          <loop id='2000A'>
+            <seg id='HL'>
+              <ele id='HL01'>1</ele>
+              <ele id='HL03'>20</ele>
+              <ele id='HL04'>1</ele>
+            </seg>
+            <seg id='PRV'>
+              <ele id='PRV01'>BI</ele>
+              <ele id='PRV02'>PXC</ele>
+              <ele id='PRV03'>207L00000X</ele>
+            </seg>
+            <loop id='2010AA'>
+              <seg id='NM1'>
+                <ele id='NM101'>85</ele>
+                <ele id='NM102'>2</ele>
+                <ele id='NM103'>BEST MEDICAL ASSOCIATES LLC</ele>
+                <ele id='NM108'>XX</ele>
+                <ele id='NM109'>0123456789</ele>
+              </seg>
+              <seg id='N3'>
+                <ele id='N301'>222 HEALTHY STREET</ele>
+                <ele id='N302'>SUITE 200</ele>
+              </seg>
+              <seg id='N4'>
+                <ele id='N401'>HERNDON</ele>
+                <ele id='N402'>VA</ele>
+                <ele id='N403'>201714444</ele>
+                <ele id='N404'>USA</ele>
+              </seg>
+              <seg id='REF'>
+                <ele id='REF01'>EI</ele>
+                <ele id='REF02'>123401234</ele>
+              </seg>
+              <seg id='PER'>
+                <ele id='PER01'>IC</ele>
+                <ele id='PER02'>ATTN ALEX</ele>
+                <ele id='PER03'>TE</ele>
+                <ele id='PER04'>7031234567</ele>
+                <ele id='PER05'>EX</ele>
+                <ele id='PER06'>123</ele>
+                <ele id='PER07'>EM</ele>
+                <ele id='PER08'>ALEX@BESTMED.NET</ele>
+              </seg>
+            </loop>
+            <loop id='2010AB'>
+              <seg id='NM1'>
+                <ele id='NM101'>87</ele>
+                <ele id='NM102'>2</ele>
+              </seg>
+              <seg id='N3'>
+                <ele id='N301'>P O BOX 22310</ele>
+              </seg>
+              <seg id='N4'>
+                <ele id='N401'>OKLAHOMA CITY</ele>
+                <ele id='N402'>OK</ele>
+                <ele id='N403'>799998961</ele>
+              </seg>
+            </loop>
+            <loop id='2010AC'>
+              <seg id='NM1'>
+                <ele id='NM101'>PE</ele>
+                <ele id='NM102'>2</ele>
+                <ele id='NM103'>PLAN TO PAY TO</ele>
+                <ele id='NM108'>XX</ele>
+                <ele id='NM109'>PTP123</ele>
+              </seg>
+              <seg id='N3'>
+                <ele id='N301'>236 SEAWAY ST</ele>
+              </seg>
+              <seg id='N4'>
+                <ele id='N401'>MIAMI</ele>
+                <ele id='N402'>FL</ele>
+                <ele id='N403'>33111</ele>
+              </seg>
+              <seg id='REF'>
+                <ele id='REF01'>FY</ele>
+                <ele id='REF02'>587654321</ele>
+              </seg>
+            </loop>
+            <loop id='2000B'>
+              <seg id='HL'>
+                <ele id='HL01'>2</ele>
+                <ele id='HL02'>1</ele>
+                <ele id='HL03'>22</ele>
+                <ele id='HL04'>0</ele>
+              </seg>
+              <seg id='SBR'>
+                <ele id='SBR01'>S</ele>
+                <ele id='SBR02'>18</ele>
+                <ele id='SBR03'>S2345</ele>
+                <ele id='SBR04'>Other Insured Group Name</ele>
+                <ele id='SBR09'>13</ele>
+              </seg>
+              <loop id='2010BA'>
+                <seg id='NM1'>
+                  <ele id='NM101'>IL</ele>
+                  <ele id='NM102'>1</ele>
+                  <ele id='NM103'>DOE</ele>
+                  <ele id='NM104'>JANE</ele>
+                  <ele id='NM105'>A</ele>
+                  <ele id='NM108'>MI</ele>
+                  <ele id='NM109'>1008716534V004619</ele>
+                </seg>
+                <seg id='N3'>
+                  <ele id='N301'>444 ORANGE STREET</ele>
+                  <ele id='N302'>APT 4B</ele>
+                </seg>
+                <seg id='N4'>
+                  <ele id='N401'>LAKEVILLE</ele>
+                  <ele id='N402'>TX</ele>
+                  <ele id='N403'>557143298</ele>
+                  <ele id='N404'>USA</ele>
+                </seg>
+                <seg id='DMG'>
+                  <ele id='DMG01'>D8</ele>
+                  <ele id='DMG02'>19911010</ele>
+                  <ele id='DMG03'>F</ele>
+                </seg>
+              </loop>
+              <loop id='2010BB'>
+                <seg id='NM1'>
+                  <ele id='NM101'>PR</ele>
+                  <ele id='NM102'>2</ele>
+                  <ele id='NM103'>BEST PLAN SERVICE</ele>
+                  <ele id='NM108'>PI</ele>
+                  <ele id='NM109'>PAYERID1234</ele>
+                </seg>
+                <seg id='N3'>
+                  <ele id='N301'>3394 JACKSON DR</ele>
+                  <ele id='N302'>SUITE 117</ele>
+                </seg>
+                <seg id='N4'>
+                  <ele id='N401'>SPRINGFIELD</ele>
+                  <ele id='N402'>VA</ele>
+                  <ele id='N403'>22309</ele>
+                </seg>
+                <seg id='REF'>
+                  <ele id='REF01'>EI</ele>
+                  <ele id='REF02'>123456789</ele>
+                </seg>
+                <seg id='REF'>
+                  <ele id='REF01'>G2</ele>
+                  <ele id='REF02'>12345</ele>
+                </seg>
+              </loop>
+              <loop id='2000C'>
+                <seg id='HL'>
+                  <ele id='HL01'>3</ele>
+                  <ele id='HL02'>2</ele>
+                  <ele id='HL03'>23</ele>
+                  <ele id='HL04'>0</ele>
+                </seg>
+                <seg id='PAT'>
+                  <ele id='PAT01'>19</ele>
+                </seg>
+                <loop id='2010CA'>
+                  <seg id='NM1'>
+                    <ele id='NM101'>QC</ele>
+                    <ele id='NM102'>1</ele>
+                    <ele id='NM103'>DOE</ele>
+                    <ele id='NM104'>FRED</ele>
+                    <ele id='NM105'>J</ele>
+                  </seg>
+                  <seg id='N3'>
+                    <ele id='N301'>123 MAIN STREET</ele>
+                  </seg>
+                  <seg id='N4'>
+                    <ele id='N401'>KANSAS CITY</ele>
+                    <ele id='N402'>MO</ele>
+                    <ele id='N403'>64108</ele>
+                  </seg>
+                  <seg id='DMG'>
+                    <ele id='DMG01'>D8</ele>
+                    <ele id='DMG02'>20190910</ele>
+                    <ele id='DMG03'>M</ele>
+                  </seg>
+                  <seg id='REF'>
+                    <ele id='REF01'>Y4</ele>
+                    <ele id='REF02'>4445555</ele>
+                  </seg>
+                </loop>
+                <loop id='2300'>
+                  <seg id='CLM'>
+                    <ele id='CLM01'>ABC0002</ele>
+                    <ele id='CLM02'>89.93</ele>
+                    <comp id='CLM'>
+                      <subele id='CLM05-01'>11</subele>
+                      <subele id='CLM05-02'>A</subele>
+                      <subele id='CLM05-03'>1</subele>
+                    </comp>
+                    <ele id='CLM07'>A</ele>
+                    <ele id='CLM08'>Y</ele>
+                    <ele id='CLM09'>Y</ele>
+                    <comp id='CLM'>
+                      <subele id='CLM11-01'>OA</subele>
+                    </comp>
+                  </seg>
+                  <seg id='DTP'>
+                    <ele id='DTP01'>096</ele>
+                    <ele id='DTP02'>TM</ele>
+                    <ele id='DTP03'>1300</ele>
+                  </seg>
+                  <seg id='DTP'>
+                    <ele id='DTP01'>434</ele>
+                    <ele id='DTP02'>RD8</ele>
+                    <ele id='DTP03'>20190310-20190311</ele>
+                  </seg>
+                  <seg id='DTP'>
+                    <ele id='DTP01'>435</ele>
+                    <ele id='DTP02'>DT</ele>
+                    <ele id='DTP03'>201903101402</ele>
+                  </seg>
+                  <seg id='DTP'>
+                    <ele id='DTP01'>050</ele>
+                    <ele id='DTP02'>D8</ele>
+                    <ele id='DTP03'>20190215</ele>
+                  </seg>
+                  <seg id='DTP'>
+                    <ele id='DTP01'>3</ele>
+                    <ele id='DTP02'>7</ele>
+                    <ele id='DTP03'>01</ele>
+                  </seg>
+                  <seg id='PWK'>
+                    <ele id='PWK01'>OZ</ele>
+                    <ele id='PWK02'>BM</ele>
+                    <ele id='PWK05'>AC</ele>
+                    <ele id='PWK06'>DMN0012</ele>
+                  </seg>
+                  <seg id='REF'>
+                    <ele id='REF01'>4N</ele>
+                    <ele id='REF02'>1</ele>
+                  </seg>
+                  <seg id='REF'>
+                    <ele id='REF01'>9F</ele>
+                    <ele id='REF02'>2410628868</ele>
+                  </seg>
+                  <seg id='REF'>
+                    <ele id='REF01'>G1</ele>
+                    <ele id='REF02'>PA00000024</ele>
+                  </seg>
+                  <seg id='REF'>
+                    <ele id='REF01'>F8</ele>
+                    <ele id='REF02'>CLAIM04</ele>
+                  </seg>
+                  <seg id='REF'>
+                    <ele id='REF01'>D9</ele>
+                    <ele id='REF02'>CLAIM0004</ele>
+                  </seg>
+                  <seg id='REF'>
+                    <ele id='REF01'>LU</ele>
+                    <ele id='REF02'>DD</ele>
+                  </seg>
+                  <seg id='REF'>
+                    <ele id='REF01'>EA</ele>
+                    <ele id='REF02'>44444TH56</ele>
+                  </seg>
+                  <seg id='REF'>
+                    <ele id='REF01'>ALG</ele>
+                    <ele id='REF02'>PATIENT ALLERGIC TO PENICILLIN</ele>
+                  </seg>
+                  <seg id='NTE'>
+                    <ele id='NTE01'>ADD</ele>
+                    <ele id='NTE02'>Billing Note</ele>
+                  </seg>
+                  <seg id='HI'>
+                    <comp id='HI'>
+                      <subele id='HI01-01'>ABK</subele>
+                      <subele id='HI01-02'>M24562</subele>
+                      <subele id='HI01-03'></subele>
+                      <subele id='HI01-04'></subele>
+                      <subele id='HI01-05'></subele>
+                      <subele id='HI01-06'></subele>
+                      <subele id='HI01-07'></subele>
+                      <subele id='HI01-08'></subele>
+                      <subele id='HI01-09'>N</subele>
+                    </comp>
+                  </seg>
+                  <seg id='HI'>
+                    <comp id='HI'>
+                      <subele id='HI01-01'>ABJ</subele>
+                      <subele id='HI01-02'>H5988</subele>
+                    </comp>
+                  </seg>
+                  <seg id='HI'>
+                    <comp id='HI'>
+                      <subele id='HI01-01'>APR</subele>
+                      <subele id='HI01-02'>H59369</subele>
+                    </comp>
+                  </seg>
+                  <seg id='HI'>
+                    <comp id='HI'>
+                      <subele id='HI01-01'>ABN</subele>
+                      <subele id='HI01-02'>V4312XA</subele>
+                    </comp>
+                    <comp id='HI'>
+                      <subele id='HI02-01'>ABN</subele>
+                      <subele id='HI02-02'>Z970</subele>
+                    </comp>
+                    <comp id='HI'>
+                      <subele id='HI03-01'>ABN</subele>
+                      <subele id='HI03-02'>Z9681</subele>
+                    </comp>
+                  </seg>
+                  <seg id='HI'>
+                    <comp id='HI'>
+                      <subele id='HI01-01'>DR</subele>
+                      <subele id='HI01-02'>025</subele>
+                    </comp>
+                  </seg>
+                  <seg id='HI'>
+                    <comp id='HI'>
+                      <subele id='HI01-01'>ABF</subele>
+                      <subele id='HI01-02'>E8359</subele>
+                      <subele id='HI01-03'></subele>
+                      <subele id='HI01-04'></subele>
+                      <subele id='HI01-05'></subele>
+                      <subele id='HI01-06'></subele>
+                      <subele id='HI01-07'></subele>
+                      <subele id='HI01-08'></subele>
+                      <subele id='HI01-09'>N</subele>
+                    </comp>
+                    <comp id='HI'>
+                      <subele id='HI02-01'>ABF</subele>
+                      <subele id='HI02-02'>A0102</subele>
+                      <subele id='HI02-03'></subele>
+                      <subele id='HI02-04'></subele>
+                      <subele id='HI02-05'></subele>
+                      <subele id='HI02-06'></subele>
+                      <subele id='HI02-07'></subele>
+                      <subele id='HI02-08'></subele>
+                      <subele id='HI02-09'>Y</subele>
+                    </comp>
+                    <comp id='HI'>
+                      <subele id='HI03-01'>ABF</subele>
+                      <subele id='HI03-02'>A0103</subele>
+                      <subele id='HI03-03'></subele>
+                      <subele id='HI03-04'></subele>
+                      <subele id='HI03-05'></subele>
+                      <subele id='HI03-06'></subele>
+                      <subele id='HI03-07'></subele>
+                      <subele id='HI03-08'></subele>
+                      <subele id='HI03-09'>Y</subele>
+                    </comp>
+                  </seg>
+                  <seg id='HI'>
+                    <comp id='HI'>
+                      <subele id='HI01-01'>BBR</subele>
+                      <subele id='HI01-02'>009G0ZZ</subele>
+                      <subele id='HI01-03'>D8</subele>
+                      <subele id='HI01-04'>20171003</subele>
+                    </comp>
+                  </seg>
+                  <seg id='HI'>
+                    <comp id='HI'>
+                      <subele id='HI01-01'>BBQ</subele>
+                      <subele id='HI01-02'>F01ZFEZ</subele>
+                      <subele id='HI01-03'>D8</subele>
+                      <subele id='HI01-04'>20171004</subele>
+                    </comp>
+                    <comp id='HI'>
+                      <subele id='HI02-01'>BBQ</subele>
+                      <subele id='HI02-02'>009G0ZZ</subele>
+                      <subele id='HI02-03'>D8</subele>
+                      <subele id='HI02-04'>20171013</subele>
+                    </comp>
+                    <comp id='HI'>
+                      <subele id='HI03-01'>BBQ</subele>
+                      <subele id='HI03-02'>009G0ZZ</subele>
+                      <subele id='HI03-03'>D8</subele>
+                      <subele id='HI03-04'>20171023</subele>
+                    </comp>
+                    <comp id='HI'>
+                      <subele id='HI04-01'>BBQ</subele>
+                      <subele id='HI04-02'>009K0ZZ</subele>
+                      <subele id='HI04-03'>D8</subele>
+                      <subele id='HI04-04'>20171030</subele>
+                    </comp>
+                    <comp id='HI'>
+                      <subele id='HI05-01'>BBQ</subele>
+                      <subele id='HI05-02'>009N0ZX</subele>
+                      <subele id='HI05-03'>D8</subele>
+                      <subele id='HI05-04'>20171103</subele>
+                    </comp>
+                    <comp id='HI'>
+                      <subele id='HI06-01'>BBQ</subele>
+                      <subele id='HI06-02'>B82600Z</subele>
+                      <subele id='HI06-03'>D8</subele>
+                      <subele id='HI06-04'>20171103</subele>
+                    </comp>
+                    <comp id='HI'>
+                      <subele id='HI07-01'>BBQ</subele>
+                      <subele id='HI07-02'>B806ZZZ</subele>
+                      <subele id='HI07-03'>D8</subele>
+                      <subele id='HI07-04'>20171103</subele>
+                    </comp>
+                    <comp id='HI'>
+                      <subele id='HI08-01'>BBQ</subele>
+                      <subele id='HI08-02'>B846ZZZ</subele>
+                      <subele id='HI08-03'>D8</subele>
+                      <subele id='HI08-04'>20171103</subele>
+                    </comp>
+                    <comp id='HI'>
+                      <subele id='HI09-01'>BBQ</subele>
+                      <subele id='HI09-02'>B845ZZZ</subele>
+                      <subele id='HI09-03'>D8</subele>
+                      <subele id='HI09-04'>20171123</subele>
+                    </comp>
+                    <comp id='HI'>
+                      <subele id='HI10-01'>BBQ</subele>
+                      <subele id='HI10-02'>B908YZZ</subele>
+                      <subele id='HI10-03'>D8</subele>
+                      <subele id='HI10-04'>20171123</subele>
+                    </comp>
+                    <comp id='HI'>
+                      <subele id='HI11-01'>BBQ</subele>
+                      <subele id='HI11-02'>B803ZZZ</subele>
+                      <subele id='HI11-03'>D8</subele>
+                      <subele id='HI11-04'>20171123</subele>
+                    </comp>
+                    <comp id='HI'>
+                      <subele id='HI12-01'>BBQ</subele>
+                      <subele id='HI12-02'>B8001ZZ</subele>
+                      <subele id='HI12-03'>D8</subele>
+                      <subele id='HI12-04'>20171123</subele>
+                    </comp>
+                  </seg>
+                  <seg id='HI'>
+                    <comp id='HI'>
+                      <subele id='HI01-01'>BI</subele>
+                      <subele id='HI01-02'>01</subele>
+                      <subele id='HI01-03'>RD8</subele>
+                      <subele id='HI01-04'>20160103-20160108</subele>
+                    </comp>
+                    <comp id='HI'>
+                      <subele id='HI02-01'>BI</subele>
+                      <subele id='HI02-02'>10</subele>
+                      <subele id='HI02-03'>RD8</subele>
+                      <subele id='HI02-04'>20180101-20180110</subele>
+                    </comp>
+                    <comp id='HI'>
+                      <subele id='HI03-01'>BI</subele>
+                      <subele id='HI03-02'>11</subele>
+                      <subele id='HI03-03'>RD8</subele>
+                      <subele id='HI03-04'>20171010-20171012</subele>
+                    </comp>
+                    <comp id='HI'>
+                      <subele id='HI04-01'>BI</subele>
+                      <subele id='HI04-02'>16</subele>
+                      <subele id='HI04-03'>RD8</subele>
+                      <subele id='HI04-04'>20170810-20170816</subele>
+                    </comp>
+                    <comp id='HI'>
+                      <subele id='HI05-01'>BI</subele>
+                      <subele id='HI05-02'>18</subele>
+                      <subele id='HI05-03'>RD8</subele>
+                      <subele id='HI05-04'>20151212-20151222</subele>
+                    </comp>
+                    <comp id='HI'>
+                      <subele id='HI06-01'>BI</subele>
+                      <subele id='HI06-02'>17</subele>
+                      <subele id='HI06-03'>RD8</subele>
+                      <subele id='HI06-04'>20171224-20171231</subele>
+                    </comp>
+                    <comp id='HI'>
+                      <subele id='HI07-01'>BI</subele>
+                      <subele id='HI07-02'>36</subele>
+                      <subele id='HI07-03'>RD8</subele>
+                      <subele id='HI07-04'>20171003-20171123</subele>
+                    </comp>
+                    <comp id='HI'>
+                      <subele id='HI08-01'>BI</subele>
+                      <subele id='HI08-02'>A3</subele>
+                      <subele id='HI08-03'>RD8</subele>
+                      <subele id='HI08-04'>20180404-20180604</subele>
+                    </comp>
+                    <comp id='HI'>
+                      <subele id='HI09-01'>BI</subele>
+                      <subele id='HI09-02'>C3</subele>
+                      <subele id='HI09-03'>RD8</subele>
+                      <subele id='HI09-04'>20180422-20180424</subele>
+                    </comp>
+                    <comp id='HI'>
+                      <subele id='HI10-01'>BI</subele>
+                      <subele id='HI10-02'>25</subele>
+                      <subele id='HI10-03'>RD8</subele>
+                      <subele id='HI10-04'>20180404-20180414</subele>
+                    </comp>
+                    <comp id='HI'>
+                      <subele id='HI11-01'>BI</subele>
+                      <subele id='HI11-02'>22</subele>
+                      <subele id='HI11-03'>RD8</subele>
+                      <subele id='HI11-04'>20180430-20180501</subele>
+                    </comp>
+                    <comp id='HI'>
+                      <subele id='HI12-01'>BI</subele>
+                      <subele id='HI12-02'>24</subele>
+                      <subele id='HI12-03'>RD8</subele>
+                      <subele id='HI12-04'>20180506-20180507</subele>
+                    </comp>
+                  </seg>
+                  <seg id='HI'>
+                    <comp id='HI'>
+                      <subele id='HI01-01'>BH</subele>
+                      <subele id='HI01-02'>40</subele>
+                      <subele id='HI01-03'>D8</subele>
+                      <subele id='HI01-04'>20160103</subele>
+                    </comp>
+                    <comp id='HI'>
+                      <subele id='HI02-01'>BH</subele>
+                      <subele id='HI02-02'>10</subele>
+                      <subele id='HI02-03'>D8</subele>
+                      <subele id='HI02-04'>20180101</subele>
+                    </comp>
+                    <comp id='HI'>
+                      <subele id='HI03-01'>BH</subele>
+                      <subele id='HI03-02'>11</subele>
+                      <subele id='HI03-03'>D8</subele>
+                      <subele id='HI03-04'>20171010</subele>
+                    </comp>
+                    <comp id='HI'>
+                      <subele id='HI04-01'>BH</subele>
+                      <subele id='HI04-02'>16</subele>
+                      <subele id='HI04-03'>D8</subele>
+                      <subele id='HI04-04'>20170810</subele>
+                    </comp>
+                    <comp id='HI'>
+                      <subele id='HI05-01'>BH</subele>
+                      <subele id='HI05-02'>18</subele>
+                      <subele id='HI05-03'>D8</subele>
+                      <subele id='HI05-04'>20151212</subele>
+                    </comp>
+                    <comp id='HI'>
+                      <subele id='HI06-01'>BH</subele>
+                      <subele id='HI06-02'>17</subele>
+                      <subele id='HI06-03'>D8</subele>
+                      <subele id='HI06-04'>20171224</subele>
+                    </comp>
+                    <comp id='HI'>
+                      <subele id='HI07-01'>BH</subele>
+                      <subele id='HI07-02'>36</subele>
+                      <subele id='HI07-03'>D8</subele>
+                      <subele id='HI07-04'>20171003</subele>
+                    </comp>
+                    <comp id='HI'>
+                      <subele id='HI08-01'>BH</subele>
+                      <subele id='HI08-02'>A3</subele>
+                      <subele id='HI08-03'>D8</subele>
+                      <subele id='HI08-04'>20180404</subele>
+                    </comp>
+                    <comp id='HI'>
+                      <subele id='HI09-01'>BH</subele>
+                      <subele id='HI09-02'>C3</subele>
+                      <subele id='HI09-03'>D8</subele>
+                      <subele id='HI09-04'>20180422</subele>
+                    </comp>
+                    <comp id='HI'>
+                      <subele id='HI10-01'>BH</subele>
+                      <subele id='HI10-02'>25</subele>
+                      <subele id='HI10-03'>D8</subele>
+                      <subele id='HI10-04'>20180404</subele>
+                    </comp>
+                    <comp id='HI'>
+                      <subele id='HI11-01'>BH</subele>
+                      <subele id='HI11-02'>22</subele>
+                      <subele id='HI11-03'>D8</subele>
+                      <subele id='HI11-04'>20180430</subele>
+                    </comp>
+                    <comp id='HI'>
+                      <subele id='HI12-01'>BH</subele>
+                      <subele id='HI12-02'>24</subele>
+                      <subele id='HI12-03'>BH</subele>
+                      <subele id='HI12-04'>20180506</subele>
+                    </comp>
+                  </seg>
+                  <seg id='HI'>
+                    <comp id='HI'>
+                      <subele id='HI01-01'>BE</subele>
+                      <subele id='HI01-02'>01</subele>
+                      <subele id='HI01-03'></subele>
+                      <subele id='HI01-04'></subele>
+                      <subele id='HI01-05'>73.42</subele>
+                    </comp>
+                    <comp id='HI'>
+                      <subele id='HI02-01'>BE</subele>
+                      <subele id='HI02-02'>20</subele>
+                      <subele id='HI02-03'></subele>
+                      <subele id='HI02-04'></subele>
+                      <subele id='HI02-05'>76.54</subele>
+                    </comp>
+                    <comp id='HI'>
+                      <subele id='HI03-01'>BE</subele>
+                      <subele id='HI03-02'>17</subele>
+                      <subele id='HI03-03'></subele>
+                      <subele id='HI03-04'></subele>
+                      <subele id='HI03-05'>1176.54</subele>
+                    </comp>
+                    <comp id='HI'>
+                      <subele id='HI04-01'>BE</subele>
+                      <subele id='HI04-02'>31</subele>
+                      <subele id='HI04-03'></subele>
+                      <subele id='HI04-04'></subele>
+                      <subele id='HI04-05'>2255.85</subele>
+                    </comp>
+                    <comp id='HI'>
+                      <subele id='HI05-01'>BE</subele>
+                      <subele id='HI05-02'>B1</subele>
+                      <subele id='HI05-03'></subele>
+                      <subele id='HI05-04'></subele>
+                      <subele id='HI05-05'>150.00</subele>
+                    </comp>
+                    <comp id='HI'>
+                      <subele id='HI06-01'>BE</subele>
+                      <subele id='HI06-02'>23</subele>
+                      <subele id='HI06-03'></subele>
+                      <subele id='HI06-04'></subele>
+                      <subele id='HI06-05'>4400.35</subele>
+                    </comp>
+                    <comp id='HI'>
+                      <subele id='HI07-01'>BE</subele>
+                      <subele id='HI07-02'>24</subele>
+                      <subele id='HI07-03'></subele>
+                      <subele id='HI07-04'></subele>
+                      <subele id='HI07-05'>1500.25</subele>
+                    </comp>
+                    <comp id='HI'>
+                      <subele id='HI08-01'>BE</subele>
+                      <subele id='HI08-02'>47</subele>
+                      <subele id='HI08-03'></subele>
+                      <subele id='HI08-04'></subele>
+                      <subele id='HI08-05'>876.54</subele>
+                    </comp>
+                    <comp id='HI'>
+                      <subele id='HI09-01'>BE</subele>
+                      <subele id='HI09-02'>62</subele>
+                      <subele id='HI09-03'></subele>
+                      <subele id='HI09-04'></subele>
+                      <subele id='HI09-05'>76.54</subele>
+                    </comp>
+                    <comp id='HI'>
+                      <subele id='HI10-01'>BE</subele>
+                      <subele id='HI10-02'>70</subele>
+                      <subele id='HI10-03'></subele>
+                      <subele id='HI10-04'></subele>
+                      <subele id='HI10-05'>16.54</subele>
+                    </comp>
+                    <comp id='HI'>
+                      <subele id='HI11-01'>BE</subele>
+                      <subele id='HI11-02'>66</subele>
+                      <subele id='HI11-03'></subele>
+                      <subele id='HI11-04'></subele>
+                      <subele id='HI11-05'>500.54</subele>
+                    </comp>
+                    <comp id='HI'>
+                      <subele id='HI12-01'>BE</subele>
+                      <subele id='HI12-02'>55</subele>
+                      <subele id='HI12-03'></subele>
+                      <subele id='HI12-04'></subele>
+                      <subele id='HI12-05'>6.99</subele>
+                    </comp>
+                  </seg>
+                  <seg id='HI'>
+                    <comp id='HI'>
+                      <subele id='HI01-01'>BE</subele>
+                      <subele id='HI01-02'>20</subele>
+                      <subele id='HI01-03'></subele>
+                      <subele id='HI01-04'></subele>
+                      <subele id='HI01-05'>76.54</subele>
+                    </comp>
+                  </seg>
+                  <seg id='HI'>
+                    <comp id='HI'>
+                      <subele id='HI01-01'>BG</subele>
+                      <subele id='HI01-02'>03</subele>
+                    </comp>
+                    <comp id='HI'>
+                      <subele id='HI02-01'>BG</subele>
+                      <subele id='HI02-02'>04</subele>
+                    </comp>
+                    <comp id='HI'>
+                      <subele id='HI03-01'>BG</subele>
+                      <subele id='HI03-02'>12</subele>
+                    </comp>
+                    <comp id='HI'>
+                      <subele id='HI04-01'>BG</subele>
+                      <subele id='HI04-02'>20</subele>
+                    </comp>
+                    <comp id='HI'>
+                      <subele id='HI05-01'>BG</subele>
+                      <subele id='HI05-02'>22</subele>
+                    </comp>
+                    <comp id='HI'>
+                      <subele id='HI06-01'>BG</subele>
+                      <subele id='HI06-02'>26</subele>
+                    </comp>
+                    <comp id='HI'>
+                      <subele id='HI07-01'>BG</subele>
+                      <subele id='HI07-02'>28</subele>
+                    </comp>
+                    <comp id='HI'>
+                      <subele id='HI08-01'>BG</subele>
+                      <subele id='HI08-02'>39</subele>
+                    </comp>
+                    <comp id='HI'>
+                      <subele id='HI09-01'>BG</subele>
+                      <subele id='HI09-02'>41</subele>
+                    </comp>
+                    <comp id='HI'>
+                      <subele id='HI10-01'>BG</subele>
+                      <subele id='HI10-02'>71</subele>
+                    </comp>
+                    <comp id='HI'>
+                      <subele id='HI11-01'>BG</subele>
+                      <subele id='HI11-02'>73</subele>
+                    </comp>
+                    <comp id='HI'>
+                      <subele id='HI12-01'>BG</subele>
+                      <subele id='HI12-02'>A0</subele>
+                    </comp>
+                  </seg>
+                  <seg id='HCP'>
+                    <ele id='HCP01'>03</ele>
+                    <ele id='HCP02'>100</ele>
+                    <ele id='HCP03'>10</ele>
+                    <ele id='HCP04'>36C79119D0004</ele>
+                    <ele id='HCP05'>20</ele>
+                    <ele id='HCP06'>011</ele>
+                    <ele id='HCP07'>225.50</ele>
+                    <ele id='HCP13'>12</ele>
+                    <ele id='HCP14'>T1</ele>
+                    <ele id='HCP15'>4</ele>
+                  </seg>
+                  <seg id='HCP'>
+                    <ele id='HCP01'>71</ele>
+                    <ele id='HCP02'>1</ele>
+                    <ele id='HCP03'>JONES</ele>
+                    <ele id='HCP04'>ALEX</ele>
+                    <ele id='HCP05'>A</ele>
+                  </seg>
+                  <seg id='HCP'>
+                    <ele id='HCP01'>AT</ele>
+                    <ele id='HCP02'>PXC</ele>
+                    <ele id='HCP03'>208D00000X</ele>
+                  </seg>
+                  <seg id='HCP'>
+                    <ele id='HCP01'>LU</ele>
+                    <ele id='HCP02'>12345</ele>
+                  </seg>
+                  <seg id='HCP'>
+                    <ele id='HCP01'>72</ele>
+                    <ele id='HCP02'>1</ele>
+                    <ele id='HCP03'>BELL</ele>
+                    <ele id='HCP04'>RITA</ele>
+                    <ele id='HCP05'>H</ele>
+                  </seg>
+                  <seg id='HCP'>
+                    <ele id='HCP01'>ZZ</ele>
+                    <ele id='HCP02'>1</ele>
+                    <ele id='HCP03'>JOHNSON</ele>
+                    <ele id='HCP04'>SALLY</ele>
+                    <ele id='HCP05'>M</ele>
+                  </seg>
+                  <loop id='2310B'>
+                    <seg id='NM1'>
+                      <ele id='NM101'>82</ele>
+                      <ele id='NM102'>1</ele>
+                      <ele id='NM103'>DAVIDSON</ele>
+                      <ele id='NM104'>MICHELLE</ele>
+                      <ele id='NM105'>S</ele>
+                      <ele id='NM108'>XX</ele>
+                      <ele id='NM109'>9995553336</ele>
+                    </seg>
+                  </loop>
+                  <loop id='2310C'>
+                    <seg id='NM1'>
+                      <ele id='NM101'>77</ele>
+                      <ele id='NM102'>2</ele>
+                      <ele id='NM103'>BEST HEALTH CENTER</ele>
+                      <ele id='NM108'>XX</ele>
+                      <ele id='NM109'>1689432123</ele>
+                    </seg>
+                    <seg id='N3'>
+                      <ele id='N301'>123 HEALTHY ST</ele>
+                      <ele id='N302'>SUITE 2000</ele>
+                    </seg>
+                    <seg id='N4'>
+                      <ele id='N401'>FAIRFAX</ele>
+                      <ele id='N402'>VA</ele>
+                      <ele id='N403'>22042</ele>
+                      <ele id='N404'>USA</ele>
+                    </seg>
+                  </loop>
+                  <loop id='2310A'>
+                    <seg id='NM1'>
+                      <ele id='NM101'>DN</ele>
+                      <ele id='NM102'>1</ele>
+                      <ele id='NM103'>SMITH</ele>
+                      <ele id='NM104'>JOHN</ele>
+                      <ele id='NM105'>A</ele>
+                      <ele id='NM108'>XX</ele>
+                      <ele id='NM109'>ORDPRV2468</ele>
+                    </seg>
+                  </loop>
+                  <loop id='2320'>
+                    <seg id='SBR'>
+                      <ele id='SBR01'>P</ele>
+                      <ele id='SBR02'>18</ele>
+                      <ele id='SBR03'>GR00786</ele>
+                      <ele id='SBR04'>Other Insured Group Name</ele>
+                      <ele id='SBR05'>12</ele>
+                      <ele id='SBR09'>CI</ele>
+                    </seg>
+                    <seg id='CAS'>
+                      <ele id='CAS01'>CR</ele>
+                      <ele id='CAS02'>26</ele>
+                      <ele id='CAS03'>55.00</ele>
+                      <ele id='CAS04'>1</ele>
+                      <ele id='CAS05'>90</ele>
+                      <ele id='CAS06'>65.55</ele>
+                      <ele id='CAS07'>1</ele>
+                      <ele id='CAS08'>70</ele>
+                      <ele id='CAS09'>73.03</ele>
+                      <ele id='CAS10'>2</ele>
+                      <ele id='CAS11'>20</ele>
+                      <ele id='CAS12'>85.15</ele>
+                      <ele id='CAS13'>1</ele>
+                      <ele id='CAS14'>102</ele>
+                      <ele id='CAS15'>99.99</ele>
+                      <ele id='CAS16'>1</ele>
+                      <ele id='CAS17'>4</ele>
+                      <ele id='CAS18'>102.22</ele>
+                      <ele id='CAS19'>1</ele>
+                    </seg>
+                    <seg id='CAS'>
+                      <ele id='CAS01'>PI</ele>
+                      <ele id='CAS02'>2</ele>
+                      <ele id='CAS03'>25.00</ele>
+                      <ele id='CAS04'>1</ele>
+                      <ele id='CAS05'>3</ele>
+                      <ele id='CAS06'>25.55</ele>
+                      <ele id='CAS07'>1</ele>
+                      <ele id='CAS08'>2</ele>
+                      <ele id='CAS09'>33.03</ele>
+                      <ele id='CAS10'>2</ele>
+                      <ele id='CAS11'>75</ele>
+                      <ele id='CAS12'>45.15</ele>
+                      <ele id='CAS13'>1</ele>
+                      <ele id='CAS14'>22</ele>
+                      <ele id='CAS15'>59.99</ele>
+                      <ele id='CAS16'>1</ele>
+                      <ele id='CAS17'>2</ele>
+                      <ele id='CAS18'>62.22</ele>
+                      <ele id='CAS19'>1</ele>
+                    </seg>
+                    <seg id='AMT'>
+                      <ele id='AMT01'>D</ele>
+                      <ele id='AMT02'>8852.72</ele>
+                    </seg>
+                    <seg id='AMT'>
+                      <ele id='AMT01'>A8</ele>
+                      <ele id='AMT02'>780</ele>
+                    </seg>
+                    <seg id='AMT'>
+                      <ele id='AMT01'>EAF</ele>
+                      <ele id='AMT02'>60</ele>
+                    </seg>
+                    <seg id='OI'>
+                      <ele id='OI03'>Y</ele>
+                      <ele id='OI06'>Y</ele>
+                    </seg>
+                    <seg id='OI'>
+                      <ele id='OI03'>1</ele>
+                      <ele id='OI04'>255.05</ele>
+                      <ele id='OI06'>288.08</ele>
+                    </seg>
+                  </loop>
+                </loop>
+              </loop>
+            </loop>
+          </loop>
+        </loop>
+      </loop>
+    </loop>
+  </loop>
+</x12simple>
